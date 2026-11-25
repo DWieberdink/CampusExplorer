@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirm email — Campus Explorer</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main class="page">
+    <section class="card">
+      <h1>Email confirmation</h1>
+      <p class="subtitle" id="status">Confirming your email…</p>
+      <p><a class="btn" href="index.html" style="text-decoration:none;display:inline-block;">Continue to sign in</a></p>
+    </section>
+  </main>
+  <script src="js/config.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.49.8"></script>
+  <script>
+    const status = document.getElementById('status');
+    if (!window.isSupabaseConfigured()) {
+      status.textContent = 'Supabase is not configured. This page will confirm sessions once keys are set.';
+    } else {
+      const { createClient } = supabase;
+      const client = createClient(window.SUPABASE_URL, window.SUPABASE_ANON_KEY, {
+        auth: { detectSessionInUrl: true, persistSession: true },
+      });
+      client.auth.getSession().then(({ data }) => {
+        status.textContent = data.session
+          ? 'Email confirmed. An administrator still needs to approve your access.'
+          : 'Open the confirmation link from your email, or return to sign in.';
+      });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+name: Sync IPEDS seed / stub
+
+on:
+  workflow_dispatch:
+    inputs:
+      unitid:
+        description: 'IPEDS UNITID (optional; unused until full ETL)'
+        required: false
+        default: ''
+      seed_only:
+        description: 'Force seed-only upsert'
+        required: false
+        default: 'true'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ipeds-sync
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: ipeds-sync/package-lock.json
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run IPEDS sync stub
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          if [ "${{ github.event.inputs.seed_only }}" = "true" ] || [ -z "$SUPABASE_URL" ]; then
+            npm run sync -- --seed-only --dry-run
+          else
+            npm run sync -- --seed-only
+          fi

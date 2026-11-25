@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.local
+*.local.js
+.DS_Store
+dist/
+ipeds-sync/.env
+ipeds-sync/node_modules/
+ipeds-sync/data/downloads/
+*.log

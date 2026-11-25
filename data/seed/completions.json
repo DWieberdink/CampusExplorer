@@ -1,0 +1,2432 @@
+[
+  {
+    "unitid": "110635",
+    "year": 2019,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 210,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110635",
+    "year": 2019,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 358,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110635",
+    "year": 2019,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 327,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110635",
+    "year": 2019,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 629,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110635",
+    "year": 2019,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 594,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110635",
+    "year": 2020,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 191,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110635",
+    "year": 2020,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 345,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110635",
+    "year": 2020,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 165,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110635",
+    "year": 2020,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 252,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110635",
+    "year": 2020,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 383,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110635",
+    "year": 2021,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 246,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110635",
+    "year": 2021,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 454,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110635",
+    "year": 2021,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 406,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110635",
+    "year": 2021,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 255,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110635",
+    "year": 2021,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 426,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110635",
+    "year": 2022,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 179,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110635",
+    "year": 2022,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 602,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110635",
+    "year": 2022,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 545,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110635",
+    "year": 2022,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 356,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110635",
+    "year": 2022,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 258,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110635",
+    "year": 2023,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 372,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110635",
+    "year": 2023,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 236,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110635",
+    "year": 2023,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 238,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110635",
+    "year": 2023,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 655,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110635",
+    "year": 2023,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 520,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110662",
+    "year": 2019,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 647,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110662",
+    "year": 2019,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 529,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110662",
+    "year": 2019,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 795,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110662",
+    "year": 2019,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 433,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110662",
+    "year": 2019,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 538,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110662",
+    "year": 2020,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 444,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110662",
+    "year": 2020,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 558,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110662",
+    "year": 2020,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 424,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110662",
+    "year": 2020,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 484,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110662",
+    "year": 2020,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 176,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110662",
+    "year": 2021,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 298,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110662",
+    "year": 2021,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 197,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110662",
+    "year": 2021,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 271,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110662",
+    "year": 2021,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 208,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110662",
+    "year": 2021,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 292,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110662",
+    "year": 2022,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 373,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110662",
+    "year": 2022,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 376,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110662",
+    "year": 2022,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 290,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110662",
+    "year": 2022,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 321,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110662",
+    "year": 2022,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 680,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110662",
+    "year": 2023,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 526,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110662",
+    "year": 2023,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 281,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110662",
+    "year": 2023,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 593,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110662",
+    "year": 2023,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 277,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110662",
+    "year": 2023,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 397,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110644",
+    "year": 2019,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 515,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110644",
+    "year": 2019,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 471,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110644",
+    "year": 2019,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 538,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110644",
+    "year": 2019,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 622,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110644",
+    "year": 2019,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 587,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110644",
+    "year": 2020,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 141,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110644",
+    "year": 2020,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 251,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110644",
+    "year": 2020,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 233,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110644",
+    "year": 2020,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 210,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110644",
+    "year": 2020,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 494,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110644",
+    "year": 2021,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 277,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110644",
+    "year": 2021,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 423,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110644",
+    "year": 2021,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 312,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110644",
+    "year": 2021,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 534,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110644",
+    "year": 2021,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 339,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110644",
+    "year": 2022,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 261,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110644",
+    "year": 2022,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 403,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110644",
+    "year": 2022,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 268,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110644",
+    "year": 2022,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 413,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110644",
+    "year": 2022,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 554,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110644",
+    "year": 2023,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 261,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110644",
+    "year": 2023,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 629,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110644",
+    "year": 2023,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 398,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110644",
+    "year": 2023,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 200,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110644",
+    "year": 2023,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 180,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110583",
+    "year": 2019,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 465,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110583",
+    "year": 2019,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 545,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110583",
+    "year": 2019,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 365,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110583",
+    "year": 2019,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 192,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110583",
+    "year": 2019,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 346,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110583",
+    "year": 2020,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 337,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110583",
+    "year": 2020,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 510,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110583",
+    "year": 2020,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 467,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110583",
+    "year": 2020,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 135,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110583",
+    "year": 2020,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 412,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110583",
+    "year": 2021,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 355,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110583",
+    "year": 2021,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 245,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110583",
+    "year": 2021,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 398,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110583",
+    "year": 2021,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 181,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110583",
+    "year": 2021,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 313,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110583",
+    "year": 2022,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 565,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110583",
+    "year": 2022,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 531,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110583",
+    "year": 2022,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 262,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110583",
+    "year": 2022,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 366,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110583",
+    "year": 2022,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 225,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110583",
+    "year": 2023,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 566,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110583",
+    "year": 2023,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 297,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110583",
+    "year": 2023,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 457,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110583",
+    "year": 2023,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 443,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110583",
+    "year": 2023,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 228,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122597",
+    "year": 2019,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 287,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122597",
+    "year": 2019,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 365,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122597",
+    "year": 2019,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 284,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122597",
+    "year": 2019,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 109,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122597",
+    "year": 2019,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 216,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122597",
+    "year": 2020,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 304,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122597",
+    "year": 2020,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 291,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122597",
+    "year": 2020,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 280,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122597",
+    "year": 2020,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 153,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122597",
+    "year": 2020,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 93,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122597",
+    "year": 2021,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 345,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122597",
+    "year": 2021,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 113,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122597",
+    "year": 2021,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 221,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122597",
+    "year": 2021,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 108,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122597",
+    "year": 2021,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 295,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122597",
+    "year": 2022,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 135,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122597",
+    "year": 2022,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 236,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122597",
+    "year": 2022,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 258,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122597",
+    "year": 2022,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 175,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122597",
+    "year": 2022,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 352,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122597",
+    "year": 2023,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 162,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122597",
+    "year": 2023,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 260,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122597",
+    "year": 2023,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 317,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122597",
+    "year": 2023,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 159,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122597",
+    "year": 2023,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 192,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110422",
+    "year": 2019,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 288,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110422",
+    "year": 2019,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 226,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110422",
+    "year": 2019,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 249,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110422",
+    "year": 2019,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 133,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110422",
+    "year": 2019,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 163,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110422",
+    "year": 2020,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 198,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110422",
+    "year": 2020,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 121,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110422",
+    "year": 2020,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 119,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110422",
+    "year": 2020,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 87,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110422",
+    "year": 2020,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 207,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110422",
+    "year": 2021,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 283,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110422",
+    "year": 2021,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 272,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110422",
+    "year": 2021,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 92,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110422",
+    "year": 2021,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 130,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110422",
+    "year": 2021,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 229,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110422",
+    "year": 2022,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 115,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110422",
+    "year": 2022,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 316,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110422",
+    "year": 2022,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 225,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110422",
+    "year": 2022,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 200,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110422",
+    "year": 2022,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 278,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110422",
+    "year": 2023,
+    "cip6": "11.0701",
+    "cip_title": "Computer Science",
+    "award_level": "Bachelor's",
+    "awards": 140,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110422",
+    "year": 2023,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 115,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110422",
+    "year": 2023,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Bachelor's",
+    "awards": 205,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110422",
+    "year": 2023,
+    "cip6": "14.1901",
+    "cip_title": "Mechanical Engineering",
+    "award_level": "Bachelor's",
+    "awards": 203,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "110422",
+    "year": 2023,
+    "cip6": "24.0101",
+    "cip_title": "Liberal Arts and Sciences",
+    "award_level": "Associate's",
+    "awards": 215,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122296",
+    "year": 2019,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 231,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122296",
+    "year": 2019,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 302,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122296",
+    "year": 2019,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 99,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122296",
+    "year": 2020,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 116,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122296",
+    "year": 2020,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 206,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122296",
+    "year": 2020,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 99,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122296",
+    "year": 2021,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 141,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122296",
+    "year": 2021,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 136,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122296",
+    "year": 2021,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 110,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122296",
+    "year": 2022,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 249,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122296",
+    "year": 2022,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 154,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122296",
+    "year": 2022,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 237,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122296",
+    "year": 2023,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 80,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122296",
+    "year": 2023,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 280,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122296",
+    "year": 2023,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 246,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "123554",
+    "year": 2019,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 428,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "123554",
+    "year": 2019,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 401,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "123554",
+    "year": 2019,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 169,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "123554",
+    "year": 2020,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 137,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "123554",
+    "year": 2020,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 185,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "123554",
+    "year": 2020,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 99,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "123554",
+    "year": 2021,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 352,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "123554",
+    "year": 2021,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 160,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "123554",
+    "year": 2021,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 298,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "123554",
+    "year": 2022,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 221,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "123554",
+    "year": 2022,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 378,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "123554",
+    "year": 2022,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 389,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "123554",
+    "year": 2023,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 322,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "123554",
+    "year": 2023,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 149,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "123554",
+    "year": 2023,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 193,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113333",
+    "year": 2019,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 200,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113333",
+    "year": 2019,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 192,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113333",
+    "year": 2019,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 237,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113333",
+    "year": 2020,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 145,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113333",
+    "year": 2020,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 133,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113333",
+    "year": 2020,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 189,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113333",
+    "year": 2021,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 220,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113333",
+    "year": 2021,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 70,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113333",
+    "year": 2021,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 88,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113333",
+    "year": 2022,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 192,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113333",
+    "year": 2022,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 108,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113333",
+    "year": 2022,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 86,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113333",
+    "year": 2023,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 117,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113333",
+    "year": 2023,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 188,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113333",
+    "year": 2023,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 193,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "114789",
+    "year": 2019,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 147,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "114789",
+    "year": 2019,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 138,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "114789",
+    "year": 2019,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 204,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "114789",
+    "year": 2020,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 127,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "114789",
+    "year": 2020,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 69,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "114789",
+    "year": 2020,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 88,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "114789",
+    "year": 2021,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 84,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "114789",
+    "year": 2021,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 86,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "114789",
+    "year": 2021,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 144,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "114789",
+    "year": 2022,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 111,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "114789",
+    "year": 2022,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 186,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "114789",
+    "year": 2022,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 186,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "114789",
+    "year": 2023,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 79,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "114789",
+    "year": 2023,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 87,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "114789",
+    "year": 2023,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 185,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "121044",
+    "year": 2019,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 353,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "121044",
+    "year": 2019,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 204,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "121044",
+    "year": 2019,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 143,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "121044",
+    "year": 2020,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 230,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "121044",
+    "year": 2020,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 210,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "121044",
+    "year": 2020,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 294,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "121044",
+    "year": 2021,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 79,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "121044",
+    "year": 2021,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 269,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "121044",
+    "year": 2021,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 148,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "121044",
+    "year": 2022,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 325,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "121044",
+    "year": 2022,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 119,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "121044",
+    "year": 2022,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 114,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "121044",
+    "year": 2023,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 228,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "121044",
+    "year": 2023,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 156,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "121044",
+    "year": 2023,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 241,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122180",
+    "year": 2019,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 140,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122180",
+    "year": 2019,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 254,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122180",
+    "year": 2019,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 156,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122180",
+    "year": 2020,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 245,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122180",
+    "year": 2020,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 234,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122180",
+    "year": 2020,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 83,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122180",
+    "year": 2021,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 128,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122180",
+    "year": 2021,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 70,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122180",
+    "year": 2021,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 232,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122180",
+    "year": 2022,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 138,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122180",
+    "year": 2022,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 249,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122180",
+    "year": 2022,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 205,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122180",
+    "year": 2023,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 81,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122180",
+    "year": 2023,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 97,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "122180",
+    "year": 2023,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 290,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "120342",
+    "year": 2019,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 210,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "120342",
+    "year": 2019,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 279,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "120342",
+    "year": 2019,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 218,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "120342",
+    "year": 2020,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 80,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "120342",
+    "year": 2020,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 111,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "120342",
+    "year": 2020,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 215,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "120342",
+    "year": 2021,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 230,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "120342",
+    "year": 2021,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 238,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "120342",
+    "year": 2021,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 105,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "120342",
+    "year": 2022,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 89,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "120342",
+    "year": 2022,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 227,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "120342",
+    "year": 2022,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 248,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "120342",
+    "year": 2023,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 204,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "120342",
+    "year": 2023,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 104,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "120342",
+    "year": 2023,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 271,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113634",
+    "year": 2019,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 294,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113634",
+    "year": 2019,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 257,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113634",
+    "year": 2019,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 273,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113634",
+    "year": 2020,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 175,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113634",
+    "year": 2020,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 108,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113634",
+    "year": 2020,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 207,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113634",
+    "year": 2021,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 218,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113634",
+    "year": 2021,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 209,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113634",
+    "year": 2021,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 109,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113634",
+    "year": 2022,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 87,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113634",
+    "year": 2022,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 240,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113634",
+    "year": 2022,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 237,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113634",
+    "year": 2023,
+    "cip6": "11.0701",
+    "cip_title": "Computer Systems Networking",
+    "award_level": "Associate's",
+    "awards": 230,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113634",
+    "year": 2023,
+    "cip6": "51.3801",
+    "cip_title": "Registered Nursing",
+    "award_level": "Associate's",
+    "awards": 159,
+    "source": "seed-illustrative"
+  },
+  {
+    "unitid": "113634",
+    "year": 2023,
+    "cip6": "52.0201",
+    "cip_title": "Business Administration",
+    "award_level": "Associate's",
+    "awards": 128,
+    "source": "seed-illustrative"
+  }
+]

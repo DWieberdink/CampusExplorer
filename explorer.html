@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Explorer</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/explorer.css">
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.9.0/mapbox-gl.css" rel="stylesheet">
+</head>
+<body class="he-app">
+  <header class="he-topbar">
+    <div class="he-brand">
+      <strong>Campus Explorer</strong>
+      <span>Higher Education Advisory · IPEDS / CCC spine</span>
+    </div>
+    <div class="he-top-actions">
+      <span id="data-source-chip" class="he-chip seed">Seed JSON</span>
+      <a class="he-link" href="index.html">Access</a>
+      <a class="he-link" href="admin.html">Admin</a>
+    </div>
+  </header>
+
+  <div class="he-shell">
+    <section class="he-filters" aria-label="Cascade filters">
+      <label>
+        State
+        <select id="filter-state"></select>
+      </label>
+      <label>
+        System / sector
+        <select id="filter-system"></select>
+      </label>
+      <label>
+        Campus
+        <select id="filter-campus"></select>
+      </label>
+      <label>
+        Year
+        <select id="filter-year"></select>
+      </label>
+    </section>
+
+    <nav class="he-tabs" aria-label="Views">
+      <button type="button" class="he-tab active" data-panel="overview">Overview</button>
+      <button type="button" class="he-tab" data-panel="map">Map</button>
+      <button type="button" class="he-tab" data-panel="compare">Compare</button>
+    </nav>
+
+    <section id="panel-overview" class="he-panel active">
+      <div class="he-kpis">
+        <div class="he-kpi">
+          <div class="label">Campuses</div>
+          <div class="value" id="kpi-campuses">—</div>
+          <div class="delta">In current filter</div>
+        </div>
+        <div class="he-kpi">
+          <div class="label">Fall enrollment</div>
+          <div class="value" id="kpi-enrollment">—</div>
+          <div class="delta" id="kpi-enrollment-delta">YoY</div>
+        </div>
+        <div class="he-kpi">
+          <div class="label">FTES (seed)</div>
+          <div class="value" id="kpi-ftes">—</div>
+          <div class="delta">Illustrative / E12 proxy</div>
+        </div>
+        <div class="he-kpi">
+          <div class="label">Awards</div>
+          <div class="value" id="kpi-awards">—</div>
+          <div class="delta">Completions by CIP</div>
+        </div>
+      </div>
+
+      <div class="he-grid-2">
+        <div class="he-card">
+          <h2>Enrollment trend</h2>
+          <p class="hint">Fall headcount across selected campuses</p>
+          <div class="he-chart-wrap"><canvas id="chart-trend"></canvas></div>
+        </div>
+        <div class="he-card">
+          <h2>Top programs (CIP)</h2>
+          <p class="hint">Awards in selected year</p>
+          <div class="he-chart-wrap"><canvas id="chart-cip"></canvas></div>
+        </div>
+      </div>
+
+      <div class="he-card" style="margin-top:12px; min-height:auto;">
+        <h2>Campus directory</h2>
+        <p class="hint">Filtered roster with selected-year headcount</p>
+        <div style="overflow-x:auto;">
+          <table class="he-table">
+            <thead>
+              <tr>
+                <th>Campus</th>
+                <th>System</th>
+                <th>City</th>
+                <th style="text-align:right">Enrollment</th>
+                <th style="text-align:right">UNITID</th>
+              </tr>
+            </thead>
+            <tbody id="table-directory"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="panel-map" class="he-panel">
+      <div class="he-card">
+        <h2>Campus map</h2>
+        <p class="hint">Points use IPEDS HD lat/lon when present. Mapbox token optional for MVP.</p>
+        <div id="he-map"></div>
+      </div>
+    </section>
+
+    <section id="panel-compare" class="he-panel">
+      <div class="he-card">
+        <h2>Compare campuses</h2>
+        <p class="hint">Side-by-side stub (SchoolExplorer Analysis analogue)</p>
+        <div class="compare-pick">
+          <label>Campus A<select id="compare-a"></select></label>
+          <label>Campus B<select id="compare-b"></select></label>
+          <button type="button" id="compare-run">Compare</button>
+        </div>
+        <div id="compare-result">
+          <p class="hint">Pick two campuses to compare enrollment and awards.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/he-config.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.49.8"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js"></script>
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.9.0/mapbox-gl.js"></script>
+  <script src="js/he-data.js"></script>
+  <script src="js/he-map.js"></script>
+  <script src="js/he-explorer.js"></script>
+</body>
+</html>

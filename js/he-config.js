@@ -1,0 +1,76 @@
+// Campus Explorer — reads seed JSON offline, or Supabase when configured.
+
+window.HE_CONFIG = {
+  tables: {
+    syncCampuses: 'he_sync_campuses',
+    campusDirectory: 'he_campus_directory',
+    enrollmentFall: 'he_enrollment_fall',
+    enrollmentActivity: 'he_enrollment_activity',
+    completions: 'he_completions',
+    syncLog: 'he_sync_log',
+  },
+  seedPaths: {
+    campuses: 'data/seed/campuses.json',
+    enrollment: 'data/seed/enrollment.json',
+    completions: 'data/seed/completions.json',
+  },
+  defaultState: 'CA',
+  defaultSystem: 'CCC',
+  defaultYear: 2023,
+  years: [2019, 2020, 2021, 2022, 2023],
+  map: {
+    /** Public Mapbox token (pk.). Replace with your token; restrict URLs in Mapbox dashboard. */
+    token: 'YOUR_MAPBOX_TOKEN_HERE',
+    style: 'mapbox://styles/mapbox/light-v11',
+    center: [-119.4, 37.2],
+    zoom: 5.2,
+  },
+  systems: {
+    CCC: 'California Community Colleges',
+    CSU: 'California State University',
+    UC: 'University of California',
+  },
+  usStates: [
+    'AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL','IN','IA','KS','KY',
+    'LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH',
+    'OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY','PR',
+  ],
+  stateNames: {
+    AL: 'Alabama', AK: 'Alaska', AZ: 'Arizona', AR: 'Arkansas', CA: 'California', CO: 'Colorado',
+    CT: 'Connecticut', DE: 'Delaware', DC: 'District of Columbia', FL: 'Florida', GA: 'Georgia',
+    HI: 'Hawaii', ID: 'Idaho', IL: 'Illinois', IN: 'Indiana', IA: 'Iowa', KS: 'Kansas',
+    KY: 'Kentucky', LA: 'Louisiana', ME: 'Maine', MD: 'Maryland', MA: 'Massachusetts',
+    MI: 'Michigan', MN: 'Minnesota', MS: 'Mississippi', MO: 'Missouri', MT: 'Montana',
+    NE: 'Nebraska', NV: 'Nevada', NH: 'New Hampshire', NJ: 'New Jersey', NM: 'New Mexico',
+    NY: 'New York', NC: 'North Carolina', ND: 'North Dakota', OH: 'Ohio', OK: 'Oklahoma',
+    OR: 'Oregon', PA: 'Pennsylvania', RI: 'Rhode Island', SC: 'South Carolina', SD: 'South Dakota',
+    TN: 'Tennessee', TX: 'Texas', UT: 'Utah', VT: 'Vermont', VA: 'Virginia', WA: 'Washington',
+    WV: 'West Virginia', WI: 'Wisconsin', WY: 'Wyoming', PR: 'Puerto Rico',
+  },
+};
+
+window.heStateLabel = function (code) {
+  const name = window.HE_CONFIG.stateNames[code];
+  return name ? `${name} (${code})` : code;
+};
+
+window.heSystemLabel = function (code) {
+  return window.HE_CONFIG.systems[code] || code || '—';
+};
+
+window.formatNumber = function (value) {
+  if (value == null || Number.isNaN(Number(value))) return '—';
+  return Number(value).toLocaleString();
+};
+
+window.formatPct = function (value) {
+  if (value == null || Number.isNaN(Number(value))) return '—';
+  const n = Number(value);
+  const sign = n > 0 ? '+' : '';
+  return `${sign}${n.toFixed(1)}%`;
+};
+
+window.isMapboxConfigured = function () {
+  const token = window.HE_CONFIG?.map?.token;
+  return Boolean(token && token !== 'YOUR_MAPBOX_TOKEN_HERE' && token.startsWith('pk.'));
+};
