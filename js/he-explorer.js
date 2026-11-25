@@ -35,7 +35,10 @@
     fillSelect(
       $('filter-state'),
       states.map((s) => ({ value: s, label: window.heStateLabel(s) })),
-      { selected: stateSel || window.HE_CONFIG.defaultState }
+      {
+        blankLabel: 'All states',
+        selected: stateSel || window.HE_CONFIG.defaultState || '',
+      }
     );
 
     const inState = window.HEData.campusesFiltered({
@@ -45,7 +48,10 @@
     fillSelect(
       $('filter-system'),
       systems.map((s) => ({ value: s, label: window.heSystemLabel(s) })),
-      { blankLabel: 'All systems / sectors', selected: systemSel || window.HE_CONFIG.defaultSystem }
+      {
+        blankLabel: 'All systems / sectors',
+        selected: systemSel || window.HE_CONFIG.defaultSystem || '',
+      }
     );
 
     const campuses = window.HEData.campusesFiltered({

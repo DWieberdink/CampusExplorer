@@ -10,7 +10,7 @@ Higher Education campus explorer for Perkins Eastman Higher Education Advisory.
 
 **Data:** Today the explorer reads seed JSON under `data/seed/` (in-repo). Optional Supabase warehouse later when keys are configured — see below.
 
-**Data spine:** IPEDS `UNITID` (+ optional CCC college/district codes). Seed demo covers California Community Colleges plus a few CSU/UC campuses.
+**Data spine:** IPEDS `UNITID` (+ optional CCC college/district codes). Campus directory seed covers ~20 large U.S. public systems (~550 campuses with lat/lon from IPEDS HD). Enrollment/completions seed remains illustrative for a smaller CA subset until EF/C loads land.
 
 ## What works today (no secrets)
 
@@ -79,7 +79,7 @@ Cloud agent tokens cannot create a Pages site (`403 Resource not accessible by i
 
 ## Next data loads
 
-1. Replace seed with real IPEDS HD / EF / E12 / C extracts for the sync roster.
+1. Campus HD seed: regenerate with `python3 scripts/build-top20-campuses-seed.py --download`. Next: EF / E12 / C extracts for enrollment & awards across the same roster.
 2. **CCC Data Mart** FTES, headcount, and awards by TOP for California community colleges (official CSV/Excel exports — not HTML scraping).
 3. Optional Scorecard consumer metrics.
 4. Defer facilities / FCI / building age (needs FUSION or client FM).
