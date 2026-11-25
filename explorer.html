@@ -38,15 +38,22 @@
         <select id="filter-campus"></select>
       </label>
       <label>
+        Program family
+        <select id="filter-program"></select>
+      </label>
+      <label>
         Year
         <select id="filter-year"></select>
       </label>
     </section>
 
+    <div id="active-filter-chips" class="he-filter-chips" hidden></div>
+
     <nav class="he-tabs" aria-label="Views">
       <button type="button" class="he-tab active" data-panel="overview">Overview</button>
       <button type="button" class="he-tab" data-panel="map">Map</button>
       <button type="button" class="he-tab" data-panel="compare">Compare</button>
+      <button type="button" class="he-tab" data-panel="sources">Data sources</button>
     </nav>
 
     <section id="panel-overview" class="he-panel active">
@@ -62,14 +69,14 @@
           <div class="delta" id="kpi-enrollment-delta">YoY</div>
         </div>
         <div class="he-kpi">
-          <div class="label">FTES (seed)</div>
+          <div class="label">12-month FTE</div>
           <div class="value" id="kpi-ftes">—</div>
-          <div class="delta">Illustrative / E12 proxy</div>
+          <div class="delta">IPEDS EFIA</div>
         </div>
         <div class="he-kpi">
           <div class="label">Awards</div>
           <div class="value" id="kpi-awards">—</div>
-          <div class="delta">Completions by CIP</div>
+          <div class="delta" id="kpi-awards-year">Completions by CIP</div>
         </div>
       </div>
 
@@ -80,24 +87,28 @@
           <div class="he-chart-wrap"><canvas id="chart-trend"></canvas></div>
         </div>
         <div class="he-card">
-          <h2>Top programs (CIP)</h2>
-          <p class="hint">Awards in selected year</p>
-          <div class="he-chart-wrap"><canvas id="chart-cip"></canvas></div>
+          <h2>Top program families (CIP)</h2>
+          <p class="hint" id="cip-hint">Click a bar to filter campuses offering that program family</p>
+          <div class="he-chart-wrap he-chart-tall"><canvas id="chart-cip"></canvas></div>
         </div>
       </div>
 
       <div class="he-card" style="margin-top:12px; min-height:auto;">
         <h2>Campus directory</h2>
-        <p class="hint">Filtered roster with selected-year headcount</p>
+        <p class="hint">Click a campus for its detail page. Click a column header to sort.</p>
         <div style="overflow-x:auto;">
-          <table class="he-table">
+          <table class="he-table he-sortable">
             <thead>
               <tr>
-                <th>Campus</th>
-                <th>System</th>
-                <th>City</th>
-                <th style="text-align:right">Enrollment</th>
-                <th style="text-align:right">UNITID</th>
+                <th data-sort="inst_name">Campus</th>
+                <th data-sort="system_name">System</th>
+                <th data-sort="state">State</th>
+                <th data-sort="headcount" class="num">Fall headcount</th>
+                <th data-sort="chg_5yr_pct" class="num">5-yr change</th>
+                <th data-sort="fte_12mo" class="num">12-mo FTE</th>
+                <th data-sort="pct_online" class="num">% fully online</th>
+                <th data-sort="age_of_plant_yrs" class="num">Age of plant (yrs)</th>
+                <th data-sort="om_per_fte" class="num">O&amp;M $ / FTE</th>
               </tr>
             </thead>
             <tbody id="table-directory"></tbody>
@@ -109,15 +120,53 @@
     <section id="panel-map" class="he-panel">
       <div class="he-card">
         <h2>Campus map</h2>
-        <p class="hint">Points use IPEDS HD lat/lon when present. Mapbox token optional for MVP.</p>
+        <p class="hint">Colored by system. Click a point for key metrics and a link to the campus page.</p>
         <div id="he-map"></div>
+        <div id="he-map-legend" class="he-legend" aria-label="System legend"></div>
+      </div>
+    </section>
+
+    <section id="panel-sources" class="he-panel">
+      <div class="he-card" style="min-height:auto;">
+        <h2>Data sources</h2>
+        <p class="hint">What each number comes from, its vintage, and coverage. Regenerate with <code>scripts/build-top20-campuses-seed.py</code> then <code>scripts/build-ipeds-seed.py</code>.</p>
+        <div style="overflow-x:auto;">
+          <table class="he-table">
+            <thead>
+              <tr><th>Data element</th><th>Source</th><th>Files</th><th>Vintage</th><th>Coverage</th><th>Status</th></tr>
+            </thead>
+            <tbody id="table-sources"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="he-card" style="margin-top:12px; min-height:auto;">
+        <h2>Square footage &amp; buildings — where to get it</h2>
+        <p class="hint">IPEDS stopped collecting space data, so there is no national public file for gross square feet or building counts. These are the per-system sources; loaded rows go in <code>data/seed/facilities.csv</code>.</p>
+        <div style="overflow-x:auto;">
+          <table class="he-table">
+            <thead><tr><th>Systems</th><th>Source</th><th>What it has</th><th>Access</th></tr></thead>
+            <tbody id="table-facility-sources"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="he-card" style="margin-top:12px; min-height:auto;">
+        <h2>Definitions</h2>
+        <ul class="he-defs">
+          <li><b>Year</b> — fall term / start of academic year (2023 = fall 2023 / 2023-24). Completions use the matching academic year.</li>
+          <li><b>12-month FTE</b> — IPEDS EFIA undergraduate + graduate + doctor’s-professional FTE for the academic year.</li>
+          <li><b>Age of plant</b> — accumulated depreciation ÷ annual depreciation expense (IPEDS F1A, FY 2022-23). A common proxy for average facility age; &gt;20 years usually signals reinvestment need. Values outside 1–60 years (partial or parent-level reporting) are suppressed.</li>
+          <li><b>O&amp;M $ / FTE</b> — operations &amp; maintenance of plant expense ÷ 12-month FTE.</li>
+          <li><b>% fully online</b> — share of fall students enrolled exclusively in distance education (DRVEF).</li>
+          <li>Campuses that report finance through a district or system parent show “—” for finance-based facility metrics.</li>
+          <li><b>Campus-page indicators</b> — enrollment change ≤ −10% / ≥ +10% over 5 yrs; ≥ 25% fully online; 12-mo FTE &lt; 60% of headcount (mostly part-time); age of plant ≥ 20 yrs (older) or ≤ 12 yrs (newer); O&amp;M per FTE ≥ 25% above or ≤ 25% below the system median; construction in progress &gt; $1M.</li>
+        </ul>
       </div>
     </section>
 
     <section id="panel-compare" class="he-panel">
       <div class="he-card">
         <h2>Compare campuses</h2>
-        <p class="hint">Side-by-side stub (SchoolExplorer Analysis analogue)</p>
+        <p class="hint">Side-by-side enrollment, program, and facilities indicators</p>
         <div class="compare-pick">
           <label>Campus A<select id="compare-a"></select></label>
           <label>Campus B<select id="compare-b"></select></label>
@@ -132,6 +181,7 @@
 
   <script src="js/config.js"></script>
   <script src="js/he-config.js"></script>
+  <script src="js/he-sources.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.49.8"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js"></script>
   <script src="https://api.mapbox.com/mapbox-gl-js/v3.9.0/mapbox-gl.js"></script>

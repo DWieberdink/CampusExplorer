@@ -81,7 +81,7 @@ body.he-app {
 
 .he-filters {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 12px;
   padding: 16px;
   background: var(--he-surface);
@@ -281,8 +281,133 @@ body.he-app {
   cursor: pointer;
 }
 
+.he-chart-tall { height: 320px; }
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 6px;
+  vertical-align: middle;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.he-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 8px;
+  margin-top: 12px;
+}
+.he-legend-item {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border: 1px solid var(--he-line);
+  border-radius: 999px;
+  background: #fff;
+  font-size: 0.8rem;
+  color: var(--he-ink);
+  cursor: pointer;
+}
+.he-legend-item:hover { border-color: var(--he-brand); }
+.he-legend-item .n { margin-left: 6px; color: var(--he-muted); font-variant-numeric: tabular-nums; }
+
+.he-filter-chips { display: flex; gap: 8px; flex-wrap: wrap; }
+.he-filter-chips[hidden] { display: none; }
+.he-filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 6px 6px 12px;
+  border-radius: 999px;
+  background: var(--he-soft);
+  border: 1px solid #c6dbf0;
+  font-size: 0.85rem;
+}
+.he-filter-chip button {
+  border: 0;
+  background: #fff;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  color: var(--he-muted);
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.he-sortable th[data-sort] { cursor: pointer; user-select: none; white-space: nowrap; }
+.he-sortable th[data-sort]:hover { color: var(--he-brand); }
+.he-sortable th.sorted { color: var(--he-brand); }
+.he-sortable th.sorted::after { content: ' ' attr(data-dir); }
+.he-table th.num { text-align: right; }
+.he-table td.pos { color: var(--he-good); }
+.he-table td.neg { color: var(--he-bad); }
+
+.he-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.he-badge.ok { background: #e8f6ee; color: var(--he-good); }
+.he-badge.partial { background: #fff8ee; color: var(--he-warn); }
+.he-badge.no { background: #fdecea; color: var(--he-bad); }
+
+.he-defs { margin: 0; padding-left: 18px; line-height: 1.6; font-size: 0.9rem; color: var(--he-ink); }
+
+.map-pop { font-size: 0.85rem; line-height: 1.45; }
+.map-pop strong { display: block; margin-bottom: 2px; font-size: 0.95rem; }
+.map-pop-sys { color: var(--he-muted); }
+.map-pop a { display: inline-block; margin-top: 6px; color: var(--he-brand); font-weight: 600; }
+
+/* Campus detail page */
+.cp-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+}
+.cp-header h1 { margin: 0; font-size: 1.6rem; color: var(--he-brand-deep); }
+.cp-sub { margin-top: 6px; color: var(--he-muted); }
+.cp-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.cp-tag {
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--he-soft);
+  font-size: 0.8rem;
+  color: var(--he-brand-deep);
+}
+.cp-grid-3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.cp-kv { display: grid; grid-template-columns: 1fr auto; gap: 6px 12px; font-size: 0.9rem; }
+.cp-kv dt { color: var(--he-muted); }
+.cp-kv dd { margin: 0; text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
+.cp-kv dd .vs { display: block; font-weight: 400; font-size: 0.75rem; color: var(--he-muted); }
+.cp-signals { display: grid; gap: 8px; }
+.cp-signal {
+  display: flex;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--he-line);
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+.cp-signal.warn { background: #fff8ee; border-color: #f5d7a8; }
+.cp-signal.good { background: #e8f6ee; border-color: #b8e0c8; }
+.cp-signal.info { background: var(--he-soft); border-color: #c6dbf0; }
+.cp-signal .ico { font-weight: 800; }
+.cp-missing { color: var(--he-muted); font-style: italic; }
+.cp-programs-table td:first-child { max-width: 420px; }
+.cp-foot { font-size: 0.8rem; color: var(--he-muted); line-height: 1.6; }
+
 @media (max-width: 960px) {
-  .he-filters, .he-kpis, .he-grid-2, .compare-pick {
+  .he-filters, .he-kpis, .he-grid-2, .compare-pick, .cp-grid-3 {
     grid-template-columns: 1fr;
   }
 }

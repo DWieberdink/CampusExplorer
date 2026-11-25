@@ -6,6 +6,18 @@ window.HEMap = (function () {
   let containerId = 'he-map';
   /** Last non-token init/runtime failure message, if any. */
   let lastError = null;
+  /** Bounds of the last data set; re-applied once a hidden tab container gets a size. */
+  let lastBounds = null;
+
+  function isVisible() {
+    const el = document.getElementById(containerId);
+    return Boolean(el && el.offsetWidth > 0 && el.offsetHeight > 0);
+  }
+
+  function fitLast() {
+    if (!map || !lastBounds || !isVisible()) return;
+    map.fitBounds(lastBounds, { padding: 48, maxZoom: 9, duration: 0 });
+  }
 
   function renderPlaceholder(el, message) {
     el.innerHTML = `<div class="map-placeholder">${message}</div>`;
@@ -128,6 +140,12 @@ window.HEMap = (function () {
           unitid: c.unitid,
           name: c.inst_name,
           system: c.system_name || '',
+          color: window.heSystemColor(c.system_name),
+          city: c.city || '',
+          state: c.state || '',
+          headcount: c.metrics?.headcount ?? null,
+          chg5: c.metrics?.chg_5yr_pct ?? null,
+          plantAge: c.metrics?.age_of_plant_yrs ?? null,
         },
       }));
 
@@ -144,17 +162,38 @@ window.HEMap = (function () {
           type: 'circle',
           source: 'campuses',
           paint: {
-            'circle-radius': 7,
-            'circle-color': '#0f4c81',
-            'circle-stroke-width': 1.5,
+            'circle-radius': ['interpolate', ['linear'], ['zoom'], 3, 4.5, 6, 7, 10, 10],
+            'circle-color': ['get', 'color'],
+            'circle-opacity': 0.9,
+            'circle-stroke-width': 1,
             'circle-stroke-color': '#ffffff',
           },
         });
+        map.on('mouseenter', 'campus-circles', () => {
+          map.getCanvas().style.cursor = 'pointer';
+        });
+        map.on('mouseleave', 'campus-circles', () => {
+          map.getCanvas().style.cursor = '';
+        });
         map.on('click', 'campus-circles', (e) => {
           const p = e.features[0].properties;
-          new mapboxgl.Popup()
+          const esc = window.heEscape;
+          const num = (v) => (v == null || v === 'null' ? null : Number(v));
+          const hc = num(p.headcount);
+          const chg = num(p.chg5);
+          const age = num(p.plantAge);
+          new mapboxgl.Popup({ maxWidth: '280px' })
             .setLngLat(e.lngLat)
-            .setHTML(`<strong>${p.name}</strong><br>${p.system} · UNITID ${p.unitid}`)
+            .setHTML(
+              `<div class="map-pop">
+                <strong>${esc(p.name)}</strong>
+                <div class="map-pop-sys"><span class="dot" style="background:${esc(p.color)}"></span>${esc(window.heSystemLabel(p.system))}</div>
+                <div>${esc(p.city)}, ${esc(p.state)}</div>
+                <div>Fall headcount: <b>${window.formatNumber(hc)}</b>${chg != null ? ` (${window.formatPct(chg)} 5-yr)` : ''}</div>
+                ${age != null ? `<div>Age of plant: <b>${age} yrs</b></div>` : ''}
+                <a href="${window.campusUrl(p.unitid)}">Open campus page →</a>
+              </div>`
+            )
             .addTo(map);
         });
       }
@@ -162,15 +201,15 @@ window.HEMap = (function () {
       if (features.length) {
         const bounds = new mapboxgl.LngLatBounds();
         features.forEach((f) => bounds.extend(f.geometry.coordinates));
-        map.fitBounds(bounds, { padding: 48, maxZoom: 9 });
+        lastBounds = bounds;
       }
 
-      // Hidden tab containers often need a resize once visible.
       try {
         map.resize();
       } catch (_) {
         /* ignore */
       }
+      fitLast();
     };
 
     if (ready) apply();
@@ -185,7 +224,8 @@ window.HEMap = (function () {
     } catch (_) {
       /* ignore */
     }
+    fitLast();
   }
 
-  return { init, update, resize };
+  return { init, update, resize, getMap: () => map };
 })();

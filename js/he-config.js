@@ -13,12 +13,38 @@ window.HE_CONFIG = {
     campuses: 'data/seed/campuses.json',
     enrollment: 'data/seed/enrollment.json',
     completions: 'data/seed/completions.json',
+    cipFamilies: 'data/seed/cip-families.json',
+    campusDetailDir: 'data/campus',
   },
   // Empty = All states / All systems (top-20 public systems seed spans many states).
   defaultState: '',
   defaultSystem: '',
   defaultYear: 2023,
-  years: [2019, 2020, 2021, 2022, 2023],
+  // Fall term = start of academic year (2023 = fall 2023 / 2023-24).
+  years: [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023],
+  /** Map point / legend color per system code. */
+  systemColors: {
+    CCC: '#1f77b4',
+    CSU: '#d62728',
+    UC: '#f2b701',
+    SUNY: '#2ca02c',
+    UT: '#bf5700',
+    CUNY: '#6a3d9a',
+    FCS: '#17becf',
+    USG: '#8c564b',
+    TAMU: '#500000',
+    NCCCS: '#e377c2',
+    VCCS: '#7f7f7f',
+    UNC: '#4b9cd3',
+    MNSCU: '#bcbd22',
+    TBR: '#ff7f0e',
+    PASSHE: '#003f5c',
+    MCCCD: '#9edae5',
+    KCTCS: '#aec7e8',
+    CCCS: '#98df8a',
+    LCTCS: '#c5b0d5',
+    ALAMO: '#ff9896',
+  },
   map: {
     // Public Mapbox pk. token (client GL only). Split so GitHub push protection does not
     // false-positive this intentional public token as a Mapbox secret. Restrict URLs in Mapbox dashboard.
@@ -75,6 +101,30 @@ window.heStateLabel = function (code) {
 
 window.heSystemLabel = function (code) {
   return window.HE_CONFIG.systems[code] || code || '—';
+};
+
+window.heSystemColor = function (code) {
+  return window.HE_CONFIG.systemColors[code] || '#0f4c81';
+};
+
+window.heEscape = function (s) {
+  return String(s ?? '').replace(/[&<>"']/g, (ch) => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+  })[ch]);
+};
+
+window.formatMoney = function (value, { compact = false } = {}) {
+  if (value == null || Number.isNaN(Number(value))) return '—';
+  const n = Number(value);
+  if (compact && Math.abs(n) >= 1e6) {
+    const units = Math.abs(n) >= 1e9 ? ['B', 1e9] : ['M', 1e6];
+    return `$${(n / units[1]).toFixed(1)}${units[0]}`;
+  }
+  return `$${Math.round(n).toLocaleString()}`;
+};
+
+window.campusUrl = function (unitid) {
+  return `campus.html?unitid=${encodeURIComponent(unitid)}`;
 };
 
 window.formatNumber = function (value) {

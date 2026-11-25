@@ -6,7 +6,7 @@ import { SYNC_CONFIG } from '../config/sync-config.js';
 import type { Logger } from '../lib/logger.js';
 import type {
   CampusSeed,
-  CompletionSeed,
+  CompletionSeedMap,
   EnrollmentSeed,
   SyncSummary,
 } from '../lib/types.js';
@@ -60,7 +60,15 @@ export async function loadSeed(options: {
 
   const campuses = await readJson<CampusSeed[]>('campuses.json');
   const enrollment = await readJson<EnrollmentSeed[]>('enrollment.json');
-  const completions = await readJson<CompletionSeed[]>('completions.json');
+  const completionMap = await readJson<CompletionSeedMap>('completions.json');
+  const families = await readJson<Record<string, string>>('cip-families.json').catch(
+    () => ({}) as Record<string, string>
+  );
+  const completions = Object.entries(completionMap).flatMap(([unitid, years]) =>
+    Object.entries(years).flatMap(([year, fams]) =>
+      Object.entries(fams).map(([cip2, awards]) => ({ unitid, year: Number(year), cip2, awards }))
+    )
+  );
 
   logger.info('Loaded seed JSON', {
     campuses: campuses.length,
@@ -149,7 +157,7 @@ export async function loadSeed(options: {
     unitid: e.unitid,
     year: e.year,
     unduplicated_headcount: e.headcount_total,
-    ftes: e.ftes,
+    ftes: e.fte_12mo,
     raw_data: { source: e.source || 'seed' },
     last_synced: now,
   }));
@@ -161,14 +169,15 @@ export async function loadSeed(options: {
     logger
   );
 
+  // Seed is CIP-family level: store the 2-digit family in cip6 with award_level 'all'.
   const completionRows = completions.map((c) => ({
     unitid: c.unitid,
     year: c.year,
-    cip6: c.cip6,
-    cip_title: c.cip_title,
-    award_level: c.award_level,
+    cip6: c.cip2,
+    cip_title: families[c.cip2] ?? null,
+    award_level: 'all',
     awards: c.awards,
-    raw_data: { source: c.source || 'seed' },
+    raw_data: { source: 'ipeds-c-family' },
     last_synced: now,
   }));
   upserted += await upsertBatch(
