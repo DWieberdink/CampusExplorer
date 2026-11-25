@@ -2,6 +2,10 @@
 
 Higher Education campus explorer for Perkins Eastman Higher Education Advisory.
 
+**Live (GitHub Pages):** [https://dwieberdink.github.io/CampusExplorer/](https://dwieberdink.github.io/CampusExplorer/)
+
+**Demo password:** `CUAdvice` (client-side gate via `sessionStorage` — not real security; intentional for static PE demos).
+
 **Pattern:** clone of [`PE-k12-strategies/SchoolExplorer`](https://github.com/PE-k12-strategies/SchoolExplorer) — static HTML/JS SPA + Supabase warehouse + offline ETL + GitHub Pages.
 
 **Data spine:** IPEDS `UNITID` (+ optional CCC college/district codes). Seed demo covers California Community Colleges plus a few CSU/UC campuses.
@@ -10,7 +14,8 @@ Higher Education campus explorer for Perkins Eastman Higher Education Advisory.
 
 | Feature | Status |
 |---------|--------|
-| Auth gate / admin / confirm / reset pages | UI stubs; auth inactive until Supabase keys are set |
+| Demo password gate (`index.html` → `js/demo-gate.js`) | Unlocks explorer/admin for the browser session |
+| Auth / admin / confirm / reset pages | UI stubs; auth inactive until Supabase keys are set |
 | Explorer filters (State → System → Campus → Year) | Works on `data/seed/*.json` |
 | Overview KPIs + YoY enrollment | Works on seed |
 | Chart.js enrollment + CIP awards | Works on seed |
@@ -37,10 +42,16 @@ Higher Education campus explorer for Perkins Eastman Higher Education Advisory.
 ```bash
 # from repo root — any static server
 python3 -m http.server 5500
-# open http://127.0.0.1:5500/explorer.html
+# open http://127.0.0.1:5500/  (password gate → explorer)
 ```
 
-Or open `explorer.html` via Live Server. Seed fetch needs HTTP (not `file://`).
+Or open `index.html` via Live Server. Seed fetch needs HTTP (not `file://`). Direct `explorer.html` redirects back to the gate until the demo password is entered.
+
+## GitHub Pages
+
+- Expected URL: `https://dwieberdink.github.io/CampusExplorer/`
+- Deploy: `.github/workflows/pages.yml` on push to `main` (Source = **GitHub Actions** in repo Settings → Pages)
+- `js/config.js` already sets `APP_BASE_URL` to that origin for future Supabase auth redirects
 
 ## Mapping from SchoolExplorer
 
@@ -66,11 +77,11 @@ Or open `explorer.html` via Live Server. Seed fetch needs HTTP (not `file://`).
 index.html, admin.html, auth-confirm.html, reset-password.html
 explorer.html
 css/ styles.css, explorer.css
-js/  config.js, he-config.js, he-data.js, he-map.js, he-explorer.js
+js/  demo-gate.js, config.js, he-config.js, he-data.js, he-map.js, he-explorer.js
 data/seed/ campuses.json, enrollment.json, completions.json
 sql/ setup.sql, migrations/001_he_tables.sql, 002_he_rls.sql
 ipeds-sync/  TypeScript ETL stub
-.github/workflows/sync-ipeds.yml
+.github/workflows/sync-ipeds.yml, pages.yml
 ```
 
 ## License / citation
