@@ -19,7 +19,14 @@ python3 scripts/build-top20-campuses-seed.py --download        # data/seed/campu
 python3 scripts/build-ipeds-seed.py --download --ipeds-dir /tmp/ipeds   # enrollment, completions, data/campus/*.json
 ```
 
-Square footage / building counts are not in any national public dataset; add rows to `data/seed/facilities.csv` (per-system sources listed on the Data sources tab) and re-run `build-ipeds-seed.py`.
+Square footage / building counts are not in any national public dataset. Texas is loaded from the THECB Facilities Inventory (25 campuses, reporting year 2025):
+
+```bash
+python3 scripts/fetch-thecb-facilities.py              # data/seed/facilities.csv + facilities-buildings-tx.csv
+python3 scripts/build-ipeds-seed.py --ipeds-dir /tmp/ipeds
+```
+
+Other systems: add rows to `data/seed/facilities.csv` (per-system sources listed on the Data sources tab) and re-run `build-ipeds-seed.py`.
 
 ## What works today (no secrets)
 
@@ -89,7 +96,7 @@ Cloud agent tokens cannot create a Pages site (`403 Resource not accessible by i
 
 ## Next data loads
 
-1. **Facilities inventory** (GSF, ASF, building count, building age, FCI) into `data/seed/facilities.csv` — start with Texas THECB CBM014 (UT / TAMU / Alamo) and UNC PlanRoom; others by system request.
+1. **Facilities inventory** for the rest of the roster: UNC PlanRoom next, then other systems by request. Alamo colleges report zero buildings in THECB (district-level reporting is likely), so they need a district request. FCI is not in THECB and is still blank.
 2. **CCC Data Mart** FTES, headcount, and awards by TOP for California community colleges (official CSV/Excel exports — not HTML scraping).
 3. Optional Scorecard consumer metrics.
 
