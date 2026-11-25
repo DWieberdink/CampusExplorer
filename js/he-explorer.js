@@ -235,12 +235,16 @@
     `;
   }
 
+  function refreshMap() {
+    window.HEMap.update(activeCampuses());
+  }
+
   function refresh() {
     const campuses = activeCampuses();
     renderKpis();
     renderTrend();
     renderCompletions();
-    window.HEMap.update(campuses);
+    refreshMap();
   }
 
   function bindTabs() {
@@ -251,7 +255,9 @@
         btn.classList.add('active');
         $(`panel-${btn.dataset.panel}`).classList.add('active');
         if (btn.dataset.panel === 'map') {
-          window.HEMap.update(activeCampuses());
+          // Panel was display:none — re-apply points and force GL layout after show.
+          refreshMap();
+          window.HEMap.resize();
         }
       });
     });
@@ -290,8 +296,11 @@
     refreshFilterOptions();
     bindFilters();
     bindTabs();
+    // Always init the map before the first update (refresh → HEMap.update).
     window.HEMap.init('he-map');
     refresh();
+    // Re-apply after data load in case the first update raced a late GL ready state.
+    refreshMap();
   }
 
   document.addEventListener('DOMContentLoaded', boot);
