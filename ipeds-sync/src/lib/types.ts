@@ -24,19 +24,12 @@ export type EnrollmentSeed = {
   headcount_grad?: number;
   headcount_ft?: number;
   headcount_pt?: number;
-  ftes?: number;
+  fte_12mo?: number;
   source?: string;
 };
 
-export type CompletionSeed = {
-  unitid: string;
-  year: number;
-  cip6: string;
-  cip_title?: string;
-  award_level: string;
-  awards: number;
-  source?: string;
-};
+/** data/seed/completions.json: {unitid: {year: {cip2: awards}}} (CIP family level). */
+export type CompletionSeedMap = Record<string, Record<string, Record<string, number>>>;
 
 export type SyncSummary = {
   mode: 'seed' | 'stub-download';

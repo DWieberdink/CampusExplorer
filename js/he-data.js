@@ -6,8 +6,23 @@ window.HEData = (function () {
     campuses: [],
     enrollment: [],
     completions: [],
+    cipFamilies: {},
     ready: false,
   };
+
+  /** {unitid: {year: {cip2: awards}}} → flat rows. */
+  function flattenCompletions(nested) {
+    if (Array.isArray(nested)) return nested;
+    const rows = [];
+    for (const [unitid, years] of Object.entries(nested || {})) {
+      for (const [year, fams] of Object.entries(years)) {
+        for (const [cip2, awards] of Object.entries(fams)) {
+          rows.push({ unitid, year: Number(year), cip2, awards });
+        }
+      }
+    }
+    return rows;
+  }
 
   async function fetchJson(path) {
     const res = await fetch(path);
@@ -17,14 +32,16 @@ window.HEData = (function () {
 
   async function loadSeed() {
     const cfg = window.HE_CONFIG.seedPaths;
-    const [campuses, enrollment, completions] = await Promise.all([
+    const [campuses, enrollment, completions, cipFamilies] = await Promise.all([
       fetchJson(cfg.campuses),
       fetchJson(cfg.enrollment),
       fetchJson(cfg.completions),
+      fetchJson(cfg.cipFamilies).catch(() => ({})),
     ]);
     state.campuses = campuses;
     state.enrollment = enrollment;
-    state.completions = completions;
+    state.completions = flattenCompletions(completions);
+    state.cipFamilies = cipFamilies;
     state.source = 'seed';
     state.ready = true;
     return state;
@@ -76,11 +93,10 @@ window.HEData = (function () {
     state.completions = (comps.data || []).map((c) => ({
       unitid: c.unitid,
       year: c.year,
-      cip6: c.cip6,
-      cip_title: c.cip_title,
-      award_level: c.award_level,
+      cip2: String(c.cip6 || '').slice(0, 2),
       awards: c.awards,
     }));
+    state.cipFamilies = await fetchJson(window.HE_CONFIG.seedPaths.cipFamilies).catch(() => ({}));
     state.source = 'supabase';
     state.ready = true;
     return state;
@@ -102,13 +118,37 @@ window.HEData = (function () {
     return state;
   }
 
-  function campusesFiltered({ stateCode, system, unitid }) {
+  /** Latest completions year ≤ `year` (completions lag enrollment by a release). */
+  function completionsYear(year) {
+    const years = [...new Set(state.completions.map((c) => c.year))].sort((a, b) => a - b);
+    if (!years.length) return year;
+    const le = years.filter((y) => y <= year);
+    return le.length ? le[le.length - 1] : years[0];
+  }
+
+  /** UNITIDs with ≥1 award in a CIP family for the given year. */
+  function unitidsOfferingCip(cip2, year) {
+    const y = completionsYear(year);
+    const set = new Set();
+    for (const r of state.completions) {
+      if (r.cip2 === cip2 && r.year === y && r.awards > 0) set.add(r.unitid);
+    }
+    return set;
+  }
+
+  function campusesFiltered({ stateCode, system, unitid, cip2, year }) {
+    const offering = cip2 ? unitidsOfferingCip(cip2, year ?? window.HE_CONFIG.defaultYear) : null;
     return state.campuses.filter((c) => {
       if (stateCode && c.state !== stateCode) return false;
       if (system && c.system_name !== system) return false;
       if (unitid && c.unitid !== unitid) return false;
+      if (offering && !offering.has(c.unitid)) return false;
       return true;
     });
+  }
+
+  function cipFamilyLabel(cip2) {
+    return state.cipFamilies[cip2] || `CIP ${cip2}`;
   }
 
   function enrollmentFor(unitids, year) {
@@ -137,6 +177,8 @@ window.HEData = (function () {
     campusesFiltered,
     enrollmentFor,
     completionsFor,
+    completionsYear,
+    cipFamilyLabel,
     yoy,
   };
 })();

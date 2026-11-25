@@ -10,7 +10,16 @@ Higher Education campus explorer for Perkins Eastman Higher Education Advisory.
 
 **Data:** Today the explorer reads seed JSON under `data/seed/` (in-repo). Optional Supabase warehouse later when keys are configured — see below.
 
-**Data spine:** IPEDS `UNITID` (+ optional CCC college/district codes). Campus directory seed covers ~20 large U.S. public systems (~550 campuses with lat/lon from IPEDS HD). Enrollment/completions seed remains illustrative for a smaller CA subset until EF/C loads land.
+**Data spine:** IPEDS `UNITID` (+ optional CCC college/district codes). Seed covers 539 campuses across ~20 large U.S. public systems, all from IPEDS Complete Data Files: directory + lat/lon, fall enrollment 2014–2023, 12-month FTE, completions by CIP 2018-19–2023-24, finance (incl. facilities finance / age of plant), staffing, housing. See the **Data sources** tab.
+
+Regenerate:
+
+```bash
+python3 scripts/build-top20-campuses-seed.py --download        # data/seed/campuses.json (roster)
+python3 scripts/build-ipeds-seed.py --download --ipeds-dir /tmp/ipeds   # enrollment, completions, data/campus/*.json
+```
+
+Square footage / building counts are not in any national public dataset; add rows to `data/seed/facilities.csv` (per-system sources listed on the Data sources tab) and re-run `build-ipeds-seed.py`.
 
 ## What works today (no secrets)
 
@@ -18,11 +27,12 @@ Higher Education campus explorer for Perkins Eastman Higher Education Advisory.
 |---------|--------|
 | Demo password gate (`index.html` → `js/demo-gate.js`) | Unlocks explorer/admin; persists in `localStorage` across visits |
 | Auth / admin / confirm / reset pages | UI stubs; auth inactive until Supabase keys are set |
-| Explorer filters (State → System → Campus → Year) | Works on `data/seed/*.json` |
-| Overview KPIs + YoY enrollment | Works on seed |
-| Chart.js enrollment + CIP awards | Works on seed |
-| Campus map | Mapbox GL with public `pk.` token in `js/he-config.js` |
-| Compare view | Stub table, works on seed |
+| Explorer filters (State → System → Campus → Program family → Year) | IPEDS seed |
+| Overview KPIs, enrollment trend, clickable program-family chart, sortable directory | IPEDS seed |
+| Campus map | Colored by system with legend + popups; Mapbox GL `pk.` token in `js/he-config.js` |
+| Campus pages (`campus.html?unitid=…`) | Enrollment history, programs, facilities finance, decision indicators |
+| Data sources tab | Every metric’s source, vintage, coverage; facilities-inventory sources per system |
+| Compare view | Enrollment, program, and facilities indicators side by side |
 | SQL migrations + RLS outline | Ready to paste into Supabase |
 | `ipeds-sync/` | Seed upsert stub + documented Complete Data Files commands |
 | GitHub Action | Manual `workflow_dispatch` stub |
@@ -79,10 +89,9 @@ Cloud agent tokens cannot create a Pages site (`403 Resource not accessible by i
 
 ## Next data loads
 
-1. Campus HD seed: regenerate with `python3 scripts/build-top20-campuses-seed.py --download`. Next: EF / E12 / C extracts for enrollment & awards across the same roster.
+1. **Facilities inventory** (GSF, ASF, building count, building age, FCI) into `data/seed/facilities.csv` — start with Texas THECB CBM014 (UT / TAMU / Alamo) and UNC PlanRoom; others by system request.
 2. **CCC Data Mart** FTES, headcount, and awards by TOP for California community colleges (official CSV/Excel exports — not HTML scraping).
 3. Optional Scorecard consumer metrics.
-4. Defer facilities / FCI / building age (needs FUSION or client FM).
 
 ## Repo layout
 

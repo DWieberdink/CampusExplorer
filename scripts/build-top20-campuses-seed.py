@@ -118,7 +118,25 @@ def row_to_campus(r: dict, system_code: str) -> dict | None:
 
 
 def is_active_public(r: dict) -> bool:
-    return r.get("CYACTIVE") == "1" and r.get("CONTROL") == "1"
+    # SECTOR 0 = system / district administrative offices (no students).
+    return r.get("CYACTIVE") == "1" and r.get("CONTROL") == "1" and r.get("SECTOR") != "0"
+
+
+def is_ccc(r: dict) -> bool:
+    """CA community colleges, including baccalaureate-pilot colleges IPEDS lists as 4-year."""
+    if r.get("STABBR") != "CA" or r.get("DEGGRANT") != "1":
+        return False
+    if r.get("ICLEVEL") == "2":
+        return True
+    if r.get("ICLEVEL") != "1":
+        return False
+    name = (r.get("INSTNM") or "").strip()
+    f1 = (r.get("F1SYSNAM") or "").strip()
+    if f1 in ("California State University", "University of California"):
+        return False
+    if any(x in name for x in ("University", "Naval", "Teachers College")):
+        return False
+    return "Community College" in f1 or "Community College" in name or name.endswith("College")
 
 
 def select_campuses(rows: list[dict]) -> list[dict]:
@@ -135,15 +153,8 @@ def select_campuses(rows: list[dict]) -> list[dict]:
         seen.add(uid)
         out.append(campus)
 
-    # CCC ≈ CA public 2-year degree-granting (≈116; includes district F1 names).
     for r in rows:
-        if not is_active_public(r):
-            continue
-        if (
-            r.get("STABBR") == "CA"
-            and r.get("ICLEVEL") == "2"
-            and r.get("DEGGRANT") == "1"
-        ):
+        if is_active_public(r) and is_ccc(r):
             add(r, "CCC")
 
     # Florida College System: FL public degree-granting, not SUS, typically ICLEVEL=1.
