@@ -58,12 +58,17 @@ window.HEMap = (function () {
       });
       map.on('error', (e) => {
         const status = e?.error?.status;
-        const msg = e?.error?.message || e?.error?.toString?.() || 'unknown error';
-        if (status === 401 || status === 403 || /url|origin|referrer|unauthorized|forbidden/i.test(String(msg))) {
+        const raw = e?.error?.message || e?.error?.toString?.() || 'unknown error';
+        // Never dump access_token query strings into the UI.
+        const msg = String(raw).replace(/([?&]access_token=)[^&\s]+/gi, '$1…');
+        if (status === 401 || status === 403 || /url|origin|referrer|unauthorized|forbidden/i.test(msg)) {
           lastError =
-            'Mapbox GL request failed (often a URL restriction). In the Mapbox dashboard, allow ' +
-            '<code>https://dwieberdink.github.io/*</code> for this public token. Detail: ' +
-            String(msg);
+            '<strong>Mapbox blocked this page (HTTP ' +
+            (status || '4xx') +
+            ')</strong><br>' +
+            'In the Mapbox token dashboard, under URL restrictions, allow ' +
+            '<code>https://dwieberdink.github.io/*</code> ' +
+            '(covers <code>/CampusExplorer/</code>). Save, wait a minute, hard-refresh.';
         } else {
           lastError = `Mapbox GL error: ${msg}`;
         }
