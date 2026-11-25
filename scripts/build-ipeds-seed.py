@@ -332,6 +332,7 @@ def main() -> int:
         latest_y = max((y for y in e if e[y].get("headcount_total") is not None), default=None)
         latest_hc = hc(latest_y) if latest_y else None
         fte_latest = (e.get(latest_y) or {}).get("fte_12mo") if latest_y else None
+        ft_latest = (e.get(latest_y) or {}).get("headcount_ft") if latest_y else None
 
         dv = drvef.get(uid, {}).get(2023, {})
         pct_online = num(dv.get("PCTDEEXC"))
@@ -362,6 +363,7 @@ def main() -> int:
         metrics = {
             "latest_year": latest_y,
             "headcount": latest_hc,
+            "headcount_ft": ft_latest,
             "fte_12mo": fte_latest,
             "chg_5yr_pct": pct_change(hc(latest_y - 5), latest_hc) if latest_y else None,
             "chg_10yr_pct": pct_change(hc(latest_y - 9), latest_hc) if latest_y else None,

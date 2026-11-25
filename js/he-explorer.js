@@ -5,7 +5,7 @@
   const esc = (s) => window.heEscape(s);
   let trendChart = null;
   let cipChart = null;
-  let sortKey = 'headcount';
+  let sortKey = 'headcount_ft';
   let sortDir = -1;
 
   function selectedFilters() {
@@ -270,7 +270,7 @@
           <td><a class="he-link" href="${window.campusUrl(c.unitid)}">${esc(c.inst_name)}</a></td>
           <td><span class="dot" style="background:${window.heSystemColor(c.system_name)}"></span>${esc(c.system_name)}</td>
           <td>${esc(c.state)}</td>
-          <td class="num">${window.formatNumber(m.headcount)}</td>
+          <td class="num">${window.formatNumber(m.headcount_ft)}</td>
           ${pctCell(m.chg_5yr_pct)}
           <td class="num">${window.formatNumber(m.fte_12mo)}</td>
           <td class="num">${m.pct_online != null ? `${m.pct_online}%` : '—'}</td>

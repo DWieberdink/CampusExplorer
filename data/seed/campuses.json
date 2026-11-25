@@ -19,6 +19,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 8265,
+      "headcount_ft": 1725,
       "fte_12mo": 4072,
       "chg_5yr_pct": 50.0,
       "chg_10yr_pct": null,
@@ -50,6 +51,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 18808,
+      "headcount_ft": 3969,
       "fte_12mo": 9407,
       "chg_5yr_pct": 15.4,
       "chg_10yr_pct": 19.1,
@@ -81,6 +83,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 10908,
+      "headcount_ft": 2263,
       "fte_12mo": 5436,
       "chg_5yr_pct": 10.7,
       "chg_10yr_pct": 30.2,
@@ -112,6 +115,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 18975,
+      "headcount_ft": 4171,
       "fte_12mo": 10092,
       "chg_5yr_pct": 8.0,
       "chg_10yr_pct": -10.8,
@@ -143,6 +147,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 14281,
+      "headcount_ft": 1857,
       "fte_12mo": 6627,
       "chg_5yr_pct": 23.2,
       "chg_10yr_pct": 35.8,
@@ -174,6 +179,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 11104,
+      "headcount_ft": 3089,
       "fte_12mo": 6180,
       "chg_5yr_pct": -1.6,
       "chg_10yr_pct": 0.5,
@@ -205,6 +211,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 29908,
+      "headcount_ft": 4936,
       "fte_12mo": 17101,
       "chg_5yr_pct": -4.6,
       "chg_10yr_pct": 2.7,
@@ -236,6 +243,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 12937,
+      "headcount_ft": 3909,
       "fte_12mo": 8178,
       "chg_5yr_pct": -9.1,
       "chg_10yr_pct": -11.3,
@@ -267,6 +275,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 30410,
+      "headcount_ft": 7565,
       "fte_12mo": 17204,
       "chg_5yr_pct": 23.7,
       "chg_10yr_pct": 62.6,
@@ -298,6 +307,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3153,
+      "headcount_ft": 1146,
       "fte_12mo": 2339,
       "chg_5yr_pct": 3.3,
       "chg_10yr_pct": 69.6,
@@ -329,6 +339,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6547,
+      "headcount_ft": 1078,
       "fte_12mo": 3248,
       "chg_5yr_pct": 8.2,
       "chg_10yr_pct": 2.6,
@@ -360,6 +371,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 10211,
+      "headcount_ft": 4591,
       "fte_12mo": 7352,
       "chg_5yr_pct": -6.1,
       "chg_10yr_pct": -16.0,
@@ -391,6 +403,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 9274,
+      "headcount_ft": 2023,
       "fte_12mo": 4677,
       "chg_5yr_pct": -18.1,
       "chg_10yr_pct": -31.8,
@@ -422,6 +435,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 128,
+      "headcount_ft": 15,
       "fte_12mo": 70,
       "chg_5yr_pct": null,
       "chg_10yr_pct": null,
@@ -453,6 +467,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6141,
+      "headcount_ft": 825,
       "fte_12mo": 2798,
       "chg_5yr_pct": 2.6,
       "chg_10yr_pct": -5.5,
@@ -484,6 +499,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 21046,
+      "headcount_ft": 8589,
       "fte_12mo": 16933,
       "chg_5yr_pct": -3.2,
       "chg_10yr_pct": -3.3,
@@ -515,6 +531,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5690,
+      "headcount_ft": 878,
       "fte_12mo": 2631,
       "chg_5yr_pct": -6.3,
       "chg_10yr_pct": 20.3,
@@ -546,6 +563,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 12218,
+      "headcount_ft": 3337,
       "fte_12mo": 7081,
       "chg_5yr_pct": -11.7,
       "chg_10yr_pct": -6.4,
@@ -577,6 +595,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 20632,
+      "headcount_ft": 5973,
       "fte_12mo": 13310,
       "chg_5yr_pct": -10.2,
       "chg_10yr_pct": 5.5,
@@ -608,6 +627,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 9915,
+      "headcount_ft": 4048,
       "fte_12mo": 7681,
       "chg_5yr_pct": -24.5,
       "chg_10yr_pct": -22.4,
@@ -639,6 +659,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 17808,
+      "headcount_ft": 5314,
       "fte_12mo": 10158,
       "chg_5yr_pct": -34.1,
       "chg_10yr_pct": -24.6,
@@ -670,6 +691,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 9053,
+      "headcount_ft": 2125,
       "fte_12mo": 4981,
       "chg_5yr_pct": 16.6,
       "chg_10yr_pct": null,
@@ -701,6 +723,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3592,
+      "headcount_ft": 548,
       "fte_12mo": 1752,
       "chg_5yr_pct": -22.3,
       "chg_10yr_pct": 35.5,
@@ -732,6 +755,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 8576,
+      "headcount_ft": 634,
       "fte_12mo": 4127,
       "chg_5yr_pct": -21.9,
       "chg_10yr_pct": -24.2,
@@ -763,6 +787,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5833,
+      "headcount_ft": 674,
       "fte_12mo": 2601,
       "chg_5yr_pct": -8.7,
       "chg_10yr_pct": 0.6,
@@ -794,6 +819,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4673,
+      "headcount_ft": 1206,
       "fte_12mo": 3095,
       "chg_5yr_pct": -7.0,
       "chg_10yr_pct": -15.0,
@@ -825,6 +851,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 9208,
+      "headcount_ft": 2072,
       "fte_12mo": 5000,
       "chg_5yr_pct": 3.2,
       "chg_10yr_pct": 3.1,
@@ -856,6 +883,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 17439,
+      "headcount_ft": 5131,
       "fte_12mo": 10515,
       "chg_5yr_pct": -16.4,
       "chg_10yr_pct": 1.7,
@@ -887,6 +915,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 10764,
+      "headcount_ft": 3717,
       "fte_12mo": 6862,
       "chg_5yr_pct": -5.7,
       "chg_10yr_pct": 10.8,
@@ -918,6 +947,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4260,
+      "headcount_ft": 1367,
       "fte_12mo": 2561,
       "chg_5yr_pct": -6.8,
       "chg_10yr_pct": -14.2,
@@ -949,6 +979,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 13586,
+      "headcount_ft": 5102,
       "fte_12mo": 8820,
       "chg_5yr_pct": 8.2,
       "chg_10yr_pct": 27.6,
@@ -980,6 +1011,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1430,
+      "headcount_ft": 604,
       "fte_12mo": 1004,
       "chg_5yr_pct": -14.7,
       "chg_10yr_pct": -30.6,
@@ -1011,6 +1043,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2594,
+      "headcount_ft": 744,
       "fte_12mo": 1479,
       "chg_5yr_pct": 3.9,
       "chg_10yr_pct": 8.2,
@@ -1042,6 +1075,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4765,
+      "headcount_ft": 987,
       "fte_12mo": 2819,
       "chg_5yr_pct": -32.4,
       "chg_10yr_pct": -37.4,
@@ -1073,6 +1107,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5997,
+      "headcount_ft": 1539,
       "fte_12mo": 3492,
       "chg_5yr_pct": -16.6,
       "chg_10yr_pct": -10.5,
@@ -1104,6 +1139,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1524,
+      "headcount_ft": 395,
       "fte_12mo": 965,
       "chg_5yr_pct": -12.8,
       "chg_10yr_pct": -7.7,
@@ -1135,6 +1171,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 14980,
+      "headcount_ft": 3574,
       "fte_12mo": 9393,
       "chg_5yr_pct": 5.5,
       "chg_10yr_pct": 3.5,
@@ -1166,6 +1203,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6097,
+      "headcount_ft": 1640,
       "fte_12mo": 3627,
       "chg_5yr_pct": -6.9,
       "chg_10yr_pct": 2.8,
@@ -1197,6 +1235,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 10437,
+      "headcount_ft": 2856,
       "fte_12mo": 5869,
       "chg_5yr_pct": -5.3,
       "chg_10yr_pct": 13.2,
@@ -1228,6 +1267,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 8437,
+      "headcount_ft": 1985,
       "fte_12mo": 4434,
       "chg_5yr_pct": -4.4,
       "chg_10yr_pct": -2.4,
@@ -1259,6 +1299,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 13992,
+      "headcount_ft": 5206,
       "fte_12mo": 8981,
       "chg_5yr_pct": -11.4,
       "chg_10yr_pct": -11.5,
@@ -1290,6 +1331,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 16990,
+      "headcount_ft": 6141,
       "fte_12mo": 12880,
       "chg_5yr_pct": -12.8,
       "chg_10yr_pct": -26.5,
@@ -1321,6 +1363,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 16424,
+      "headcount_ft": 6243,
       "fte_12mo": 10899,
       "chg_5yr_pct": -19.0,
       "chg_10yr_pct": -18.2,
@@ -1352,6 +1395,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 30321,
+      "headcount_ft": 5134,
       "fte_12mo": 15573,
       "chg_5yr_pct": -22.8,
       "chg_10yr_pct": -15.8,
@@ -1383,6 +1427,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 21599,
+      "headcount_ft": 7509,
       "fte_12mo": 14223,
       "chg_5yr_pct": -13.0,
       "chg_10yr_pct": -10.8,
@@ -1414,6 +1459,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 8989,
+      "headcount_ft": 2121,
       "fte_12mo": 5185,
       "chg_5yr_pct": -6.3,
       "chg_10yr_pct": -1.6,
@@ -1445,6 +1491,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1758,
+      "headcount_ft": 451,
       "fte_12mo": 1109,
       "chg_5yr_pct": -20.7,
       "chg_10yr_pct": 2.5,
@@ -1476,6 +1523,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 10214,
+      "headcount_ft": 2247,
       "fte_12mo": 6254,
       "chg_5yr_pct": 19.1,
       "chg_10yr_pct": 28.6,
@@ -1507,6 +1555,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 12931,
+      "headcount_ft": 2645,
       "fte_12mo": 7951,
       "chg_5yr_pct": -12.2,
       "chg_10yr_pct": -14.0,
@@ -1538,6 +1587,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 25285,
+      "headcount_ft": 6666,
       "fte_12mo": 14149,
       "chg_5yr_pct": 3.8,
       "chg_10yr_pct": 13.4,
@@ -1569,6 +1619,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 18569,
+      "headcount_ft": 7295,
       "fte_12mo": 12261,
       "chg_5yr_pct": -18.0,
       "chg_10yr_pct": -25.9,
@@ -1600,6 +1651,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5484,
+      "headcount_ft": 1724,
       "fte_12mo": 3332,
       "chg_5yr_pct": -2.9,
       "chg_10yr_pct": -0.8,
@@ -1631,6 +1683,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 11176,
+      "headcount_ft": 5785,
       "fte_12mo": 10240,
       "chg_5yr_pct": -19.6,
       "chg_10yr_pct": -26.0,
@@ -1662,6 +1715,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 10433,
+      "headcount_ft": 2844,
       "fte_12mo": 6560,
       "chg_5yr_pct": -10.2,
       "chg_10yr_pct": -15.8,
@@ -1693,6 +1747,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 13591,
+      "headcount_ft": 4524,
       "fte_12mo": 8046,
       "chg_5yr_pct": -23.8,
       "chg_10yr_pct": -24.7,
@@ -1724,6 +1779,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 8478,
+      "headcount_ft": 2870,
       "fte_12mo": 6014,
       "chg_5yr_pct": -32.3,
       "chg_10yr_pct": -13.5,
@@ -1755,6 +1811,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 8111,
+      "headcount_ft": 3649,
       "fte_12mo": 6213,
       "chg_5yr_pct": -2.7,
       "chg_10yr_pct": -0.3,
@@ -1786,6 +1843,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 11994,
+      "headcount_ft": 4486,
       "fte_12mo": 8172,
       "chg_5yr_pct": -8.1,
       "chg_10yr_pct": -8.8,
@@ -1817,6 +1875,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3376,
+      "headcount_ft": 767,
       "fte_12mo": 1737,
       "chg_5yr_pct": 40.4,
       "chg_10yr_pct": 39.6,
@@ -1848,6 +1907,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 10211,
+      "headcount_ft": 1771,
       "fte_12mo": 5060,
       "chg_5yr_pct": -1.9,
       "chg_10yr_pct": -4.7,
@@ -1879,6 +1939,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 7448,
+      "headcount_ft": 2601,
       "fte_12mo": 4846,
       "chg_5yr_pct": -17.0,
       "chg_10yr_pct": -15.7,
@@ -1910,6 +1971,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1783,
+      "headcount_ft": 431,
       "fte_12mo": 1010,
       "chg_5yr_pct": -33.0,
       "chg_10yr_pct": -30.3,
@@ -1941,6 +2003,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4160,
+      "headcount_ft": 1366,
       "fte_12mo": 2559,
       "chg_5yr_pct": -1.9,
       "chg_10yr_pct": 4.6,
@@ -1972,6 +2035,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 24425,
+      "headcount_ft": 9471,
       "fte_12mo": 16714,
       "chg_5yr_pct": 2.4,
       "chg_10yr_pct": 0.1,
@@ -2003,6 +2067,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 14076,
+      "headcount_ft": 2767,
       "fte_12mo": 7436,
       "chg_5yr_pct": -11.3,
       "chg_10yr_pct": -25.0,
@@ -2034,6 +2099,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 220,
+      "headcount_ft": null,
       "fte_12mo": 153,
       "chg_5yr_pct": 3.8,
       "chg_10yr_pct": 7.8,
@@ -2065,6 +2131,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 8898,
+      "headcount_ft": 1479,
       "fte_12mo": 4427,
       "chg_5yr_pct": 0.5,
       "chg_10yr_pct": -12.3,
@@ -2096,6 +2163,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 10425,
+      "headcount_ft": 1731,
       "fte_12mo": 5084,
       "chg_5yr_pct": 1.5,
       "chg_10yr_pct": 2.3,
@@ -2127,6 +2195,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 16186,
+      "headcount_ft": 4208,
       "fte_12mo": 9581,
       "chg_5yr_pct": -13.9,
       "chg_10yr_pct": -23.0,
@@ -2158,6 +2227,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5267,
+      "headcount_ft": 479,
       "fte_12mo": 2491,
       "chg_5yr_pct": -13.3,
       "chg_10yr_pct": -24.1,
@@ -2189,6 +2259,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 12655,
+      "headcount_ft": 2755,
       "fte_12mo": 6621,
       "chg_5yr_pct": -9.6,
       "chg_10yr_pct": -13.8,
@@ -2220,6 +2291,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 15733,
+      "headcount_ft": 3083,
       "fte_12mo": 8307,
       "chg_5yr_pct": -10.6,
       "chg_10yr_pct": -15.6,
@@ -2251,6 +2323,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 8230,
+      "headcount_ft": 2903,
       "fte_12mo": 5195,
       "chg_5yr_pct": -15.6,
       "chg_10yr_pct": -5.3,
@@ -2282,6 +2355,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5825,
+      "headcount_ft": 785,
       "fte_12mo": 2712,
       "chg_5yr_pct": null,
       "chg_10yr_pct": null,
@@ -2313,6 +2387,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4032,
+      "headcount_ft": 850,
       "fte_12mo": 2085,
       "chg_5yr_pct": 3.4,
       "chg_10yr_pct": 7.0,
@@ -2344,6 +2419,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 11835,
+      "headcount_ft": 4847,
       "fte_12mo": 8069,
       "chg_5yr_pct": 7.6,
       "chg_10yr_pct": 15.9,
@@ -2375,6 +2451,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6716,
+      "headcount_ft": 1023,
       "fte_12mo": 3610,
       "chg_5yr_pct": -9.9,
       "chg_10yr_pct": 10.9,
@@ -2406,6 +2483,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 11707,
+      "headcount_ft": 4355,
       "fte_12mo": 8958,
       "chg_5yr_pct": -14.7,
       "chg_10yr_pct": -20.3,
@@ -2437,6 +2515,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6669,
+      "headcount_ft": 1566,
       "fte_12mo": 3901,
       "chg_5yr_pct": -14.3,
       "chg_10yr_pct": -20.9,
@@ -2468,6 +2547,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 17152,
+      "headcount_ft": 5784,
       "fte_12mo": 11360,
       "chg_5yr_pct": -4.2,
       "chg_10yr_pct": -2.4,
@@ -2499,6 +2579,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 7351,
+      "headcount_ft": 2132,
       "fte_12mo": 4130,
       "chg_5yr_pct": -8.3,
       "chg_10yr_pct": -4.9,
@@ -2530,6 +2611,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 14091,
+      "headcount_ft": 4832,
       "fte_12mo": 9167,
       "chg_5yr_pct": -1.9,
       "chg_10yr_pct": 1.5,
@@ -2561,6 +2643,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 10023,
+      "headcount_ft": 1935,
       "fte_12mo": 5868,
       "chg_5yr_pct": -0.5,
       "chg_10yr_pct": 14.8,
@@ -2592,6 +2675,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 28742,
+      "headcount_ft": 10020,
       "fte_12mo": 20625,
       "chg_5yr_pct": -2.1,
       "chg_10yr_pct": -1.0,
@@ -2623,6 +2707,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 17215,
+      "headcount_ft": 6210,
       "fte_12mo": 11397,
       "chg_5yr_pct": 9.3,
       "chg_10yr_pct": 18.1,
@@ -2654,6 +2739,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4213,
+      "headcount_ft": 1279,
       "fte_12mo": 2490,
       "chg_5yr_pct": -23.4,
       "chg_10yr_pct": -33.6,
@@ -2685,6 +2771,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 10787,
+      "headcount_ft": 2068,
       "fte_12mo": 5954,
       "chg_5yr_pct": -0.8,
       "chg_10yr_pct": 15.9,
@@ -2716,6 +2803,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 8375,
+      "headcount_ft": 2970,
       "fte_12mo": 5359,
       "chg_5yr_pct": -5.2,
       "chg_10yr_pct": -26.0,
@@ -2747,6 +2835,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 17085,
+      "headcount_ft": 6527,
       "fte_12mo": 10868,
       "chg_5yr_pct": -19.1,
       "chg_10yr_pct": -21.5,
@@ -2778,6 +2867,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6911,
+      "headcount_ft": 1773,
       "fte_12mo": 4125,
       "chg_5yr_pct": -6.8,
       "chg_10yr_pct": -3.3,
@@ -2809,6 +2899,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3461,
+      "headcount_ft": 667,
       "fte_12mo": 1737,
       "chg_5yr_pct": -16.0,
       "chg_10yr_pct": 0.4,
@@ -2840,6 +2931,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 18815,
+      "headcount_ft": 6053,
       "fte_12mo": 11553,
       "chg_5yr_pct": -21.3,
       "chg_10yr_pct": -24.5,
@@ -2871,6 +2963,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 23592,
+      "headcount_ft": 8718,
       "fte_12mo": 17854,
       "chg_5yr_pct": -12.2,
       "chg_10yr_pct": -11.3,
@@ -2902,6 +2995,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4939,
+      "headcount_ft": 1472,
       "fte_12mo": 2858,
       "chg_5yr_pct": 15.3,
       "chg_10yr_pct": 30.3,
@@ -2933,6 +3027,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 8174,
+      "headcount_ft": 2022,
       "fte_12mo": 4773,
       "chg_5yr_pct": -26.9,
       "chg_10yr_pct": -44.1,
@@ -2964,6 +3059,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 17193,
+      "headcount_ft": 4596,
       "fte_12mo": 9479,
       "chg_5yr_pct": -14.0,
       "chg_10yr_pct": 5.7,
@@ -2995,6 +3091,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 20437,
+      "headcount_ft": 5534,
       "fte_12mo": 12744,
       "chg_5yr_pct": -4.0,
       "chg_10yr_pct": 10.2,
@@ -3026,6 +3123,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 19031,
+      "headcount_ft": 4416,
       "fte_12mo": 12203,
       "chg_5yr_pct": -11.0,
       "chg_10yr_pct": -18.4,
@@ -3057,6 +3155,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 18370,
+      "headcount_ft": 5722,
       "fte_12mo": 12058,
       "chg_5yr_pct": -5.4,
       "chg_10yr_pct": -8.2,
@@ -3088,6 +3187,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 12982,
+      "headcount_ft": 2844,
       "fte_12mo": 8335,
       "chg_5yr_pct": -6.2,
       "chg_10yr_pct": 0.1,
@@ -3119,6 +3219,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 13197,
+      "headcount_ft": 2034,
       "fte_12mo": 6079,
       "chg_5yr_pct": -12.4,
       "chg_10yr_pct": -19.0,
@@ -3150,6 +3251,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 19243,
+      "headcount_ft": 4104,
       "fte_12mo": 10406,
       "chg_5yr_pct": -13.6,
       "chg_10yr_pct": -20.3,
@@ -3181,6 +3283,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 13569,
+      "headcount_ft": 2092,
       "fte_12mo": 6158,
       "chg_5yr_pct": -14.6,
       "chg_10yr_pct": 14.3,
@@ -3212,6 +3315,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 18226,
+      "headcount_ft": 8074,
       "fte_12mo": 15982,
       "chg_5yr_pct": 0.1,
       "chg_10yr_pct": -1.9,
@@ -3243,6 +3347,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 8400,
+      "headcount_ft": 1679,
       "fte_12mo": 4467,
       "chg_5yr_pct": -9.4,
       "chg_10yr_pct": -7.4,
@@ -3274,6 +3379,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 26073,
+      "headcount_ft": 4276,
       "fte_12mo": 11668,
       "chg_5yr_pct": -8.3,
       "chg_10yr_pct": -11.9,
@@ -3305,6 +3411,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 12345,
+      "headcount_ft": 5222,
       "fte_12mo": 8841,
       "chg_5yr_pct": -15.7,
       "chg_10yr_pct": -31.1,
@@ -3336,6 +3443,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 23164,
+      "headcount_ft": 9464,
       "fte_12mo": 16635,
       "chg_5yr_pct": -19.6,
       "chg_10yr_pct": -23.2,
@@ -3367,6 +3475,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 16803,
+      "headcount_ft": 4911,
       "fte_12mo": 9646,
       "chg_5yr_pct": -16.0,
       "chg_10yr_pct": -27.4,
@@ -3398,6 +3507,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 11979,
+      "headcount_ft": 2370,
       "fte_12mo": 5972,
       "chg_5yr_pct": 5.3,
       "chg_10yr_pct": 6.9,
@@ -3429,6 +3539,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 8081,
+      "headcount_ft": 2966,
       "fte_12mo": 5051,
       "chg_5yr_pct": -11.2,
       "chg_10yr_pct": -3.1,
@@ -3460,6 +3571,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 17420,
+      "headcount_ft": 6346,
       "fte_12mo": 11354,
       "chg_5yr_pct": -4.9,
       "chg_10yr_pct": -6.2,
@@ -3491,6 +3603,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 9428,
+      "headcount_ft": 2054,
       "fte_12mo": 5057,
       "chg_5yr_pct": 4.6,
       "chg_10yr_pct": -4.0,
@@ -3522,6 +3635,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 8868,
+      "headcount_ft": 2782,
       "fte_12mo": 5629,
       "chg_5yr_pct": -5.4,
       "chg_10yr_pct": -9.7,
@@ -3553,6 +3667,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 18469,
+      "headcount_ft": 7790,
       "fte_12mo": 12951,
       "chg_5yr_pct": -0.5,
       "chg_10yr_pct": -2.8,
@@ -3584,6 +3699,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4135,
+      "headcount_ft": 908,
       "fte_12mo": 1635,
       "chg_5yr_pct": -32.8,
       "chg_10yr_pct": -20.7,
@@ -3615,6 +3731,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 11367,
+      "headcount_ft": 3435,
       "fte_12mo": 7028,
       "chg_5yr_pct": -14.6,
       "chg_10yr_pct": -12.1,
@@ -3646,6 +3763,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 15372,
+      "headcount_ft": 4751,
       "fte_12mo": 10644,
       "chg_5yr_pct": 25.7,
       "chg_10yr_pct": 33.0,
@@ -3677,6 +3795,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 9299,
+      "headcount_ft": 1488,
       "fte_12mo": 4951,
       "chg_5yr_pct": -28.4,
       "chg_10yr_pct": -12.6,
@@ -3708,6 +3827,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 7272,
+      "headcount_ft": 2317,
       "fte_12mo": 4543,
       "chg_5yr_pct": -7.0,
       "chg_10yr_pct": -19.8,
@@ -3739,6 +3859,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3664,
+      "headcount_ft": 742,
       "fte_12mo": 1880,
       "chg_5yr_pct": -0.1,
       "chg_10yr_pct": 43.5,
@@ -3770,6 +3891,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5735,
+      "headcount_ft": 1372,
       "fte_12mo": 3361,
       "chg_5yr_pct": -3.4,
       "chg_10yr_pct": -13.6,
@@ -3801,6 +3923,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 13978,
+      "headcount_ft": 2524,
       "fte_12mo": 7106,
       "chg_5yr_pct": 21.1,
       "chg_10yr_pct": 34.4,
@@ -3832,6 +3955,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1256,
+      "headcount_ft": 405,
       "fte_12mo": 720,
       "chg_5yr_pct": 8.8,
       "chg_10yr_pct": 9.7,
@@ -3863,6 +3987,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 8684,
+      "headcount_ft": 1350,
       "fte_12mo": 4288,
       "chg_5yr_pct": 8.8,
       "chg_10yr_pct": 14.0,
@@ -3894,6 +4019,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 7715,
+      "headcount_ft": 1889,
       "fte_12mo": 4523,
       "chg_5yr_pct": -2.2,
       "chg_10yr_pct": -25.1,
@@ -3925,6 +4051,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 21096,
+      "headcount_ft": 4437,
       "fte_12mo": 11333,
       "chg_5yr_pct": 11.7,
       "chg_10yr_pct": 12.4,
@@ -3956,6 +4083,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 711,
+      "headcount_ft": 368,
       "fte_12mo": 540,
       "chg_5yr_pct": -5.7,
       "chg_10yr_pct": -15.3,
@@ -3987,6 +4115,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1506,
+      "headcount_ft": 311,
       "fte_12mo": 819,
       "chg_5yr_pct": 22.6,
       "chg_10yr_pct": -18.0,
@@ -4018,6 +4147,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1502,
+      "headcount_ft": 685,
       "fte_12mo": 937,
       "chg_5yr_pct": 0.7,
       "chg_10yr_pct": -15.4,
@@ -4049,6 +4179,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 972,
+      "headcount_ft": 470,
       "fte_12mo": 687,
       "chg_5yr_pct": -23.0,
       "chg_10yr_pct": -32.2,
@@ -4080,6 +4211,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 12388,
+      "headcount_ft": 4332,
       "fte_12mo": 8224,
       "chg_5yr_pct": -6.2,
       "chg_10yr_pct": -11.2,
@@ -4111,6 +4243,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6767,
+      "headcount_ft": 1634,
       "fte_12mo": 3388,
       "chg_5yr_pct": 9.2,
       "chg_10yr_pct": 9.1,
@@ -4142,6 +4275,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 7382,
+      "headcount_ft": 2000,
       "fte_12mo": 4717,
       "chg_5yr_pct": -0.0,
       "chg_10yr_pct": -9.0,
@@ -4173,6 +4307,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1636,
+      "headcount_ft": 629,
       "fte_12mo": 1094,
       "chg_5yr_pct": 6.1,
       "chg_10yr_pct": -8.2,
@@ -4204,6 +4339,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 22485,
+      "headcount_ft": 21324,
       "fte_12mo": 22491,
       "chg_5yr_pct": 2.1,
       "chg_10yr_pct": 11.4,
@@ -4235,6 +4371,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6156,
+      "headcount_ft": 5272,
       "fte_12mo": 5653,
       "chg_5yr_pct": -22.8,
       "chg_10yr_pct": -27.4,
@@ -4266,6 +4403,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 26848,
+      "headcount_ft": 22047,
       "fte_12mo": 23492,
       "chg_5yr_pct": 0.9,
       "chg_10yr_pct": 12.0,
@@ -4297,6 +4435,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 805,
+      "headcount_ft": 726,
       "fte_12mo": 938,
       "chg_5yr_pct": -23.0,
       "chg_10yr_pct": -23.1,
@@ -4328,6 +4467,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 9787,
+      "headcount_ft": 7836,
       "fte_12mo": 8688,
       "chg_5yr_pct": -9.5,
       "chg_10yr_pct": 12.2,
@@ -4359,6 +4499,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5688,
+      "headcount_ft": 4206,
       "fte_12mo": 4901,
       "chg_5yr_pct": -24.0,
       "chg_10yr_pct": -3.2,
@@ -4390,6 +4531,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 14523,
+      "headcount_ft": 12613,
       "fte_12mo": 13240,
       "chg_5yr_pct": -17.4,
       "chg_10yr_pct": -16.0,
@@ -4421,6 +4563,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 15181,
+      "headcount_ft": 10926,
       "fte_12mo": 12425,
       "chg_5yr_pct": -9.3,
       "chg_10yr_pct": 3.4,
@@ -4452,6 +4595,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 13333,
+      "headcount_ft": 9874,
       "fte_12mo": 11518,
       "chg_5yr_pct": -14.7,
       "chg_10yr_pct": -10.1,
@@ -4483,6 +4627,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 23986,
+      "headcount_ft": 19549,
       "fte_12mo": 20684,
       "chg_5yr_pct": -4.6,
       "chg_10yr_pct": 3.5,
@@ -4514,6 +4659,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 41962,
+      "headcount_ft": 31948,
       "fte_12mo": 35485,
       "chg_5yr_pct": 4.2,
       "chg_10yr_pct": 10.1,
@@ -4545,6 +4691,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 40278,
+      "headcount_ft": 32749,
       "fte_12mo": 34294,
       "chg_5yr_pct": 7.5,
       "chg_10yr_pct": 9.4,
@@ -4576,6 +4723,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 25080,
+      "headcount_ft": 20113,
       "fte_12mo": 21320,
       "chg_5yr_pct": -10.5,
       "chg_10yr_pct": 2.4,
@@ -4607,6 +4755,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6742,
+      "headcount_ft": 5784,
       "fte_12mo": 6438,
       "chg_5yr_pct": -10.6,
       "chg_10yr_pct": 1.7,
@@ -4638,6 +4787,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 37760,
+      "headcount_ft": 29393,
       "fte_12mo": 31769,
       "chg_5yr_pct": -6.1,
       "chg_10yr_pct": -5.9,
@@ -4669,6 +4819,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 31172,
+      "headcount_ft": 23988,
       "fte_12mo": 27230,
       "chg_5yr_pct": -2.3,
       "chg_10yr_pct": 6.2,
@@ -4700,6 +4851,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 18925,
+      "headcount_ft": 14654,
       "fte_12mo": 16357,
       "chg_5yr_pct": -6.5,
       "chg_10yr_pct": -0.1,
@@ -4731,6 +4883,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 15431,
+      "headcount_ft": 12695,
       "fte_12mo": 13645,
       "chg_5yr_pct": -3.4,
       "chg_10yr_pct": 27.0,
@@ -4762,6 +4915,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 9841,
+      "headcount_ft": 7728,
       "fte_12mo": 8698,
       "chg_5yr_pct": -7.0,
       "chg_10yr_pct": 8.8,
@@ -4793,6 +4947,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 39241,
+      "headcount_ft": 33376,
       "fte_12mo": 36995,
       "chg_5yr_pct": 11.2,
       "chg_10yr_pct": 17.2,
@@ -4824,6 +4979,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 23908,
+      "headcount_ft": 18716,
       "fte_12mo": 20901,
       "chg_5yr_pct": -19.7,
       "chg_10yr_pct": -18.9,
@@ -4855,6 +5011,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 36062,
+      "headcount_ft": 26223,
       "fte_12mo": 29854,
       "chg_5yr_pct": 1.9,
       "chg_10yr_pct": 10.2,
@@ -4886,6 +5043,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5990,
+      "headcount_ft": 5024,
       "fte_12mo": 5542,
       "chg_5yr_pct": -36.7,
       "chg_10yr_pct": -35.5,
@@ -4917,6 +5075,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 19698,
+      "headcount_ft": 13621,
       "fte_12mo": 17048,
       "chg_5yr_pct": 9.3,
       "chg_10yr_pct": 8.9,
@@ -4948,6 +5107,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 18225,
+      "headcount_ft": 11871,
       "fte_12mo": 13514,
       "chg_5yr_pct": -31.2,
       "chg_10yr_pct": -31.5,
@@ -4979,6 +5139,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6465,
+      "headcount_ft": 3725,
       "fte_12mo": 4293,
       "chg_5yr_pct": -38.5,
       "chg_10yr_pct": -43.8,
@@ -5010,6 +5171,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 13935,
+      "headcount_ft": 8898,
       "fte_12mo": 11727,
       "chg_5yr_pct": -23.3,
       "chg_10yr_pct": -19.9,
@@ -5041,6 +5203,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 15012,
+      "headcount_ft": 10794,
       "fte_12mo": 12668,
       "chg_5yr_pct": -6.4,
       "chg_10yr_pct": -3.6,
@@ -5072,6 +5235,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 9116,
+      "headcount_ft": 4289,
       "fte_12mo": 4726,
       "chg_5yr_pct": 13.4,
       "chg_10yr_pct": 30.0,
@@ -5103,6 +5267,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5526,
+      "headcount_ft": 2639,
       "fte_12mo": 3383,
       "chg_5yr_pct": -24.6,
       "chg_10yr_pct": -20.9,
@@ -5134,6 +5299,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 22879,
+      "headcount_ft": 15170,
       "fte_12mo": 19287,
       "chg_5yr_pct": -1.4,
       "chg_10yr_pct": -1.0,
@@ -5165,6 +5331,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 13510,
+      "headcount_ft": 10010,
       "fte_12mo": 11736,
       "chg_5yr_pct": -12.2,
       "chg_10yr_pct": -10.2,
@@ -5196,6 +5363,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 19070,
+      "headcount_ft": 6017,
       "fte_12mo": 7635,
       "chg_5yr_pct": 26.7,
       "chg_10yr_pct": 7.4,
@@ -5227,6 +5395,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 13998,
+      "headcount_ft": 7282,
       "fte_12mo": 8361,
       "chg_5yr_pct": -27.5,
       "chg_10yr_pct": -30.8,
@@ -5258,6 +5427,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 12894,
+      "headcount_ft": 7613,
       "fte_12mo": 10311,
       "chg_5yr_pct": -12.8,
       "chg_10yr_pct": 4.0,
@@ -5289,6 +5459,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3846,
+      "headcount_ft": 2594,
       "fte_12mo": 2892,
       "chg_5yr_pct": -42.1,
       "chg_10yr_pct": -42.6,
@@ -5320,6 +5491,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 13767,
+      "headcount_ft": 9032,
       "fte_12mo": 10160,
       "chg_5yr_pct": -20.3,
       "chg_10yr_pct": -20.8,
@@ -5351,6 +5523,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 16481,
+      "headcount_ft": 10740,
       "fte_12mo": 13865,
       "chg_5yr_pct": -16.5,
       "chg_10yr_pct": -14.7,
@@ -5382,6 +5555,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 10251,
+      "headcount_ft": 5327,
       "fte_12mo": 6931,
       "chg_5yr_pct": -33.5,
       "chg_10yr_pct": -36.7,
@@ -5413,6 +5587,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 681,
+      "headcount_ft": 488,
       "fte_12mo": 696,
       "chg_5yr_pct": 16.8,
       "chg_10yr_pct": 109.5,
@@ -5444,6 +5619,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1101,
+      "headcount_ft": 924,
       "fte_12mo": 840,
       "chg_5yr_pct": 15.3,
       "chg_10yr_pct": 59.3,
@@ -5475,6 +5651,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6161,
+      "headcount_ft": 3542,
       "fte_12mo": 4412,
       "chg_5yr_pct": -29.1,
       "chg_10yr_pct": -27.5,
@@ -5506,6 +5683,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 10736,
+      "headcount_ft": 7884,
       "fte_12mo": 9137,
       "chg_5yr_pct": -19.0,
       "chg_10yr_pct": -25.2,
@@ -5537,6 +5715,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 29140,
+      "headcount_ft": 9462,
       "fte_12mo": 22376,
       "chg_5yr_pct": -28.6,
       "chg_10yr_pct": -34.0,
@@ -5568,6 +5747,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1820,
+      "headcount_ft": 714,
       "fte_12mo": 1349,
       "chg_5yr_pct": -12.5,
       "chg_10yr_pct": -12.5,
@@ -5599,6 +5779,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5747,
+      "headcount_ft": 2454,
       "fte_12mo": 4412,
       "chg_5yr_pct": -15.7,
       "chg_10yr_pct": -27.5,
@@ -5630,6 +5811,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 11807,
+      "headcount_ft": 4530,
       "fte_12mo": 9389,
       "chg_5yr_pct": -14.0,
       "chg_10yr_pct": -10.9,
@@ -5661,6 +5843,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 13601,
+      "headcount_ft": 4367,
       "fte_12mo": 9701,
       "chg_5yr_pct": -14.0,
       "chg_10yr_pct": -14.6,
@@ -5692,6 +5875,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2837,
+      "headcount_ft": 993,
       "fte_12mo": 2039,
       "chg_5yr_pct": -16.2,
       "chg_10yr_pct": -2.6,
@@ -5723,6 +5907,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 13860,
+      "headcount_ft": 5394,
       "fte_12mo": 9878,
       "chg_5yr_pct": -16.3,
       "chg_10yr_pct": -9.9,
@@ -5754,6 +5939,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 20530,
+      "headcount_ft": 6245,
       "fte_12mo": 14721,
       "chg_5yr_pct": -12.3,
       "chg_10yr_pct": -19.5,
@@ -5785,6 +5971,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4959,
+      "headcount_ft": 1941,
       "fte_12mo": 3303,
       "chg_5yr_pct": -12.1,
       "chg_10yr_pct": -16.3,
@@ -5816,6 +6003,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 20004,
+      "headcount_ft": 9651,
       "fte_12mo": 19452,
       "chg_5yr_pct": -13.7,
       "chg_10yr_pct": -26.7,
@@ -5847,6 +6035,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 15104,
+      "headcount_ft": 5915,
       "fte_12mo": 10569,
       "chg_5yr_pct": -9.5,
       "chg_10yr_pct": -14.5,
@@ -5878,6 +6067,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5064,
+      "headcount_ft": 1705,
       "fte_12mo": 3433,
       "chg_5yr_pct": 5.2,
       "chg_10yr_pct": 13.3,
@@ -5909,6 +6099,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 39139,
+      "headcount_ft": 18359,
       "fte_12mo": 42920,
       "chg_5yr_pct": -28.8,
       "chg_10yr_pct": -40.7,
@@ -5940,6 +6131,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1281,
+      "headcount_ft": 409,
       "fte_12mo": 866,
       "chg_5yr_pct": 4.2,
       "chg_10yr_pct": -0.6,
@@ -5971,6 +6163,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5160,
+      "headcount_ft": 2173,
       "fte_12mo": 3857,
       "chg_5yr_pct": -6.1,
       "chg_10yr_pct": -18.0,
@@ -6002,6 +6195,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 24369,
+      "headcount_ft": 7411,
       "fte_12mo": 16731,
       "chg_5yr_pct": -23.4,
       "chg_10yr_pct": -14.5,
@@ -6033,6 +6227,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 9449,
+      "headcount_ft": 3698,
       "fte_12mo": 6470,
       "chg_5yr_pct": -18.0,
       "chg_10yr_pct": -16.1,
@@ -6064,6 +6259,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 8518,
+      "headcount_ft": 3397,
       "fte_12mo": 6016,
       "chg_5yr_pct": -12.8,
       "chg_10yr_pct": -17.4,
@@ -6095,6 +6291,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 7963,
+      "headcount_ft": 2683,
       "fte_12mo": 6896,
       "chg_5yr_pct": -24.8,
       "chg_10yr_pct": -28.0,
@@ -6126,6 +6323,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 7066,
+      "headcount_ft": 1859,
       "fte_12mo": 4336,
       "chg_5yr_pct": -5.8,
       "chg_10yr_pct": -0.7,
@@ -6157,6 +6355,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 12698,
+      "headcount_ft": 3023,
       "fte_12mo": 9620,
       "chg_5yr_pct": -11.4,
       "chg_10yr_pct": -15.7,
@@ -6188,6 +6387,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 14104,
+      "headcount_ft": 4870,
       "fte_12mo": 10115,
       "chg_5yr_pct": -22.1,
       "chg_10yr_pct": -23.3,
@@ -6219,6 +6419,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2976,
+      "headcount_ft": 1123,
       "fte_12mo": 2111,
       "chg_5yr_pct": 2.3,
       "chg_10yr_pct": 7.1,
@@ -6250,6 +6451,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 23350,
+      "headcount_ft": 7422,
       "fte_12mo": 15299,
       "chg_5yr_pct": -20.0,
       "chg_10yr_pct": -28.6,
@@ -6281,6 +6483,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 8411,
+      "headcount_ft": 3787,
       "fte_12mo": 6154,
       "chg_5yr_pct": -17.8,
       "chg_10yr_pct": -18.5,
@@ -6312,6 +6515,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 11699,
+      "headcount_ft": 6920,
       "fte_12mo": 9635,
       "chg_5yr_pct": -1.8,
       "chg_10yr_pct": -10.3,
@@ -6343,6 +6547,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 854,
+      "headcount_ft": 370,
       "fte_12mo": 861,
       "chg_5yr_pct": -0.9,
       "chg_10yr_pct": -17.3,
@@ -6374,6 +6579,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 42524,
+      "headcount_ft": 17193,
       "fte_12mo": 33678,
       "chg_5yr_pct": -8.6,
       "chg_10yr_pct": -1.6,
@@ -6405,6 +6611,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2559,
+      "headcount_ft": 1050,
       "fte_12mo": 1633,
       "chg_5yr_pct": 0.7,
       "chg_10yr_pct": -23.5,
@@ -6436,6 +6643,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2583,
+      "headcount_ft": 1140,
       "fte_12mo": 1539,
       "chg_5yr_pct": -41.0,
       "chg_10yr_pct": -44.3,
@@ -6467,6 +6675,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 11619,
+      "headcount_ft": 3839,
       "fte_12mo": 7216,
       "chg_5yr_pct": 22.0,
       "chg_10yr_pct": 6.1,
@@ -6498,6 +6707,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6204,
+      "headcount_ft": 2166,
       "fte_12mo": 3709,
       "chg_5yr_pct": -3.0,
       "chg_10yr_pct": -15.2,
@@ -6529,6 +6739,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4752,
+      "headcount_ft": 1212,
       "fte_12mo": 2720,
       "chg_5yr_pct": 16.1,
       "chg_10yr_pct": 3.4,
@@ -6560,6 +6771,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3039,
+      "headcount_ft": 803,
       "fte_12mo": 1554,
       "chg_5yr_pct": -4.6,
       "chg_10yr_pct": -12.2,
@@ -6591,6 +6803,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1606,
+      "headcount_ft": 397,
       "fte_12mo": 769,
       "chg_5yr_pct": 1.3,
       "chg_10yr_pct": -19.7,
@@ -6622,6 +6835,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2156,
+      "headcount_ft": 726,
       "fte_12mo": 1210,
       "chg_5yr_pct": -21.5,
       "chg_10yr_pct": -39.5,
@@ -6653,6 +6867,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 12574,
+      "headcount_ft": 2894,
       "fte_12mo": 6220,
       "chg_5yr_pct": 7.5,
       "chg_10yr_pct": -7.2,
@@ -6684,6 +6899,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3535,
+      "headcount_ft": 968,
       "fte_12mo": 1719,
       "chg_5yr_pct": -0.3,
       "chg_10yr_pct": -20.3,
@@ -6715,6 +6931,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4296,
+      "headcount_ft": 1191,
       "fte_12mo": 2192,
       "chg_5yr_pct": 2.6,
       "chg_10yr_pct": 23.5,
@@ -6746,6 +6963,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4694,
+      "headcount_ft": 1499,
       "fte_12mo": 2521,
       "chg_5yr_pct": 19.1,
       "chg_10yr_pct": 12.9,
@@ -6777,6 +6995,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5766,
+      "headcount_ft": 2230,
       "fte_12mo": 3430,
       "chg_5yr_pct": -1.6,
       "chg_10yr_pct": -17.6,
@@ -6808,6 +7027,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5084,
+      "headcount_ft": 1653,
       "fte_12mo": 2917,
       "chg_5yr_pct": 13.4,
       "chg_10yr_pct": 26.7,
@@ -6839,6 +7059,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3144,
+      "headcount_ft": 1116,
       "fte_12mo": 1846,
       "chg_5yr_pct": -5.2,
       "chg_10yr_pct": -14.1,
@@ -6870,6 +7091,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5132,
+      "headcount_ft": 1541,
       "fte_12mo": 2476,
       "chg_5yr_pct": -17.1,
       "chg_10yr_pct": -19.8,
@@ -6901,6 +7123,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 10859,
+      "headcount_ft": 3872,
       "fte_12mo": 6542,
       "chg_5yr_pct": 31.8,
       "chg_10yr_pct": 40.3,
@@ -6932,6 +7155,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5636,
+      "headcount_ft": 2435,
       "fte_12mo": 3998,
       "chg_5yr_pct": -14.6,
       "chg_10yr_pct": -35.2,
@@ -6963,6 +7187,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1211,
+      "headcount_ft": 761,
       "fte_12mo": 946,
       "chg_5yr_pct": -54.9,
       "chg_10yr_pct": -40.9,
@@ -6994,6 +7219,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 12130,
+      "headcount_ft": 4123,
       "fte_12mo": 7883,
       "chg_5yr_pct": -14.9,
       "chg_10yr_pct": -29.3,
@@ -7025,6 +7251,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2426,
+      "headcount_ft": 1105,
       "fte_12mo": 1626,
       "chg_5yr_pct": 12.3,
       "chg_10yr_pct": 36.5,
@@ -7056,6 +7283,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3775,
+      "headcount_ft": 1552,
       "fte_12mo": 2548,
       "chg_5yr_pct": -1.0,
       "chg_10yr_pct": 22.5,
@@ -7087,6 +7315,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5716,
+      "headcount_ft": 1542,
       "fte_12mo": 2428,
       "chg_5yr_pct": 20.7,
       "chg_10yr_pct": 52.3,
@@ -7118,6 +7347,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1044,
+      "headcount_ft": 419,
       "fte_12mo": 769,
       "chg_5yr_pct": 1.4,
       "chg_10yr_pct": -68.2,
@@ -7149,6 +7379,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2950,
+      "headcount_ft": 887,
       "fte_12mo": 1684,
       "chg_5yr_pct": 24.4,
       "chg_10yr_pct": 12.7,
@@ -7180,6 +7411,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2406,
+      "headcount_ft": 1365,
       "fte_12mo": 1684,
       "chg_5yr_pct": -30.7,
       "chg_10yr_pct": 21.5,
@@ -7211,6 +7443,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3316,
+      "headcount_ft": 1873,
       "fte_12mo": 2430,
       "chg_5yr_pct": -4.1,
       "chg_10yr_pct": -2.8,
@@ -7242,6 +7475,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5887,
+      "headcount_ft": 3276,
       "fte_12mo": 4312,
       "chg_5yr_pct": -6.3,
       "chg_10yr_pct": -7.0,
@@ -7273,6 +7507,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 14725,
+      "headcount_ft": 3584,
       "fte_12mo": 7310,
       "chg_5yr_pct": -0.0,
       "chg_10yr_pct": 1.6,
@@ -7304,6 +7539,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 10069,
+      "headcount_ft": 2493,
       "fte_12mo": 5208,
       "chg_5yr_pct": 0.9,
       "chg_10yr_pct": 9.9,
@@ -7335,6 +7571,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5123,
+      "headcount_ft": 1057,
       "fte_12mo": 2669,
       "chg_5yr_pct": 0.8,
       "chg_10yr_pct": -13.9,
@@ -7366,6 +7603,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 477,
+      "headcount_ft": 225,
       "fte_12mo": 367,
       "chg_5yr_pct": -24.4,
       "chg_10yr_pct": -41.8,
@@ -7397,6 +7635,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 13480,
+      "headcount_ft": 3738,
       "fte_12mo": 7493,
       "chg_5yr_pct": -24.9,
       "chg_10yr_pct": -34.3,
@@ -7428,6 +7667,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 16624,
+      "headcount_ft": 4377,
       "fte_12mo": 8935,
       "chg_5yr_pct": -18.5,
       "chg_10yr_pct": -26.8,
@@ -7459,6 +7699,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5880,
+      "headcount_ft": 1552,
       "fte_12mo": 3216,
       "chg_5yr_pct": -27.5,
       "chg_10yr_pct": -34.0,
@@ -7490,6 +7731,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 10384,
+      "headcount_ft": 2222,
       "fte_12mo": 5495,
       "chg_5yr_pct": -5.2,
       "chg_10yr_pct": -14.2,
@@ -7521,6 +7763,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 18631,
+      "headcount_ft": 2030,
       "fte_12mo": 10905,
       "chg_5yr_pct": 1.8,
       "chg_10yr_pct": -7.8,
@@ -7552,6 +7795,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6875,
+      "headcount_ft": 1483,
       "fte_12mo": 3567,
       "chg_5yr_pct": -21.4,
       "chg_10yr_pct": -30.3,
@@ -7583,6 +7827,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4157,
+      "headcount_ft": 1109,
       "fte_12mo": 2207,
       "chg_5yr_pct": 2.0,
       "chg_10yr_pct": -3.0,
@@ -7614,6 +7859,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3038,
+      "headcount_ft": 1164,
       "fte_12mo": 1927,
       "chg_5yr_pct": 16.2,
       "chg_10yr_pct": 16.7,
@@ -7645,6 +7891,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1822,
+      "headcount_ft": 819,
       "fte_12mo": 1315,
       "chg_5yr_pct": -1.2,
       "chg_10yr_pct": -18.0,
@@ -7676,6 +7923,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 7843,
+      "headcount_ft": 2620,
       "fte_12mo": 4678,
       "chg_5yr_pct": -11.3,
       "chg_10yr_pct": -0.4,
@@ -7707,6 +7955,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3926,
+      "headcount_ft": 2371,
       "fte_12mo": 3124,
       "chg_5yr_pct": -23.2,
       "chg_10yr_pct": -21.3,
@@ -7738,6 +7987,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4532,
+      "headcount_ft": 1501,
       "fte_12mo": 2537,
       "chg_5yr_pct": 12.5,
       "chg_10yr_pct": 4.6,
@@ -7769,6 +8019,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 8248,
+      "headcount_ft": 2996,
       "fte_12mo": 5545,
       "chg_5yr_pct": -7.2,
       "chg_10yr_pct": -13.0,
@@ -7800,6 +8051,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2662,
+      "headcount_ft": 1377,
       "fte_12mo": 1976,
       "chg_5yr_pct": 5.5,
       "chg_10yr_pct": -8.5,
@@ -7831,6 +8083,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1749,
+      "headcount_ft": 420,
       "fte_12mo": 815,
       "chg_5yr_pct": -11.8,
       "chg_10yr_pct": -21.0,
@@ -7862,6 +8115,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3891,
+      "headcount_ft": 1481,
       "fte_12mo": 2691,
       "chg_5yr_pct": -18.3,
       "chg_10yr_pct": -35.0,
@@ -7893,6 +8147,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3689,
+      "headcount_ft": 1159,
       "fte_12mo": 2253,
       "chg_5yr_pct": -13.5,
       "chg_10yr_pct": -38.1,
@@ -7924,6 +8179,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4001,
+      "headcount_ft": 1445,
       "fte_12mo": 2445,
       "chg_5yr_pct": -24.2,
       "chg_10yr_pct": -21.6,
@@ -7955,6 +8211,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6005,
+      "headcount_ft": 2733,
       "fte_12mo": 4745,
       "chg_5yr_pct": -23.6,
       "chg_10yr_pct": -28.1,
@@ -7986,6 +8243,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6269,
+      "headcount_ft": 2031,
       "fte_12mo": 4167,
       "chg_5yr_pct": -9.8,
       "chg_10yr_pct": -32.1,
@@ -8017,6 +8275,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3020,
+      "headcount_ft": 1976,
       "fte_12mo": 2459,
       "chg_5yr_pct": 170.1,
       "chg_10yr_pct": 132.0,
@@ -8048,6 +8307,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2020,
+      "headcount_ft": 774,
       "fte_12mo": 1221,
       "chg_5yr_pct": 9.2,
       "chg_10yr_pct": -7.2,
@@ -8079,6 +8339,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5414,
+      "headcount_ft": 1907,
       "fte_12mo": 3211,
       "chg_5yr_pct": -13.0,
       "chg_10yr_pct": -15.6,
@@ -8110,6 +8371,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4410,
+      "headcount_ft": 2933,
       "fte_12mo": 3861,
       "chg_5yr_pct": -24.7,
       "chg_10yr_pct": -30.1,
@@ -8141,6 +8403,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 14709,
+      "headcount_ft": 10576,
       "fte_12mo": 12886,
       "chg_5yr_pct": 2.3,
       "chg_10yr_pct": -4.4,
@@ -8172,6 +8435,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3438,
+      "headcount_ft": 1023,
       "fte_12mo": 1999,
       "chg_5yr_pct": 2.3,
       "chg_10yr_pct": 8.0,
@@ -8203,6 +8467,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 9620,
+      "headcount_ft": 3325,
       "fte_12mo": 6481,
       "chg_5yr_pct": -1.7,
       "chg_10yr_pct": 0.8,
@@ -8234,6 +8499,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5195,
+      "headcount_ft": 1500,
       "fte_12mo": 3011,
       "chg_5yr_pct": -17.4,
       "chg_10yr_pct": -29.6,
@@ -8265,6 +8531,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2477,
+      "headcount_ft": 857,
       "fte_12mo": 1426,
       "chg_5yr_pct": -29.2,
       "chg_10yr_pct": -32.0,
@@ -8296,6 +8563,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 901,
+      "headcount_ft": 304,
       "fte_12mo": 602,
       "chg_5yr_pct": -11.8,
       "chg_10yr_pct": -17.4,
@@ -8327,6 +8595,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1913,
+      "headcount_ft": 443,
       "fte_12mo": 832,
       "chg_5yr_pct": -5.3,
       "chg_10yr_pct": 76.6,
@@ -8358,6 +8627,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2855,
+      "headcount_ft": 1514,
       "fte_12mo": 2074,
       "chg_5yr_pct": -13.4,
       "chg_10yr_pct": -23.9,
@@ -8389,6 +8659,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3591,
+      "headcount_ft": 1096,
       "fte_12mo": 2082,
       "chg_5yr_pct": 10.1,
       "chg_10yr_pct": 10.7,
@@ -8420,6 +8691,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4714,
+      "headcount_ft": 1748,
       "fte_12mo": 3120,
       "chg_5yr_pct": -8.1,
       "chg_10yr_pct": -20.0,
@@ -8451,6 +8723,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 10514,
+      "headcount_ft": 5166,
       "fte_12mo": 6931,
       "chg_5yr_pct": -24.5,
       "chg_10yr_pct": -34.6,
@@ -8482,6 +8755,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5155,
+      "headcount_ft": 1934,
       "fte_12mo": 3398,
       "chg_5yr_pct": -25.4,
       "chg_10yr_pct": -21.9,
@@ -8513,6 +8787,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2652,
+      "headcount_ft": 945,
       "fte_12mo": 1860,
       "chg_5yr_pct": -3.4,
       "chg_10yr_pct": -21.7,
@@ -8544,6 +8819,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 7324,
+      "headcount_ft": 1848,
       "fte_12mo": 3343,
       "chg_5yr_pct": 2.2,
       "chg_10yr_pct": 3.6,
@@ -8575,6 +8851,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3565,
+      "headcount_ft": 1613,
       "fte_12mo": 2574,
       "chg_5yr_pct": -17.6,
       "chg_10yr_pct": -27.6,
@@ -8606,6 +8883,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6058,
+      "headcount_ft": 4754,
       "fte_12mo": 5485,
       "chg_5yr_pct": -22.3,
       "chg_10yr_pct": -30.2,
@@ -8637,6 +8915,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3739,
+      "headcount_ft": 1245,
       "fte_12mo": 2951,
       "chg_5yr_pct": -12.0,
       "chg_10yr_pct": -14.2,
@@ -8668,6 +8947,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6297,
+      "headcount_ft": 1407,
       "fte_12mo": 4240,
       "chg_5yr_pct": -8.6,
       "chg_10yr_pct": -16.1,
@@ -8699,6 +8979,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1785,
+      "headcount_ft": 415,
       "fte_12mo": 1263,
       "chg_5yr_pct": 15.7,
       "chg_10yr_pct": -12.3,
@@ -8730,6 +9011,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 990,
+      "headcount_ft": 187,
       "fte_12mo": 952,
       "chg_5yr_pct": -2.7,
       "chg_10yr_pct": -25.8,
@@ -8761,6 +9043,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2822,
+      "headcount_ft": 647,
       "fte_12mo": 2143,
       "chg_5yr_pct": 29.1,
       "chg_10yr_pct": 27.4,
@@ -8792,6 +9075,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1845,
+      "headcount_ft": 756,
       "fte_12mo": 1368,
       "chg_5yr_pct": 24.5,
       "chg_10yr_pct": 1.7,
@@ -8823,6 +9107,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3764,
+      "headcount_ft": 1190,
       "fte_12mo": 2496,
       "chg_5yr_pct": 5.1,
       "chg_10yr_pct": -2.9,
@@ -8854,6 +9139,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 14119,
+      "headcount_ft": 3585,
       "fte_12mo": 7603,
       "chg_5yr_pct": 68.5,
       "chg_10yr_pct": 55.8,
@@ -8885,6 +9171,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1579,
+      "headcount_ft": 593,
       "fte_12mo": 1093,
       "chg_5yr_pct": 63.5,
       "chg_10yr_pct": -4.8,
@@ -8916,6 +9203,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4413,
+      "headcount_ft": 1128,
       "fte_12mo": 2627,
       "chg_5yr_pct": -4.3,
       "chg_10yr_pct": -6.9,
@@ -8947,6 +9235,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5574,
+      "headcount_ft": 1479,
       "fte_12mo": 3601,
       "chg_5yr_pct": 7.4,
       "chg_10yr_pct": 16.7,
@@ -8978,6 +9267,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 18446,
+      "headcount_ft": 6173,
       "fte_12mo": 14037,
       "chg_5yr_pct": -2.0,
       "chg_10yr_pct": -7.6,
@@ -9009,6 +9299,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1890,
+      "headcount_ft": 656,
       "fte_12mo": 1877,
       "chg_5yr_pct": -25.9,
       "chg_10yr_pct": -36.8,
@@ -9040,6 +9331,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3457,
+      "headcount_ft": 1491,
       "fte_12mo": 3230,
       "chg_5yr_pct": -10.5,
       "chg_10yr_pct": -20.6,
@@ -9071,6 +9363,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2582,
+      "headcount_ft": 782,
       "fte_12mo": 1458,
       "chg_5yr_pct": 1.0,
       "chg_10yr_pct": 7.2,
@@ -9102,6 +9395,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2851,
+      "headcount_ft": 827,
       "fte_12mo": 1928,
       "chg_5yr_pct": -5.1,
       "chg_10yr_pct": -4.7,
@@ -9133,6 +9427,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3959,
+      "headcount_ft": 1410,
       "fte_12mo": 3565,
       "chg_5yr_pct": 8.3,
       "chg_10yr_pct": -3.5,
@@ -9164,6 +9459,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4354,
+      "headcount_ft": 814,
       "fte_12mo": 3511,
       "chg_5yr_pct": -19.9,
       "chg_10yr_pct": -13.5,
@@ -9195,6 +9491,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1036,
+      "headcount_ft": 169,
       "fte_12mo": 815,
       "chg_5yr_pct": -48.5,
       "chg_10yr_pct": -59.4,
@@ -9226,6 +9523,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 10877,
+      "headcount_ft": 4053,
       "fte_12mo": 7992,
       "chg_5yr_pct": -5.7,
       "chg_10yr_pct": -10.1,
@@ -9257,6 +9555,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 8716,
+      "headcount_ft": 2541,
       "fte_12mo": 6186,
       "chg_5yr_pct": 13.4,
       "chg_10yr_pct": -4.7,
@@ -9288,6 +9587,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5871,
+      "headcount_ft": 1606,
       "fte_12mo": 5376,
       "chg_5yr_pct": 9.5,
       "chg_10yr_pct": 1.6,
@@ -9319,6 +9619,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 10443,
+      "headcount_ft": 3712,
       "fte_12mo": 7923,
       "chg_5yr_pct": -0.7,
       "chg_10yr_pct": -16.0,
@@ -9350,6 +9651,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1013,
+      "headcount_ft": 190,
       "fte_12mo": 855,
       "chg_5yr_pct": 1.7,
       "chg_10yr_pct": -21.7,
@@ -9381,6 +9683,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1260,
+      "headcount_ft": 403,
       "fte_12mo": 837,
       "chg_5yr_pct": -22.6,
       "chg_10yr_pct": -39.1,
@@ -9412,6 +9715,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1810,
+      "headcount_ft": 687,
       "fte_12mo": 1444,
       "chg_5yr_pct": -6.7,
       "chg_10yr_pct": -12.0,
@@ -9443,6 +9747,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1376,
+      "headcount_ft": 471,
       "fte_12mo": 1000,
       "chg_5yr_pct": 23.6,
       "chg_10yr_pct": 13.4,
@@ -9474,6 +9779,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4680,
+      "headcount_ft": 1547,
       "fte_12mo": 3930,
       "chg_5yr_pct": 15.6,
       "chg_10yr_pct": 16.4,
@@ -9505,6 +9811,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2387,
+      "headcount_ft": 651,
       "fte_12mo": 1546,
       "chg_5yr_pct": -11.4,
       "chg_10yr_pct": -19.3,
@@ -9536,6 +9843,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 819,
+      "headcount_ft": 223,
       "fte_12mo": 502,
       "chg_5yr_pct": 2.4,
       "chg_10yr_pct": 71.7,
@@ -9567,6 +9875,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1203,
+      "headcount_ft": 224,
       "fte_12mo": 771,
       "chg_5yr_pct": 8.9,
       "chg_10yr_pct": 13.9,
@@ -9598,6 +9907,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3617,
+      "headcount_ft": 895,
       "fte_12mo": 2608,
       "chg_5yr_pct": 14.3,
       "chg_10yr_pct": 16.5,
@@ -9629,6 +9939,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1085,
+      "headcount_ft": 466,
       "fte_12mo": 496,
       "chg_5yr_pct": 29.8,
       "chg_10yr_pct": 25.7,
@@ -9660,6 +9971,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2425,
+      "headcount_ft": 511,
       "fte_12mo": 1666,
       "chg_5yr_pct": -20.6,
       "chg_10yr_pct": -31.4,
@@ -9691,6 +10003,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 379,
+      "headcount_ft": 77,
       "fte_12mo": 226,
       "chg_5yr_pct": -28.1,
       "chg_10yr_pct": -7.6,
@@ -9722,6 +10035,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1250,
+      "headcount_ft": 118,
       "fte_12mo": 863,
       "chg_5yr_pct": -2.9,
       "chg_10yr_pct": -15.3,
@@ -9753,6 +10067,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 7371,
+      "headcount_ft": 2493,
       "fte_12mo": 5795,
       "chg_5yr_pct": -9.9,
       "chg_10yr_pct": -16.9,
@@ -9784,6 +10099,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2648,
+      "headcount_ft": 603,
       "fte_12mo": 1717,
       "chg_5yr_pct": -4.9,
       "chg_10yr_pct": -4.4,
@@ -9815,6 +10131,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2411,
+      "headcount_ft": 640,
       "fte_12mo": 1823,
       "chg_5yr_pct": -5.6,
       "chg_10yr_pct": -4.7,
@@ -9846,6 +10163,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 591,
+      "headcount_ft": 117,
       "fte_12mo": 408,
       "chg_5yr_pct": -21.3,
       "chg_10yr_pct": -41.3,
@@ -9877,6 +10195,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1989,
+      "headcount_ft": 794,
       "fte_12mo": 1434,
       "chg_5yr_pct": 19.0,
       "chg_10yr_pct": 0.1,
@@ -9908,6 +10227,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1777,
+      "headcount_ft": 419,
       "fte_12mo": 1450,
       "chg_5yr_pct": 5.5,
       "chg_10yr_pct": 11.3,
@@ -9939,6 +10259,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6862,
+      "headcount_ft": 1726,
       "fte_12mo": 3929,
       "chg_5yr_pct": 8.0,
       "chg_10yr_pct": 6.9,
@@ -9970,6 +10291,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3824,
+      "headcount_ft": 1242,
       "fte_12mo": 3220,
       "chg_5yr_pct": -4.8,
       "chg_10yr_pct": -4.8,
@@ -10001,6 +10323,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1397,
+      "headcount_ft": 441,
       "fte_12mo": 929,
       "chg_5yr_pct": -4.1,
       "chg_10yr_pct": 3.6,
@@ -10032,6 +10355,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2109,
+      "headcount_ft": 544,
       "fte_12mo": 1267,
       "chg_5yr_pct": -10.9,
       "chg_10yr_pct": -16.6,
@@ -10063,6 +10387,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2527,
+      "headcount_ft": 580,
       "fte_12mo": 1523,
       "chg_5yr_pct": -0.7,
       "chg_10yr_pct": -7.9,
@@ -10094,6 +10419,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2758,
+      "headcount_ft": 790,
       "fte_12mo": 1759,
       "chg_5yr_pct": -12.3,
       "chg_10yr_pct": -16.3,
@@ -10125,6 +10451,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 969,
+      "headcount_ft": 268,
       "fte_12mo": 697,
       "chg_5yr_pct": 0.6,
       "chg_10yr_pct": -23.9,
@@ -10156,6 +10483,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2841,
+      "headcount_ft": 925,
       "fte_12mo": 2078,
       "chg_5yr_pct": -7.2,
       "chg_10yr_pct": -29.4,
@@ -10187,6 +10515,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 22763,
+      "headcount_ft": 7433,
       "fte_12mo": 16533,
       "chg_5yr_pct": 4.1,
       "chg_10yr_pct": 6.4,
@@ -10218,6 +10547,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2883,
+      "headcount_ft": 849,
       "fte_12mo": 2259,
       "chg_5yr_pct": -11.0,
       "chg_10yr_pct": -14.0,
@@ -10249,6 +10579,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1791,
+      "headcount_ft": 562,
       "fte_12mo": 1051,
       "chg_5yr_pct": 0.7,
       "chg_10yr_pct": -12.9,
@@ -10280,6 +10611,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2405,
+      "headcount_ft": 960,
       "fte_12mo": 1690,
       "chg_5yr_pct": -7.5,
       "chg_10yr_pct": -11.5,
@@ -10311,6 +10643,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1751,
+      "headcount_ft": 300,
       "fte_12mo": 979,
       "chg_5yr_pct": 3.5,
       "chg_10yr_pct": -1.5,
@@ -10342,6 +10675,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 724,
+      "headcount_ft": 663,
       "fte_12mo": 696,
       "chg_5yr_pct": 55.4,
       "chg_10yr_pct": -29.2,
@@ -10373,6 +10707,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 11088,
+      "headcount_ft": 9481,
       "fte_12mo": 10380,
       "chg_5yr_pct": null,
       "chg_10yr_pct": null,
@@ -10404,6 +10739,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5460,
+      "headcount_ft": 4572,
       "fte_12mo": 5069,
       "chg_5yr_pct": -14.8,
       "chg_10yr_pct": -19.9,
@@ -10435,6 +10771,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 9246,
+      "headcount_ft": 7106,
       "fte_12mo": 8067,
       "chg_5yr_pct": -19.5,
       "chg_10yr_pct": -36.4,
@@ -10466,6 +10803,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 7416,
+      "headcount_ft": 6341,
       "fte_12mo": 6813,
       "chg_5yr_pct": -10.5,
       "chg_10yr_pct": -19.5,
@@ -10497,6 +10835,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6732,
+      "headcount_ft": 4852,
       "fte_12mo": 5967,
       "chg_5yr_pct": -13.1,
       "chg_10yr_pct": -16.3,
@@ -10528,6 +10867,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 11305,
+      "headcount_ft": 8141,
       "fte_12mo": 9940,
       "chg_5yr_pct": null,
       "chg_10yr_pct": null,
@@ -10559,6 +10899,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5184,
+      "headcount_ft": 4163,
       "fte_12mo": 4589,
       "chg_5yr_pct": -18.8,
       "chg_10yr_pct": -29.5,
@@ -10590,6 +10931,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 8350,
+      "headcount_ft": 7002,
       "fte_12mo": 8465,
       "chg_5yr_pct": -5.1,
       "chg_10yr_pct": -1.7,
@@ -10621,6 +10963,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 17076,
+      "headcount_ft": 13818,
       "fte_12mo": 15785,
       "chg_5yr_pct": -2.6,
       "chg_10yr_pct": 6.2,
@@ -10652,6 +10995,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 18456,
+      "headcount_ft": 16601,
       "fte_12mo": 18847,
       "chg_5yr_pct": 3.9,
       "chg_10yr_pct": 10.5,
@@ -10683,6 +11027,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3451,
+      "headcount_ft": 766,
       "fte_12mo": 1653,
       "chg_5yr_pct": -8.6,
       "chg_10yr_pct": -19.6,
@@ -10714,6 +11059,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1015,
+      "headcount_ft": 281,
       "fte_12mo": 474,
       "chg_5yr_pct": -25.0,
       "chg_10yr_pct": -45.7,
@@ -10745,6 +11091,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1696,
+      "headcount_ft": 503,
       "fte_12mo": 935,
       "chg_5yr_pct": 7.1,
       "chg_10yr_pct": -17.1,
@@ -10776,6 +11123,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6387,
+      "headcount_ft": 2576,
       "fte_12mo": 3684,
       "chg_5yr_pct": -25.6,
       "chg_10yr_pct": -35.5,
@@ -10807,6 +11155,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 9545,
+      "headcount_ft": 3662,
       "fte_12mo": 7528,
       "chg_5yr_pct": -8.4,
       "chg_10yr_pct": -20.1,
@@ -10838,6 +11187,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 7618,
+      "headcount_ft": 4396,
       "fte_12mo": 5774,
       "chg_5yr_pct": -27.6,
       "chg_10yr_pct": -40.2,
@@ -10869,6 +11219,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 9541,
+      "headcount_ft": 7627,
       "fte_12mo": 9457,
       "chg_5yr_pct": -4.3,
       "chg_10yr_pct": 13.7,
@@ -10900,6 +11251,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 8108,
+      "headcount_ft": 7014,
       "fte_12mo": 7857,
       "chg_5yr_pct": -7.5,
       "chg_10yr_pct": -17.0,
@@ -10931,6 +11283,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5457,
+      "headcount_ft": 2070,
       "fte_12mo": 3501,
       "chg_5yr_pct": -8.2,
       "chg_10yr_pct": -19.7,
@@ -10962,6 +11315,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1761,
+      "headcount_ft": 606,
       "fte_12mo": 951,
       "chg_5yr_pct": -28.2,
       "chg_10yr_pct": -32.0,
@@ -10993,6 +11347,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4288,
+      "headcount_ft": 1443,
       "fte_12mo": 2263,
       "chg_5yr_pct": -22.5,
       "chg_10yr_pct": -37.6,
@@ -11024,6 +11379,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1863,
+      "headcount_ft": 940,
       "fte_12mo": 1322,
       "chg_5yr_pct": -22.3,
       "chg_10yr_pct": -42.8,
@@ -11055,6 +11411,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 9443,
+      "headcount_ft": 4675,
       "fte_12mo": 6845,
       "chg_5yr_pct": -13.3,
       "chg_10yr_pct": -22.5,
@@ -11086,6 +11443,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3772,
+      "headcount_ft": 1481,
       "fte_12mo": 2099,
       "chg_5yr_pct": -15.7,
       "chg_10yr_pct": -25.5,
@@ -11117,6 +11475,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2252,
+      "headcount_ft": 1086,
       "fte_12mo": 1524,
       "chg_5yr_pct": -31.3,
       "chg_10yr_pct": -42.0,
@@ -11148,6 +11507,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5762,
+      "headcount_ft": 2474,
       "fte_12mo": 4013,
       "chg_5yr_pct": -8.8,
       "chg_10yr_pct": -19.4,
@@ -11179,6 +11539,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 8530,
+      "headcount_ft": 4694,
       "fte_12mo": 7287,
       "chg_5yr_pct": -30.5,
       "chg_10yr_pct": -44.4,
@@ -11210,6 +11571,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 11984,
+      "headcount_ft": 6755,
       "fte_12mo": 8610,
       "chg_5yr_pct": -31.2,
       "chg_10yr_pct": -46.4,
@@ -11241,6 +11603,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4217,
+      "headcount_ft": 2195,
       "fte_12mo": 2714,
       "chg_5yr_pct": -19.2,
       "chg_10yr_pct": -34.9,
@@ -11272,6 +11635,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1615,
+      "headcount_ft": 640,
       "fte_12mo": 960,
       "chg_5yr_pct": -18.4,
       "chg_10yr_pct": -17.7,
@@ -11303,6 +11667,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 8112,
+      "headcount_ft": 3161,
       "fte_12mo": 4484,
       "chg_5yr_pct": -17.5,
       "chg_10yr_pct": -33.9,
@@ -11334,6 +11699,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5372,
+      "headcount_ft": 2183,
       "fte_12mo": 3169,
       "chg_5yr_pct": -18.8,
       "chg_10yr_pct": -22.7,
@@ -11365,6 +11731,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5763,
+      "headcount_ft": 2724,
       "fte_12mo": 3839,
       "chg_5yr_pct": -16.0,
       "chg_10yr_pct": -23.4,
@@ -11396,6 +11763,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2723,
+      "headcount_ft": 1339,
       "fte_12mo": 1851,
       "chg_5yr_pct": -26.9,
       "chg_10yr_pct": -35.9,
@@ -11427,6 +11795,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6931,
+      "headcount_ft": 5224,
       "fte_12mo": 6151,
       "chg_5yr_pct": -16.4,
       "chg_10yr_pct": -14.5,
@@ -11458,6 +11827,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5429,
+      "headcount_ft": 2462,
       "fte_12mo": 3130,
       "chg_5yr_pct": -16.6,
       "chg_10yr_pct": -8.7,
@@ -11489,6 +11859,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6470,
+      "headcount_ft": 5241,
       "fte_12mo": 5726,
       "chg_5yr_pct": -29.0,
       "chg_10yr_pct": -41.6,
@@ -11520,6 +11891,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3928,
+      "headcount_ft": 3753,
       "fte_12mo": 3884,
       "chg_5yr_pct": -30.0,
       "chg_10yr_pct": -30.6,
@@ -11551,6 +11923,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4417,
+      "headcount_ft": 3753,
       "fte_12mo": 4246,
       "chg_5yr_pct": -22.6,
       "chg_10yr_pct": -26.0,
@@ -11582,6 +11955,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2751,
+      "headcount_ft": 2231,
       "fte_12mo": 2665,
       "chg_5yr_pct": -21.9,
       "chg_10yr_pct": -30.9,
@@ -11613,6 +11987,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1792,
+      "headcount_ft": 1673,
       "fte_12mo": 1936,
       "chg_5yr_pct": -21.3,
       "chg_10yr_pct": -29.3,
@@ -11644,6 +12019,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2737,
+      "headcount_ft": 1834,
       "fte_12mo": 2010,
       "chg_5yr_pct": 23.3,
       "chg_10yr_pct": 24.4,
@@ -11675,6 +12051,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 394,
+      "headcount_ft": 393,
       "fte_12mo": 394,
       "chg_5yr_pct": -3.4,
       "chg_10yr_pct": 8.5,
@@ -11706,6 +12083,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3749,
+      "headcount_ft": 3239,
       "fte_12mo": 3582,
       "chg_5yr_pct": 0.3,
       "chg_10yr_pct": 2.4,
@@ -11737,6 +12115,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2919,
+      "headcount_ft": 2330,
       "fte_12mo": 2763,
       "chg_5yr_pct": -9.2,
       "chg_10yr_pct": -11.0,
@@ -11768,6 +12147,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2777,
+      "headcount_ft": 2243,
       "fte_12mo": 2419,
       "chg_5yr_pct": -14.1,
       "chg_10yr_pct": -22.8,
@@ -11799,6 +12179,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3637,
+      "headcount_ft": 1212,
       "fte_12mo": 1870,
       "chg_5yr_pct": 6.2,
       "chg_10yr_pct": -19.5,
@@ -11830,6 +12211,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2204,
+      "headcount_ft": 1812,
       "fte_12mo": 2173,
       "chg_5yr_pct": 19.4,
       "chg_10yr_pct": 18.2,
@@ -11861,6 +12243,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1350,
+      "headcount_ft": 1222,
       "fte_12mo": 1517,
       "chg_5yr_pct": -22.1,
       "chg_10yr_pct": -25.0,
@@ -11892,6 +12275,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2040,
+      "headcount_ft": 1700,
       "fte_12mo": 1765,
       "chg_5yr_pct": -31.7,
       "chg_10yr_pct": -29.9,
@@ -11923,6 +12307,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4449,
+      "headcount_ft": 3637,
       "fte_12mo": 4208,
       "chg_5yr_pct": -12.5,
       "chg_10yr_pct": -1.2,
@@ -11954,6 +12339,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5514,
+      "headcount_ft": 4960,
       "fte_12mo": 5224,
       "chg_5yr_pct": -15.7,
       "chg_10yr_pct": -9.6,
@@ -11985,6 +12371,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2704,
+      "headcount_ft": 1930,
       "fte_12mo": 2298,
       "chg_5yr_pct": -10.6,
       "chg_10yr_pct": -1.3,
@@ -12016,6 +12403,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 9031,
+      "headcount_ft": 4444,
       "fte_12mo": 6682,
       "chg_5yr_pct": -21.7,
       "chg_10yr_pct": -35.1,
@@ -12047,6 +12435,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3220,
+      "headcount_ft": 2916,
       "fte_12mo": 3251,
       "chg_5yr_pct": -30.8,
       "chg_10yr_pct": -38.3,
@@ -12078,6 +12467,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3229,
+      "headcount_ft": 2968,
       "fte_12mo": 3279,
       "chg_5yr_pct": -23.7,
       "chg_10yr_pct": -23.6,
@@ -12109,6 +12499,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3884,
+      "headcount_ft": 1060,
       "fte_12mo": 1790,
       "chg_5yr_pct": -25.8,
       "chg_10yr_pct": -40.2,
@@ -12140,6 +12531,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6780,
+      "headcount_ft": 6067,
       "fte_12mo": 6678,
       "chg_5yr_pct": -1.1,
       "chg_10yr_pct": -2.6,
@@ -12171,6 +12563,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 7420,
+      "headcount_ft": 6092,
       "fte_12mo": 6900,
       "chg_5yr_pct": -2.5,
       "chg_10yr_pct": -3.5,
@@ -12202,6 +12595,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6756,
+      "headcount_ft": 5743,
       "fte_12mo": 6585,
       "chg_5yr_pct": -15.4,
       "chg_10yr_pct": -15.9,
@@ -12233,6 +12627,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 25865,
+      "headcount_ft": 22210,
       "fte_12mo": 26068,
       "chg_5yr_pct": -1.5,
       "chg_10yr_pct": 5.1,
@@ -12264,6 +12659,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 20053,
+      "headcount_ft": 9332,
       "fte_12mo": 12303,
       "chg_5yr_pct": -23.1,
       "chg_10yr_pct": -24.6,
@@ -12295,6 +12691,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1809,
+      "headcount_ft": 717,
       "fte_12mo": 1049,
       "chg_5yr_pct": 17.9,
       "chg_10yr_pct": 9.9,
@@ -12326,6 +12723,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4720,
+      "headcount_ft": 1194,
       "fte_12mo": 2715,
       "chg_5yr_pct": 98.9,
       "chg_10yr_pct": -15.1,
@@ -12357,6 +12755,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3001,
+      "headcount_ft": 978,
       "fte_12mo": 1517,
       "chg_5yr_pct": -15.6,
       "chg_10yr_pct": -16.5,
@@ -12388,6 +12787,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 16880,
+      "headcount_ft": 14029,
       "fte_12mo": 15352,
       "chg_5yr_pct": -5.9,
       "chg_10yr_pct": -2.3,
@@ -12419,6 +12819,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 31889,
+      "headcount_ft": 26261,
       "fte_12mo": 30422,
       "chg_5yr_pct": 1.2,
       "chg_10yr_pct": 6.3,
@@ -12450,6 +12851,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1286,
+      "headcount_ft": 1185,
       "fte_12mo": 1334,
       "chg_5yr_pct": -18.6,
       "chg_10yr_pct": -15.2,
@@ -12481,6 +12883,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 9517,
+      "headcount_ft": 8476,
       "fte_12mo": 8949,
       "chg_5yr_pct": 0.0,
       "chg_10yr_pct": 12.9,
@@ -12512,6 +12915,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 15937,
+      "headcount_ft": 9849,
       "fte_12mo": 13163,
       "chg_5yr_pct": 21.6,
       "chg_10yr_pct": 36.4,
@@ -12543,6 +12947,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 8536,
+      "headcount_ft": 5767,
       "fte_12mo": 7369,
       "chg_5yr_pct": 8.3,
       "chg_10yr_pct": 13.0,
@@ -12574,6 +12979,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 76633,
+      "headcount_ft": 65547,
       "fte_12mo": 66396,
       "chg_5yr_pct": 11.6,
       "chg_10yr_pct": 24.3,
@@ -12605,6 +13011,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 12013,
+      "headcount_ft": 7215,
       "fte_12mo": 8502,
       "chg_5yr_pct": -3.2,
       "chg_10yr_pct": -0.8,
@@ -12636,6 +13043,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 10855,
+      "headcount_ft": 6747,
       "fte_12mo": 9696,
       "chg_5yr_pct": -9.0,
       "chg_10yr_pct": -3.6,
@@ -12667,6 +13075,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6562,
+      "headcount_ft": 4808,
       "fte_12mo": 5487,
       "chg_5yr_pct": -23.2,
       "chg_10yr_pct": -50.5,
@@ -12698,6 +13107,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2255,
+      "headcount_ft": 706,
       "fte_12mo": 1793,
       "chg_5yr_pct": -8.5,
       "chg_10yr_pct": -2.6,
@@ -12729,6 +13139,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 7584,
+      "headcount_ft": 4242,
       "fte_12mo": 5648,
       "chg_5yr_pct": 15.7,
       "chg_10yr_pct": null,
@@ -12760,6 +13171,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2109,
+      "headcount_ft": 1387,
       "fte_12mo": 1716,
       "chg_5yr_pct": 0.9,
       "chg_10yr_pct": 13.1,
@@ -12791,6 +13203,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 8997,
+      "headcount_ft": 6067,
       "fte_12mo": 7469,
       "chg_5yr_pct": -10.3,
       "chg_10yr_pct": 0.3,
@@ -12822,6 +13235,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6601,
+      "headcount_ft": 3065,
       "fte_12mo": 4539,
       "chg_5yr_pct": -19.9,
       "chg_10yr_pct": -29.3,
@@ -12853,6 +13267,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3254,
+      "headcount_ft": 1516,
       "fte_12mo": 2038,
       "chg_5yr_pct": -0.3,
       "chg_10yr_pct": -7.6,
@@ -12884,6 +13299,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5115,
+      "headcount_ft": 2617,
       "fte_12mo": 3592,
       "chg_5yr_pct": -17.8,
       "chg_10yr_pct": -0.0,
@@ -12915,6 +13331,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3143,
+      "headcount_ft": 1258,
       "fte_12mo": 1975,
       "chg_5yr_pct": 5.6,
       "chg_10yr_pct": 10.4,
@@ -12946,6 +13363,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3078,
+      "headcount_ft": 1674,
       "fte_12mo": 2188,
       "chg_5yr_pct": -36.9,
       "chg_10yr_pct": -37.5,
@@ -12977,6 +13395,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6060,
+      "headcount_ft": 3101,
       "fte_12mo": 4057,
       "chg_5yr_pct": -12.0,
       "chg_10yr_pct": 27.4,
@@ -13008,6 +13427,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6608,
+      "headcount_ft": 2777,
       "fte_12mo": 4488,
       "chg_5yr_pct": -20.2,
       "chg_10yr_pct": -34.2,
@@ -13039,6 +13459,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5474,
+      "headcount_ft": 2672,
       "fte_12mo": 3624,
       "chg_5yr_pct": -10.8,
       "chg_10yr_pct": -6.7,
@@ -13070,6 +13491,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 8710,
+      "headcount_ft": 4283,
       "fte_12mo": 5685,
       "chg_5yr_pct": -20.0,
       "chg_10yr_pct": -13.8,
@@ -13101,6 +13523,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4822,
+      "headcount_ft": 2404,
       "fte_12mo": 3287,
       "chg_5yr_pct": -15.2,
       "chg_10yr_pct": -17.3,
@@ -13132,6 +13555,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6980,
+      "headcount_ft": 2807,
       "fte_12mo": 4189,
       "chg_5yr_pct": -25.3,
       "chg_10yr_pct": -31.7,
@@ -13163,6 +13587,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1171,
+      "headcount_ft": 608,
       "fte_12mo": 907,
       "chg_5yr_pct": 31.9,
       "chg_10yr_pct": 31.0,
@@ -13194,6 +13619,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2302,
+      "headcount_ft": 543,
       "fte_12mo": 907,
       "chg_5yr_pct": 399.3,
       "chg_10yr_pct": 577.1,
@@ -13225,6 +13651,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 365,
+      "headcount_ft": 215,
       "fte_12mo": 561,
       "chg_5yr_pct": 65.2,
       "chg_10yr_pct": 54.0,
@@ -13256,6 +13683,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 706,
+      "headcount_ft": 305,
       "fte_12mo": 466,
       "chg_5yr_pct": 62.3,
       "chg_10yr_pct": 124.1,
@@ -13287,6 +13715,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1412,
+      "headcount_ft": 236,
       "fte_12mo": 613,
       "chg_5yr_pct": 206.3,
       "chg_10yr_pct": 462.5,
@@ -13318,6 +13747,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1229,
+      "headcount_ft": 591,
       "fte_12mo": 829,
       "chg_5yr_pct": 72.4,
       "chg_10yr_pct": 185.8,
@@ -13349,6 +13779,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1093,
+      "headcount_ft": 470,
       "fte_12mo": 861,
       "chg_5yr_pct": 125.8,
       "chg_10yr_pct": 129.1,
@@ -13380,6 +13811,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 719,
+      "headcount_ft": 212,
       "fte_12mo": 387,
       "chg_5yr_pct": 163.4,
       "chg_10yr_pct": 232.9,
@@ -13411,6 +13843,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 701,
+      "headcount_ft": 167,
       "fte_12mo": 344,
       "chg_5yr_pct": 8.3,
       "chg_10yr_pct": 18.2,
@@ -13442,6 +13875,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 278,
+      "headcount_ft": 191,
       "fte_12mo": 275,
       "chg_5yr_pct": -9.2,
       "chg_10yr_pct": -16.3,
@@ -13473,6 +13907,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1506,
+      "headcount_ft": 278,
       "fte_12mo": 565,
       "chg_5yr_pct": 132.8,
       "chg_10yr_pct": 326.6,
@@ -13504,6 +13939,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 422,
+      "headcount_ft": 214,
       "fte_12mo": 299,
       "chg_5yr_pct": 82.7,
       "chg_10yr_pct": 62.3,
@@ -13535,6 +13971,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2427,
+      "headcount_ft": 527,
       "fte_12mo": 1092,
       "chg_5yr_pct": 343.7,
       "chg_10yr_pct": 532.0,
@@ -13566,6 +14003,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1206,
+      "headcount_ft": 715,
       "fte_12mo": 1136,
       "chg_5yr_pct": 52.3,
       "chg_10yr_pct": -7.2,
@@ -13597,6 +14035,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1093,
+      "headcount_ft": 300,
       "fte_12mo": 542,
       "chg_5yr_pct": -13.2,
       "chg_10yr_pct": 130.1,
@@ -13628,6 +14067,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 170,
+      "headcount_ft": 109,
       "fte_12mo": 153,
       "chg_5yr_pct": 4.9,
       "chg_10yr_pct": 10.4,
@@ -13659,6 +14099,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 656,
+      "headcount_ft": 201,
       "fte_12mo": 387,
       "chg_5yr_pct": 163.5,
       "chg_10yr_pct": 91.3,
@@ -13690,6 +14131,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1691,
+      "headcount_ft": 870,
       "fte_12mo": 1321,
       "chg_5yr_pct": 87.5,
       "chg_10yr_pct": 60.9,
@@ -13721,6 +14163,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 714,
+      "headcount_ft": 564,
       "fte_12mo": 725,
       "chg_5yr_pct": -18.5,
       "chg_10yr_pct": 20.6,
@@ -13752,6 +14195,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 630,
+      "headcount_ft": 423,
       "fte_12mo": 646,
       "chg_5yr_pct": 16.9,
       "chg_10yr_pct": 74.5,
@@ -13783,6 +14227,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 462,
+      "headcount_ft": 154,
       "fte_12mo": 272,
       "chg_5yr_pct": 48.6,
       "chg_10yr_pct": 33.9,
@@ -13814,6 +14259,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 705,
+      "headcount_ft": 167,
       "fte_12mo": 395,
       "chg_5yr_pct": 13.9,
       "chg_10yr_pct": -15.1,
@@ -13845,6 +14291,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 544,
+      "headcount_ft": 306,
       "fte_12mo": 526,
       "chg_5yr_pct": 24.2,
       "chg_10yr_pct": 16.2,
@@ -13876,6 +14323,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6605,
+      "headcount_ft": 3543,
       "fte_12mo": 4411,
       "chg_5yr_pct": -27.8,
       "chg_10yr_pct": -13.8,
@@ -13907,6 +14355,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5833,
+      "headcount_ft": 2813,
       "fte_12mo": 3645,
       "chg_5yr_pct": -5.1,
       "chg_10yr_pct": -2.9,
@@ -13938,6 +14387,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 45699,
+      "headcount_ft": 41572,
       "fte_12mo": 46344,
       "chg_5yr_pct": 7.5,
       "chg_10yr_pct": 21.7,
@@ -13969,6 +14419,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 39707,
+      "headcount_ft": 38184,
       "fte_12mo": 39661,
       "chg_5yr_pct": 4.0,
       "chg_10yr_pct": 15.1,
@@ -14000,6 +14451,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 36582,
+      "headcount_ft": 35511,
       "fte_12mo": 37955,
       "chg_5yr_pct": 1.5,
       "chg_10yr_pct": 21.7,
@@ -14031,6 +14483,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 46678,
+      "headcount_ft": 44730,
       "fte_12mo": 48587,
       "chg_5yr_pct": 4.8,
       "chg_10yr_pct": 11.5,
@@ -14062,6 +14515,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 9147,
+      "headcount_ft": 9033,
       "fte_12mo": 9316,
       "chg_5yr_pct": 7.1,
       "chg_10yr_pct": 45.9,
@@ -14093,6 +14547,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 26426,
+      "headcount_ft": 25452,
       "fte_12mo": 26448,
       "chg_5yr_pct": 10.5,
       "chg_10yr_pct": 22.9,
@@ -14124,6 +14579,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 42376,
+      "headcount_ft": 40716,
       "fte_12mo": 44071,
       "chg_5yr_pct": 11.8,
       "chg_10yr_pct": 38.0,
@@ -14155,6 +14611,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3126,
+      "headcount_ft": 3126,
       "fte_12mo": 2647,
       "chg_5yr_pct": 0.4,
       "chg_10yr_pct": -1.4,
@@ -14186,6 +14643,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 26068,
+      "headcount_ft": 25275,
       "fte_12mo": 26663,
       "chg_5yr_pct": 0.4,
       "chg_10yr_pct": 13.1,
@@ -14217,6 +14675,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 19764,
+      "headcount_ft": 19120,
       "fte_12mo": 21302,
       "chg_5yr_pct": 0.3,
       "chg_10yr_pct": 10.6,
@@ -14248,6 +14707,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 21253,
+      "headcount_ft": 18960,
       "fte_12mo": 20666,
       "chg_5yr_pct": 11.2,
       "chg_10yr_pct": 17.9,
@@ -14279,6 +14739,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 26785,
+      "headcount_ft": 20165,
       "fte_12mo": 23409,
       "chg_5yr_pct": -6.7,
       "chg_10yr_pct": -2.6,
@@ -14310,6 +14771,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2165,
+      "headcount_ft": 1713,
       "fte_12mo": 1935,
       "chg_5yr_pct": 29.1,
       "chg_10yr_pct": 16.0,
@@ -14341,6 +14803,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6847,
+      "headcount_ft": 4603,
       "fte_12mo": 6062,
       "chg_5yr_pct": 8.4,
       "chg_10yr_pct": 16.1,
@@ -14372,6 +14835,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 13885,
+      "headcount_ft": 12007,
       "fte_12mo": 13077,
       "chg_5yr_pct": 14.4,
       "chg_10yr_pct": 29.5,
@@ -14403,6 +14867,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 7965,
+      "headcount_ft": 6316,
       "fte_12mo": 7276,
       "chg_5yr_pct": -2.9,
       "chg_10yr_pct": 3.6,
@@ -14434,6 +14899,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 37323,
+      "headcount_ft": 31842,
       "fte_12mo": 32880,
       "chg_5yr_pct": 5.2,
       "chg_10yr_pct": 9.8,
@@ -14465,6 +14931,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2925,
+      "headcount_ft": 2544,
       "fte_12mo": 2697,
       "chg_5yr_pct": -22.2,
       "chg_10yr_pct": -23.9,
@@ -14496,6 +14963,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1074,
+      "headcount_ft": 1060,
       "fte_12mo": 1057,
       "chg_5yr_pct": 3.1,
       "chg_10yr_pct": 12.1,
@@ -14527,6 +14995,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 17987,
+      "headcount_ft": 14114,
       "fte_12mo": 16392,
       "chg_5yr_pct": 7.4,
       "chg_10yr_pct": 23.5,
@@ -14558,6 +15027,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 32234,
+      "headcount_ft": 29668,
       "fte_12mo": 30607,
       "chg_5yr_pct": 7.4,
       "chg_10yr_pct": 10.6,
@@ -14589,6 +15059,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 30298,
+      "headcount_ft": 24063,
       "fte_12mo": 26922,
       "chg_5yr_pct": 2.0,
       "chg_10yr_pct": 11.2,
@@ -14620,6 +15091,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 17743,
+      "headcount_ft": 13541,
       "fte_12mo": 15649,
       "chg_5yr_pct": -11.8,
       "chg_10yr_pct": -4.8,
@@ -14651,6 +15123,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 7630,
+      "headcount_ft": 4646,
       "fte_12mo": 6364,
       "chg_5yr_pct": 6.9,
       "chg_10yr_pct": 21.7,
@@ -14682,6 +15155,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 11628,
+      "headcount_ft": 9027,
       "fte_12mo": 10629,
       "chg_5yr_pct": -0.1,
       "chg_10yr_pct": 12.0,
@@ -14713,6 +15187,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4776,
+      "headcount_ft": 4086,
       "fte_12mo": 4591,
       "chg_5yr_pct": -8.0,
       "chg_10yr_pct": -8.5,
@@ -14744,6 +15219,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3768,
+      "headcount_ft": 2473,
       "fte_12mo": 2994,
       "chg_5yr_pct": -12.2,
       "chg_10yr_pct": 9.0,
@@ -14775,6 +15251,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6544,
+      "headcount_ft": 4698,
       "fte_12mo": 5809,
       "chg_5yr_pct": 2.7,
       "chg_10yr_pct": 67.4,
@@ -14806,6 +15283,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1551,
+      "headcount_ft": 615,
       "fte_12mo": 1224,
       "chg_5yr_pct": -29.1,
       "chg_10yr_pct": -47.9,
@@ -14837,6 +15315,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 9862,
+      "headcount_ft": 7796,
       "fte_12mo": 9534,
       "chg_5yr_pct": 16.6,
       "chg_10yr_pct": 23.5,
@@ -14868,6 +15347,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5842,
+      "headcount_ft": 3154,
       "fte_12mo": 4520,
       "chg_5yr_pct": -17.0,
       "chg_10yr_pct": -16.8,
@@ -14899,6 +15379,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3189,
+      "headcount_ft": 1781,
       "fte_12mo": 2470,
       "chg_5yr_pct": -10.1,
       "chg_10yr_pct": 6.0,
@@ -14930,6 +15411,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 7610,
+      "headcount_ft": 4612,
       "fte_12mo": 6219,
       "chg_5yr_pct": -5.8,
       "chg_10yr_pct": -7.1,
@@ -14961,6 +15443,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4902,
+      "headcount_ft": 2745,
       "fte_12mo": 3818,
       "chg_5yr_pct": -4.2,
       "chg_10yr_pct": 1.0,
@@ -14992,6 +15475,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1756,
+      "headcount_ft": 1015,
       "fte_12mo": 1225,
       "chg_5yr_pct": -40.3,
       "chg_10yr_pct": -39.7,
@@ -15023,6 +15507,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2763,
+      "headcount_ft": 2424,
       "fte_12mo": 2582,
       "chg_5yr_pct": -0.5,
       "chg_10yr_pct": 6.5,
@@ -15054,6 +15539,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6811,
+      "headcount_ft": 5602,
       "fte_12mo": 6656,
       "chg_5yr_pct": -2.5,
       "chg_10yr_pct": 0.6,
@@ -15085,6 +15571,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 11907,
+      "headcount_ft": 7795,
       "fte_12mo": 9805,
       "chg_5yr_pct": -4.8,
       "chg_10yr_pct": 10.0,
@@ -15116,6 +15603,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4955,
+      "headcount_ft": 1971,
       "fte_12mo": 3481,
       "chg_5yr_pct": -19.9,
       "chg_10yr_pct": -7.6,
@@ -15147,6 +15635,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 47946,
+      "headcount_ft": 25178,
       "fte_12mo": 39092,
       "chg_5yr_pct": 46.5,
       "chg_10yr_pct": 107.5,
@@ -15178,6 +15667,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 26041,
+      "headcount_ft": 19825,
       "fte_12mo": 23759,
       "chg_5yr_pct": -1.4,
       "chg_10yr_pct": 26.9,
@@ -15209,6 +15699,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3408,
+      "headcount_ft": 2085,
       "fte_12mo": 2825,
       "chg_5yr_pct": 17.2,
       "chg_10yr_pct": 27.8,
@@ -15240,6 +15731,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 34974,
+      "headcount_ft": 26333,
       "fte_12mo": 33035,
       "chg_5yr_pct": 1.9,
       "chg_10yr_pct": 7.4,
@@ -15271,6 +15763,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 15522,
+      "headcount_ft": 5914,
       "fte_12mo": 10442,
       "chg_5yr_pct": -16.0,
       "chg_10yr_pct": -27.4,
@@ -15302,6 +15795,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3129,
+      "headcount_ft": 1811,
       "fte_12mo": 2397,
       "chg_5yr_pct": -14.6,
       "chg_10yr_pct": -22.7,
@@ -15333,6 +15827,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 45069,
+      "headcount_ft": 32086,
       "fte_12mo": 39531,
       "chg_5yr_pct": 27.2,
       "chg_10yr_pct": null,
@@ -15364,6 +15859,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 8033,
+      "headcount_ft": 4541,
       "fte_12mo": 6407,
       "chg_5yr_pct": 3.0,
       "chg_10yr_pct": 1.3,
@@ -15395,6 +15891,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3078,
+      "headcount_ft": 2520,
       "fte_12mo": 2791,
       "chg_5yr_pct": -24.5,
       "chg_10yr_pct": -37.4,
@@ -15426,6 +15923,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1853,
+      "headcount_ft": 1089,
       "fte_12mo": 1484,
       "chg_5yr_pct": -25.3,
       "chg_10yr_pct": -29.0,
@@ -15457,6 +15955,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 41615,
+      "headcount_ft": 37348,
       "fte_12mo": 43488,
       "chg_5yr_pct": 7.7,
       "chg_10yr_pct": 18.2,
@@ -15488,6 +15987,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 18074,
+      "headcount_ft": 11910,
       "fte_12mo": 14925,
       "chg_5yr_pct": -8.4,
       "chg_10yr_pct": 12.5,
@@ -15519,6 +16019,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 12728,
+      "headcount_ft": 6556,
       "fte_12mo": 10493,
       "chg_5yr_pct": -7.3,
       "chg_10yr_pct": 4.3,
@@ -15550,6 +16051,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 10151,
+      "headcount_ft": 6334,
       "fte_12mo": 8741,
       "chg_5yr_pct": -9.5,
       "chg_10yr_pct": -12.2,
@@ -15581,6 +16083,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 10888,
+      "headcount_ft": 8345,
       "fte_12mo": 9331,
       "chg_5yr_pct": -17.2,
       "chg_10yr_pct": -14.9,
@@ -15612,6 +16115,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5048,
+      "headcount_ft": 3298,
       "fte_12mo": 4791,
       "chg_5yr_pct": -5.4,
       "chg_10yr_pct": 10.8,
@@ -15643,6 +16147,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3640,
+      "headcount_ft": 3143,
       "fte_12mo": 4029,
       "chg_5yr_pct": 10.6,
       "chg_10yr_pct": 15.7,
@@ -15674,6 +16179,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 355,
+      "headcount_ft": 306,
       "fte_12mo": 393,
       "chg_5yr_pct": -5.6,
       "chg_10yr_pct": 17.2,
@@ -15705,6 +16211,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3315,
+      "headcount_ft": 2328,
       "fte_12mo": 3527,
       "chg_5yr_pct": -0.8,
       "chg_10yr_pct": 3.2,
@@ -15736,6 +16243,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5899,
+      "headcount_ft": 3588,
       "fte_12mo": 4509,
       "chg_5yr_pct": 1.1,
       "chg_10yr_pct": 6.1,
@@ -15767,6 +16275,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 31931,
+      "headcount_ft": 21945,
       "fte_12mo": 28008,
       "chg_5yr_pct": 11.5,
       "chg_10yr_pct": 51.9,
@@ -15798,6 +16307,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 43992,
+      "headcount_ft": 25975,
       "fte_12mo": 38880,
       "chg_5yr_pct": -8.2,
       "chg_10yr_pct": 10.7,
@@ -15829,6 +16339,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 53082,
+      "headcount_ft": 49894,
       "fte_12mo": 48496,
       "chg_5yr_pct": 2.4,
       "chg_10yr_pct": 3.4,
@@ -15860,6 +16371,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 30885,
+      "headcount_ft": 25108,
       "fte_12mo": 26577,
       "chg_5yr_pct": 7.4,
       "chg_10yr_pct": 33.7,
@@ -15891,6 +16403,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 24351,
+      "headcount_ft": 16154,
       "fte_12mo": 19898,
       "chg_5yr_pct": -3.2,
       "chg_10yr_pct": 5.5,
@@ -15922,6 +16435,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 34864,
+      "headcount_ft": 24829,
       "fte_12mo": 29554,
       "chg_5yr_pct": 8.1,
       "chg_10yr_pct": 21.8,
@@ -15953,6 +16467,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 9678,
+      "headcount_ft": 5874,
       "fte_12mo": 8259,
       "chg_5yr_pct": -5.2,
       "chg_10yr_pct": 20.4,
@@ -15984,6 +16499,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2501,
+      "headcount_ft": 1845,
       "fte_12mo": 2298,
       "chg_5yr_pct": 10.4,
       "chg_10yr_pct": 6.8,
@@ -16015,6 +16531,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3718,
+      "headcount_ft": 1065,
       "fte_12mo": 2194,
       "chg_5yr_pct": -9.3,
       "chg_10yr_pct": -15.3,
@@ -16046,6 +16563,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 9023,
+      "headcount_ft": 2025,
       "fte_12mo": 4928,
       "chg_5yr_pct": -11.1,
       "chg_10yr_pct": -8.6,
@@ -16077,6 +16595,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3410,
+      "headcount_ft": 1057,
       "fte_12mo": 2135,
       "chg_5yr_pct": -15.7,
       "chg_10yr_pct": -24.5,
@@ -16108,6 +16627,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2489,
+      "headcount_ft": 909,
       "fte_12mo": 1549,
       "chg_5yr_pct": -12.0,
       "chg_10yr_pct": -37.5,
@@ -16139,6 +16659,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 720,
+      "headcount_ft": 211,
       "fte_12mo": 446,
       "chg_5yr_pct": 10.1,
       "chg_10yr_pct": -14.2,
@@ -16170,6 +16691,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 8082,
+      "headcount_ft": 2257,
       "fte_12mo": 4931,
       "chg_5yr_pct": 12.1,
       "chg_10yr_pct": 11.0,
@@ -16201,6 +16723,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 7707,
+      "headcount_ft": 2556,
       "fte_12mo": 4987,
       "chg_5yr_pct": -11.8,
       "chg_10yr_pct": -35.0,
@@ -16232,6 +16755,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5935,
+      "headcount_ft": 1908,
       "fte_12mo": 3517,
       "chg_5yr_pct": -12.7,
       "chg_10yr_pct": -15.2,
@@ -16263,6 +16787,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2015,
+      "headcount_ft": 928,
       "fte_12mo": 1414,
       "chg_5yr_pct": -19.6,
       "chg_10yr_pct": -25.9,
@@ -16294,6 +16819,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1002,
+      "headcount_ft": 307,
       "fte_12mo": 560,
       "chg_5yr_pct": 2.1,
       "chg_10yr_pct": -20.3,
@@ -16325,6 +16851,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 4156,
+      "headcount_ft": 1458,
       "fte_12mo": 2533,
       "chg_5yr_pct": -6.0,
       "chg_10yr_pct": -9.4,
@@ -16356,6 +16883,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 53810,
+      "headcount_ft": 14008,
       "fte_12mo": 29731,
       "chg_5yr_pct": 5.7,
       "chg_10yr_pct": 4.5,
@@ -16387,6 +16915,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1932,
+      "headcount_ft": 1029,
       "fte_12mo": 1453,
       "chg_5yr_pct": -14.7,
       "chg_10yr_pct": -32.3,
@@ -16418,6 +16947,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 1168,
+      "headcount_ft": 374,
       "fte_12mo": 721,
       "chg_5yr_pct": -9.3,
       "chg_10yr_pct": -7.2,
@@ -16449,6 +16979,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 5174,
+      "headcount_ft": 1076,
       "fte_12mo": 2731,
       "chg_5yr_pct": -5.0,
       "chg_10yr_pct": -6.8,
@@ -16480,6 +17011,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2767,
+      "headcount_ft": 615,
       "fte_12mo": 1611,
       "chg_5yr_pct": -10.2,
       "chg_10yr_pct": -22.5,
@@ -16511,6 +17043,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 3258,
+      "headcount_ft": 1057,
       "fte_12mo": 1997,
       "chg_5yr_pct": -5.0,
       "chg_10yr_pct": -39.1,
@@ -16542,6 +17075,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2288,
+      "headcount_ft": 1081,
       "fte_12mo": 1721,
       "chg_5yr_pct": -3.6,
       "chg_10yr_pct": -10.1,
@@ -16573,6 +17107,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 15912,
+      "headcount_ft": 4988,
       "fte_12mo": 10165,
       "chg_5yr_pct": -24.0,
       "chg_10yr_pct": -42.4,
@@ -16604,6 +17139,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2052,
+      "headcount_ft": 718,
       "fte_12mo": 1286,
       "chg_5yr_pct": -14.0,
       "chg_10yr_pct": -18.1,
@@ -16635,6 +17171,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6127,
+      "headcount_ft": 1709,
       "fte_12mo": 3723,
       "chg_5yr_pct": -20.3,
       "chg_10yr_pct": -41.3,
@@ -16666,6 +17203,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 6170,
+      "headcount_ft": 1606,
       "fte_12mo": 3521,
       "chg_5yr_pct": -9.6,
       "chg_10yr_pct": -28.5,
@@ -16697,6 +17235,7 @@
     "metrics": {
       "latest_year": 2023,
       "headcount": 2119,
+      "headcount_ft": 822,
       "fte_12mo": 1422,
       "chg_5yr_pct": -15.7,
       "chg_10yr_pct": -35.8,
