@@ -4,9 +4,11 @@ Higher Education campus explorer for Perkins Eastman Higher Education Advisory.
 
 **Live (GitHub Pages):** [https://dwieberdink.github.io/CampusExplorer/](https://dwieberdink.github.io/CampusExplorer/)
 
-**Demo password:** `CUAdvice` (client-side gate via `sessionStorage` — not real security; intentional for static PE demos).
+**Demo password:** `CUAdvice` (client-side gate via `localStorage` — remembered across visits; not real security; intentional for static PE demos).
 
 **Pattern:** clone of [`PE-k12-strategies/SchoolExplorer`](https://github.com/PE-k12-strategies/SchoolExplorer) — static HTML/JS SPA + Supabase warehouse + offline ETL + GitHub Pages.
+
+**Data:** Today the explorer reads seed JSON under `data/seed/` (in-repo). Optional Supabase warehouse later when keys are configured — see below.
 
 **Data spine:** IPEDS `UNITID` (+ optional CCC college/district codes). Seed demo covers California Community Colleges plus a few CSU/UC campuses.
 
@@ -14,12 +16,12 @@ Higher Education campus explorer for Perkins Eastman Higher Education Advisory.
 
 | Feature | Status |
 |---------|--------|
-| Demo password gate (`index.html` → `js/demo-gate.js`) | Unlocks explorer/admin for the browser session |
+| Demo password gate (`index.html` → `js/demo-gate.js`) | Unlocks explorer/admin; persists in `localStorage` across visits |
 | Auth / admin / confirm / reset pages | UI stubs; auth inactive until Supabase keys are set |
 | Explorer filters (State → System → Campus → Year) | Works on `data/seed/*.json` |
 | Overview KPIs + YoY enrollment | Works on seed |
 | Chart.js enrollment + CIP awards | Works on seed |
-| Campus map | Lat/lon in seed; Mapbox needs `pk.` token in `js/he-config.js` |
+| Campus map | Mapbox GL with public `pk.` token in `js/he-config.js` |
 | Compare view | Stub table, works on seed |
 | SQL migrations + RLS outline | Ready to paste into Supabase |
 | `ipeds-sync/` | Seed upsert stub + documented Complete Data Files commands |
@@ -34,8 +36,9 @@ Higher Education campus explorer for Perkins Eastman Higher Education Advisory.
    - `sql/migrations/002_he_rls.sql`
 3. Put **URL** + **anon** key in `js/config.js` (placeholders today).
 4. Put **service role** key in `ipeds-sync/.env` (and GitHub Actions secrets) — never in browser code.
-5. Set Mapbox public token in `js/he-config.js` for live map tiles.
-6. Point Supabase Auth Site URL at the GitHub Pages origin once Pages is enabled.
+5. Point Supabase Auth Site URL at the GitHub Pages origin once Pages is enabled.
+
+(Mapbox public `pk.` token is already set in `js/he-config.js` for client GL — restrict allowed URLs in the Mapbox dashboard.)
 
 ## Local preview
 

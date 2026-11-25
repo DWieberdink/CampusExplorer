@@ -2,21 +2,43 @@
 (function (global) {
   var STORAGE_KEY = 'campusExplorerDemoGate';
   var EXPECTED = 'CUAdvice';
-  var store = global.sessionStorage;
+  // Persist across visits (localStorage) so the demo password is not re-entered every session.
+  var store = global.localStorage;
+  var sessionStore = global.sessionStorage;
 
-  function isUnlocked() {
+  function readFlag(s) {
     try {
-      return store.getItem(STORAGE_KEY) === '1';
+      return s && s.getItem(STORAGE_KEY) === '1';
     } catch (err) {
       return false;
     }
+  }
+
+  function isUnlocked() {
+    if (readFlag(store)) return true;
+    // Migrate a prior session-only unlock into localStorage.
+    if (readFlag(sessionStore)) {
+      unlock();
+      try {
+        sessionStore.removeItem(STORAGE_KEY);
+      } catch (err) {
+        /* ignore */
+      }
+      return true;
+    }
+    return false;
   }
 
   function unlock() {
     try {
       store.setItem(STORAGE_KEY, '1');
     } catch (err) {
-      /* private mode / blocked storage */
+      /* private mode / blocked storage — fall back to session */
+      try {
+        sessionStore.setItem(STORAGE_KEY, '1');
+      } catch (err2) {
+        /* ignore */
+      }
     }
   }
 
