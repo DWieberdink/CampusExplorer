@@ -411,3 +411,7 @@ body.he-app {
     grid-template-columns: 1fr;
   }
 }
+
+.cp-muted { color: var(--he-muted); font-size: 0.8rem; margin-top: 2px; }
+.cp-match { display: inline-block; margin-left: 6px; padding: 1px 7px; border-radius: 999px; background: #fdf3e2; color: #8a5a00; font-size: 0.7rem; font-weight: 600; vertical-align: middle; }
+.cp-leadership td { vertical-align: top; }

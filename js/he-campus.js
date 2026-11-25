@@ -88,7 +88,49 @@
     return window.HE_SOURCES.facilities.filter((s) => s.systems.includes(system));
   }
 
-  function render(d, campuses, families) {
+  const LEADERSHIP_ROLES = [
+    ['president', 'President / chancellor'],
+    ['provost', 'Provost / chief academic officer'],
+    ['cfo', 'Chief financial officer'],
+    ['coo', 'Chief operating officer'],
+  ];
+
+  function leadershipCard(code, lead) {
+    const sys = lead?.systems?.[code];
+    if (!sys) return '';
+    const rows = LEADERSHIP_ROLES.map(([key, label]) => {
+      const r = sys.roles[key];
+      if (!r || !r.name) {
+        return `<tr><td>${label}</td><td colspan="2" class="cp-muted">${esc(r?.note || 'No system-level equivalent')}</td></tr>`;
+      }
+      const phoneHref = r.phone ? r.phone.replace(/[^\d+]/g, '') : '';
+      const contact = [
+        r.email && `<a class="he-link" href="mailto:${esc(r.email)}">${esc(r.email)}</a>`,
+        r.phone && `<a class="he-link" href="tel:${esc(phoneHref)}">${esc(r.phone)}</a>`,
+      ].filter(Boolean).join('<br>') || `<a class="he-link" href="${esc(sys.leadership_url)}" target="_blank" rel="noopener">System leadership page ↗</a>`;
+      const match = r.match === 'closest' ? ' <span class="cp-match">closest title</span>' : '';
+      const title = r.title ? `<div class="cp-muted">${esc(r.title)}</div>` : '';
+      const note = r.note ? `<div class="cp-muted">${esc(r.note)}</div>` : '';
+      return `<tr><td>${label}</td><td><b>${esc(r.name)}</b>${match}${title}${note}</td><td>${contact}</td></tr>`;
+    }).join('');
+    const office = sys.office && (sys.office.address || sys.office.phone || sys.office.email)
+      ? `<p class="hint">System office: ${esc([sys.office.address, sys.office.phone, sys.office.email].filter(Boolean).join(' · '))}</p>`
+      : '';
+    return `
+      <section class="he-card" style="min-height:auto;">
+        <h2>System leadership · ${esc(sys.name)}</h2>
+        <p class="hint">Checked ${esc(lead.as_of)} from system websites and staff directories. “Closest title” means the system uses a different title for that job. Confirm before external use.</p>
+        ${office}
+        <div style="overflow-x:auto;">
+          <table class="he-table cp-leadership">
+            <thead><tr><th>Role</th><th>Name &amp; title</th><th>Contact</th></tr></thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </div>
+      </section>`;
+  }
+
+  function render(d, campuses, families, leadership) {
     const dir = d.directory;
     const m = d.metrics;
     const f = d.facilities;
@@ -215,6 +257,8 @@
           ])}
         </div>
       </section>
+
+      ${leadershipCard(dir.system_code, leadership)}
 
       <section class="he-grid-2">
         <div class="he-card">
@@ -360,12 +404,13 @@
     }
     try {
       const cfg = window.HE_CONFIG.seedPaths;
-      const [detail, campuses, families] = await Promise.all([
+      const [detail, campuses, families, leadership] = await Promise.all([
         fetchJson(`${cfg.campusDetailDir}/${unitid}.json`),
         fetchJson(cfg.campuses),
         fetchJson(cfg.cipFamilies).catch(() => ({})),
+        fetchJson(cfg.systemLeadership).catch(() => null),
       ]);
-      render(detail, campuses, families);
+      render(detail, campuses, families, leadership);
     } catch (err) {
       console.error(err);
       root.innerHTML = `<div class="he-card" style="min-height:auto;"><p>Could not load campus ${esc(unitid)}. <a class="he-link" href="explorer.html">Back to explorer</a></p></div>`;
