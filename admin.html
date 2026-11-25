@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Explorer Admin</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/demo-gate.js"></script>
+  <script>window.CampusExplorerGate.requireUnlock('index.html');</script>
+</head>
+<body>
+  <main class="page admin-page">
+    <section class="card">
+      <h1>Approve access requests</h1>
+      <p class="subtitle">
+        Admin stub patterned on SchoolExplorer. Requires Supabase URL/anon key in
+        <code>js/config.js</code> and an admin session (<code>ADMIN_EMAIL</code>).
+      </p>
+      <p>
+        <a class="btn btn-secondary" href="index.html" style="text-decoration:none;display:inline-block;">← Access page</a>
+        <a class="btn btn-secondary" href="explorer.html" style="text-decoration:none;display:inline-block;margin-left:8px;">Explorer</a>
+      </p>
+      <div id="message" class="message" role="alert"></div>
+      <div id="user-list" class="user-list">
+        <div class="empty-state">Loading…</div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/config.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.49.8"></script>
+  <script>
+    const listEl = document.getElementById('user-list');
+    const messageEl = document.getElementById('message');
+
+    function showMessage(text, type) {
+      messageEl.textContent = text;
+      messageEl.className = `message show ${type}`;
+    }
+
+    if (!window.isSupabaseConfigured()) {
+      listEl.innerHTML = '<div class="empty-state">Supabase not configured. Paste URL + anon key into js/config.js, run sql/setup.sql, then sign in as ADMIN_EMAIL.</div>';
+      showMessage('Admin approvals unavailable until Supabase is provisioned.', 'warning');
+    } else {
+      const { createClient } = supabase;
+      const client = createClient(window.SUPABASE_URL, window.SUPABASE_ANON_KEY);
+
+      async function load() {
+        const { data: sessionData } = await client.auth.getSession();
+        const user = sessionData.session?.user;
+        if (!user) {
+          listEl.innerHTML = '<div class="empty-state">Sign in on the access page first.</div>';
+          return;
+        }
+        if (user.email !== window.ADMIN_EMAIL) {
+          listEl.innerHTML = '<div class="empty-state">Signed in, but not the configured admin email.</div>';
+          return;
+        }
+
+        const { data, error } = await client
+          .from('users')
+          .select('id, Name, E_Mail, Title, Role, approval_status')
+          .order('id', { ascending: false });
+
+        if (error) {
+          listEl.innerHTML = `<div class="empty-state">${error.message}</div>`;
+          return;
+        }
+
+        if (!data?.length) {
+          listEl.innerHTML = '<div class="empty-state">No users yet.</div>';
+          return;
+        }
+
+        listEl.innerHTML = data
+          .map(
+            (u) => `<div class="user-card">
+              <div class="user-card-header">
+                <div class="user-meta">
+                  <strong>${u.Name || '—'}</strong>
+                  <span>${u.E_Mail || ''}</span>
+                  <span>${u.Title || ''} · ${u.Role || ''}</span>
+                </div>
+                <span class="badge ${u.approval_status}">${u.approval_status}</span>
+              </div>
+              <div class="user-actions">
+                <button type="button" class="btn btn-sm btn-success" data-id="${u.id}" data-status="approved">Approve</button>
+                <button type="button" class="btn btn-sm btn-danger" data-id="${u.id}" data-status="rejected">Reject</button>
+              </div>
+            </div>`
+          )
+          .join('');
+
+        listEl.querySelectorAll('button[data-status]').forEach((btn) => {
+          btn.addEventListener('click', async () => {
+            const { error: upErr } = await client
+              .from('users')
+              .update({
+                approval_status: btn.dataset.status,
+                approved_at: new Date().toISOString(),
+                approved_by: user.email,
+              })
+              .eq('id', btn.dataset.id);
+            if (upErr) showMessage(upErr.message, 'error');
+            else {
+              showMessage(`Updated to ${btn.dataset.status}`, 'success');
+              load();
+            }
+          });
+        });
+      }
+
+      load();
+    }
+  </script>
+</body>
+</html>

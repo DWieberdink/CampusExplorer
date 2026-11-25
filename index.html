@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Explorer Access</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/demo-gate.js"></script>
+</head>
+<body>
+  <main class="page">
+    <section class="card" id="demo-gate-card">
+      <h1>Campus Explorer</h1>
+      <p class="subtitle">
+        Enter the demo password to open the Higher Education campus explorer.
+        This is a light client-side gate for the static Pages demo — not real security.
+      </p>
+      <form id="demo-gate-form">
+        <label>
+          Password
+          <input type="password" name="password" required autocomplete="current-password" autofocus>
+        </label>
+        <button type="submit">Enter</button>
+      </form>
+      <div id="demo-gate-message" class="message" role="alert"></div>
+    </section>
+
+    <section class="card hidden" id="app-access-card">
+      <h1>Campus Explorer Access</h1>
+      <p class="subtitle">
+        Sign in to the Perkins Eastman Higher Education campus explorer, or request access if you are new.
+      </p>
+      <p class="dashboard-entry">
+        <a id="dashboard-link" href="explorer.html" class="btn btn-secondary dashboard-entry-link">
+          Open Campus Explorer (seed demo)
+        </a>
+      </p>
+
+      <div id="demo-banner" class="demo-banner hidden">
+        Supabase is not configured yet. Auth is stubbed — use <strong>Open Campus Explorer</strong> to browse seed data (CA CCC + sample CSU/UC).
+      </div>
+
+      <div id="auth-section">
+        <div class="new-user-callout" id="new-user-callout">
+          <div class="new-user-callout-text">
+            <strong>New here?</strong>
+            Request access with your Perkins Eastman email. You will confirm your email, then wait for administrator approval.
+          </div>
+          <button type="button" class="btn btn-request-access" id="request-access-cta">
+            Request access
+          </button>
+        </div>
+
+        <div class="tabs">
+          <button type="button" class="tab active" data-tab="signin">Sign In</button>
+          <button type="button" class="tab tab-request" data-tab="signup">Request Access</button>
+        </div>
+
+        <form id="signin-form">
+          <label>
+            Email
+            <input type="email" name="email" required autocomplete="email" placeholder="you@perkinseastman.com">
+          </label>
+          <label>
+            Password
+            <input type="password" name="password" required autocomplete="current-password">
+          </label>
+          <button type="submit">Sign In</button>
+        </form>
+
+        <p class="signin-new-user-link" id="signin-new-user-link">
+          Don&rsquo;t have access yet?
+          <button type="button" class="link-button" id="signin-to-signup-link">Request access</button>
+        </p>
+
+        <p id="forgot-toggle-wrap" style="margin-top: 12px;">
+          <button type="button" class="btn btn-secondary btn-sm" id="show-forgot-btn" style="margin-top: 0;">
+            Forgot password?
+          </button>
+        </p>
+        <form id="forgot-form" class="hidden" style="margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border);">
+          <p class="subtitle" style="margin-bottom: 12px;">
+            We will email a reset link when Supabase Auth is configured.
+          </p>
+          <label>
+            Email
+            <input type="email" name="email" required autocomplete="email" placeholder="you@perkinseastman.com">
+          </label>
+          <button type="submit">Send reset link</button>
+          <button type="button" class="btn btn-secondary btn-sm" id="cancel-forgot-btn" style="margin-top: 8px;">Cancel</button>
+        </form>
+
+        <form id="signup-form" class="hidden">
+          <p class="signup-form-lead">
+            Fill in your details to request dashboard access. An administrator will review your request after you confirm your email.
+          </p>
+          <label>
+            Name
+            <input type="text" name="name" required autocomplete="name">
+          </label>
+          <label>
+            Title
+            <select name="title" id="signup-title" required></select>
+          </label>
+          <label>
+            Role
+            <select name="role" id="signup-role" required></select>
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" required autocomplete="email" placeholder="you@perkinseastman.com">
+          </label>
+          <label>
+            Create password
+            <input type="password" name="password" required minlength="8" autocomplete="new-password">
+          </label>
+          <label>
+            Confirm password
+            <input type="password" name="password_confirm" required minlength="8" autocomplete="new-password">
+          </label>
+          <button type="submit" class="btn-request-access">Submit access request</button>
+          <p class="signup-back-link">
+            Already have an account?
+            <button type="button" class="link-button" id="signup-to-signin-link">Sign in</button>
+          </p>
+        </form>
+      </div>
+
+      <div id="signed-in-section" class="hidden">
+        <div class="status-panel show">
+          <p>Signed in as <strong id="user-email"></strong></p>
+          <p>Name: <strong id="user-name"></strong></p>
+          <p>Title: <span id="user-title"></span></p>
+          <p>Role: <span id="user-role"></span></p>
+          <p>Status: <span id="approval-badge" class="badge"></span></p>
+          <p id="status-message" class="subtitle" style="margin-top: 12px;"></p>
+        </div>
+        <a id="open-explorer-btn" href="explorer.html" class="btn hidden" style="text-align: center; margin-top: 16px; text-decoration: none;">
+          Open Campus Explorer
+        </a>
+        <button type="button" class="btn btn-secondary" id="signout-btn" style="margin-top: 16px; width: 100%;">
+          Sign Out
+        </button>
+        <a id="admin-link" href="admin.html" class="btn hidden" style="display: block; text-align: center; margin-top: 12px; text-decoration: none;">
+          Review Pending Requests
+        </a>
+      </div>
+
+      <div id="message" class="message" role="alert"></div>
+    </section>
+  </main>
+
+  <dialog id="signup-confirm-dialog" class="signup-dialog">
+    <form method="dialog" class="signup-dialog-inner">
+      <h2>Request submitted</h2>
+      <p class="signup-dialog-intro">Two steps before you can sign in:</p>
+      <ol class="signup-steps">
+        <li><strong>Confirm your email</strong> — open the link we send.</li>
+        <li><strong>Wait for approval</strong> — an administrator reviews your request.</li>
+      </ol>
+      <p class="signup-dialog-note">
+        Requires a configured Supabase project. Until then, open the seed demo explorer from the home card.
+      </p>
+      <button type="submit" class="btn btn-request-access">Got it</button>
+    </form>
+  </dialog>
+
+  <script src="js/config.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.49.8"></script>
+  <script>
+    const gateCard = document.getElementById('demo-gate-card');
+    const accessCard = document.getElementById('app-access-card');
+    const gateMessage = document.getElementById('demo-gate-message');
+    const gateForm = document.getElementById('demo-gate-form');
+
+    function revealAccess() {
+      gateCard.classList.add('hidden');
+      accessCard.classList.remove('hidden');
+    }
+
+    function enterExplorer() {
+      window.CampusExplorerGate.unlock();
+      window.location.href = 'explorer.html';
+    }
+
+    if (window.CampusExplorerGate.isUnlocked()) {
+      // Already unlocked: stay on access stubs when requested, else open explorer.
+      if (new URLSearchParams(window.location.search).get('access') === '1') {
+        revealAccess();
+      } else {
+        window.location.replace('explorer.html');
+      }
+    }
+
+    gateForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const value = new FormData(gateForm).get('password');
+      if (!window.CampusExplorerGate.checkPassword(value)) {
+        gateMessage.textContent = 'Incorrect password.';
+        gateMessage.className = 'message show error';
+        return;
+      }
+      enterExplorer();
+    });
+
+    const messageEl = document.getElementById('message');
+    const authSection = document.getElementById('auth-section');
+    const signedInSection = document.getElementById('signed-in-section');
+    const signinForm = document.getElementById('signin-form');
+    const signupForm = document.getElementById('signup-form');
+    const forgotForm = document.getElementById('forgot-form');
+    const forgotToggleWrap = document.getElementById('forgot-toggle-wrap');
+    const tabs = document.querySelectorAll('.tab');
+    const configured = window.isSupabaseConfigured();
+
+    document.getElementById('signup-title').innerHTML = window.titleOptionsHtml();
+    document.getElementById('signup-role').innerHTML = window.roleOptionsHtml(null, true);
+
+    if (!configured) {
+      document.getElementById('demo-banner').classList.remove('hidden');
+    }
+
+    function showMessage(text, type = 'info') {
+      messageEl.textContent = text;
+      messageEl.className = `message show ${type}`;
+    }
+
+    function clearMessage() {
+      messageEl.className = 'message';
+      messageEl.textContent = '';
+    }
+
+    function showAuthTab(tabName) {
+      tabs.forEach((t) => t.classList.toggle('active', t.dataset.tab === tabName));
+      const isSignIn = tabName === 'signin';
+      signinForm.classList.toggle('hidden', !isSignIn);
+      signupForm.classList.toggle('hidden', isSignIn);
+      forgotToggleWrap.classList.toggle('hidden', !isSignIn);
+      document.getElementById('signin-new-user-link').classList.toggle('hidden', !isSignIn);
+      document.getElementById('new-user-callout').classList.toggle('hidden', !isSignIn);
+      forgotForm.classList.add('hidden');
+      clearMessage();
+    }
+
+    tabs.forEach((tab) => tab.addEventListener('click', () => showAuthTab(tab.dataset.tab)));
+    document.getElementById('request-access-cta').addEventListener('click', () => showAuthTab('signup'));
+    document.getElementById('signin-to-signup-link').addEventListener('click', () => showAuthTab('signup'));
+    document.getElementById('signup-to-signin-link').addEventListener('click', () => showAuthTab('signin'));
+    document.getElementById('show-forgot-btn').addEventListener('click', () => forgotForm.classList.remove('hidden'));
+    document.getElementById('cancel-forgot-btn').addEventListener('click', () => {
+      forgotForm.classList.add('hidden');
+      clearMessage();
+    });
+
+    if (!configured) {
+      const stubNote = 'Supabase keys not set — auth is unavailable. Open the seed demo explorer instead.';
+      signinForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        showMessage(stubNote, 'warning');
+      });
+      signupForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        showMessage(stubNote, 'warning');
+      });
+      forgotForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        showMessage(stubNote, 'warning');
+      });
+      document.getElementById('signout-btn').addEventListener('click', () => {
+        signedInSection.classList.add('hidden');
+        authSection.classList.remove('hidden');
+      });
+    } else {
+      const { createClient } = supabase;
+      const client = createClient(window.SUPABASE_URL, window.SUPABASE_ANON_KEY, {
+        auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true },
+      });
+
+      function formatTitle(value) {
+        const match = window.TITLE_OPTIONS.find((t) => t.value === value);
+        return match ? match.label : value || '—';
+      }
+
+      async function showSignedIn(user) {
+        authSection.classList.add('hidden');
+        signedInSection.classList.remove('hidden');
+        document.getElementById('user-email').textContent = user.email || '—';
+        const isAdmin = user.email === window.ADMIN_EMAIL;
+        document.getElementById('admin-link').classList.toggle('hidden', !isAdmin);
+
+        const { data } = await client
+          .from('users')
+          .select('Name, Title, E_Mail, Role, approval_status')
+          .eq('auth_user_id', user.id)
+          .maybeSingle();
+
+        const profile = data || {
+          Name: user.user_metadata?.name || '—',
+          Title: user.user_metadata?.title || '—',
+          Role: user.user_metadata?.role || 'Viewer',
+          approval_status: isAdmin ? 'approved' : 'pending',
+        };
+
+        document.getElementById('user-name').textContent = profile.Name || '—';
+        document.getElementById('user-title').textContent = formatTitle(profile.Title);
+        document.getElementById('user-role').textContent = profile.Role || '—';
+        const badge = document.getElementById('approval-badge');
+        badge.textContent = profile.approval_status;
+        badge.className = `badge ${profile.approval_status}`;
+
+        const openBtn = document.getElementById('open-explorer-btn');
+        if (profile.approval_status === 'approved') {
+          openBtn.classList.remove('hidden');
+          document.getElementById('status-message').textContent = 'Your account is approved.';
+        } else {
+          openBtn.classList.add('hidden');
+          document.getElementById('status-message').textContent =
+            'Your request is pending administrator approval.';
+        }
+      }
+
+      signinForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        clearMessage();
+        const form = new FormData(signinForm);
+        const { data, error } = await client.auth.signInWithPassword({
+          email: form.get('email'),
+          password: form.get('password'),
+        });
+        if (error) return showMessage(error.message, 'error');
+        await showSignedIn(data.user);
+      });
+
+      signupForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        clearMessage();
+        const form = new FormData(signupForm);
+        if (String(form.get('password')) !== String(form.get('password_confirm'))) {
+          return showMessage('Passwords do not match.', 'error');
+        }
+        const { data, error } = await client.auth.signUp({
+          email: form.get('email'),
+          password: String(form.get('password')),
+          options: {
+            emailRedirectTo: window.getAuthRedirectUrl('auth-confirm.html'),
+            data: {
+              name: form.get('name'),
+              title: form.get('title'),
+              role: form.get('role'),
+            },
+          },
+        });
+        if (error) return showMessage(error.message, 'error');
+        document.getElementById('signup-confirm-dialog').showModal();
+        showMessage('Request submitted. Confirm your email, then wait for approval.', 'success');
+        if (data.user && data.session) await showSignedIn(data.user);
+        else showAuthTab('signin');
+      });
+
+      forgotForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const email = new FormData(e.target).get('email');
+        const { error } = await client.auth.resetPasswordForEmail(email, {
+          redirectTo: window.getAuthRedirectUrl('reset-password.html'),
+        });
+        if (error) return showMessage(error.message, 'error');
+        showMessage(`Reset link sent to ${email}`, 'success');
+      });
+
+      document.getElementById('signout-btn').addEventListener('click', async () => {
+        await client.auth.signOut({ scope: 'local' });
+        signedInSection.classList.add('hidden');
+        authSection.classList.remove('hidden');
+        showMessage('Signed out.', 'info');
+      });
+
+      client.auth.onAuthStateChange(async (_event, session) => {
+        if (session?.user) await showSignedIn(session.user);
+        else {
+          signedInSection.classList.add('hidden');
+          authSection.classList.remove('hidden');
+        }
+      });
+    }
+  </script>
+</body>
+</html>

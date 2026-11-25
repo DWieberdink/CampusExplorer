@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Campus Explorer">
+  <rect width="64" height="64" rx="12" fill="#0f4c81"/>
+  <path d="M12 40 L32 14 L52 40 Z" fill="#e8f1fb"/>
+  <rect x="24" y="36" width="16" height="14" fill="#0a6b4a"/>
+</svg>
