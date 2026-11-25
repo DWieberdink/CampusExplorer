@@ -174,9 +174,10 @@
       </section>
 
       <section class="he-kpis" style="grid-template-columns: repeat(6, minmax(0, 1fr)); margin:0;">
-        <div class="he-kpi"><div class="label">Full-time / part-time students ${m.latest_year || ''}</div><div class="value">${fmt(latestEnroll.headcount_ft ?? m.headcount_ft)} / ${fmt(latestEnroll.headcount_pt)}</div>
-          <div class="delta ${m.chg_5yr_pct >= 0 ? 'up' : 'down'}">${fmt(m.headcount)} total · ${window.formatPct(m.chg_5yr_pct)} 5-yr · ${window.formatPct(m.chg_10yr_pct)} 10-yr</div></div>
-        <div class="he-kpi"><div class="label">12-month FTE</div><div class="value">${fmt(m.fte_12mo)}</div><div class="delta">${ay(m.latest_year || 2023)}</div></div>
+        <div class="he-kpi"><div class="label">Full-time students ${m.latest_year || ''}</div><div class="value">${fmt(latestEnroll.headcount_ft ?? m.headcount_ft)}</div>
+          <div class="delta ${m.chg_5yr_pct >= 0 ? 'up' : 'down'}">${window.formatPct(m.chg_5yr_pct)} 5-yr · ${window.formatPct(m.chg_10yr_pct)} 10-yr</div></div>
+        <div class="he-kpi"><div class="label">Part-time students ${m.latest_year || ''}</div><div class="value">${fmt(latestEnroll.headcount_pt)}</div>
+          <div class="delta">${latestEnroll.headcount_pt != null && m.headcount ? `${Math.round((latestEnroll.headcount_pt / m.headcount) * 100)}% of ${fmt(m.headcount)} total` : '—'}</div></div>
         <div class="he-kpi"><div class="label">Fully online</div><div class="value">${pct(m.pct_online)}</div><div class="delta">${vsMed(m.pct_online, med.pct_online, (x) => `${x}%`)}</div></div>
         <div class="he-kpi"><div class="label">Age of plant</div><div class="value">${f.age_of_plant_yrs != null ? `${f.age_of_plant_yrs} yrs` : '—'}</div><div class="delta">${f.age_of_plant_yrs != null ? vsMed(f.age_of_plant_yrs, med.age_of_plant_yrs) : 'Not reported for this campus'}</div></div>
         <div class="he-kpi"><div class="label">O&amp;M $ / FTE</div><div class="value">${money(f.om_per_fte)}</div><div class="delta">${vsMed(f.om_per_fte, med.om_per_fte, money)}</div></div>
