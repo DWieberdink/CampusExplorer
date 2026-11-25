@@ -136,27 +136,35 @@
     const f = selectedFilters();
     const campuses = activeCampuses();
     const ids = campuses.map((c) => c.unitid);
-    const yoy = window.HEData.yoy(ids, f.year);
-    const fte = window.HEData.enrollmentFor(ids, f.year).reduce((a, r) => a + (Number(r.fte_12mo) || 0), 0);
+    const sumField = (rows, key) => rows.reduce((a, r) => a + (Number(r[key]) || 0), 0);
+    const ftCur = sumField(window.HEData.enrollmentFor(ids, f.year), 'headcount_ft');
+    const ftPrev = sumField(window.HEData.enrollmentFor(ids, f.year - 1), 'headcount_ft');
+    const ptCur = sumField(window.HEData.enrollmentFor(ids, f.year), 'headcount_pt');
+    const ptPrev = sumField(window.HEData.enrollmentFor(ids, f.year - 1), 'headcount_pt');
     const cy = window.HEData.completionsYear(f.year);
     const awards = window.HEData.completionsFor(ids, cy)
       .filter((r) => !f.cip2 || r.cip2 === f.cip2)
       .reduce((a, r) => a + (Number(r.awards) || 0), 0);
 
     $('kpi-campuses').textContent = window.formatNumber(campuses.length);
-    $('kpi-enrollment').textContent = window.formatNumber(yoy.current);
-    $('kpi-ftes').textContent = window.formatNumber(fte || null);
+    $('kpi-fulltime').textContent = window.formatNumber(ftCur || null);
+    $('kpi-parttime').textContent = window.formatNumber(ptCur || null);
     $('kpi-awards').textContent = window.formatNumber(awards);
     $('kpi-awards-year').textContent = `${cy}-${String(cy + 1).slice(2)}${f.cip2 ? ' · selected program' : ' · all programs'}`;
 
-    const deltaEl = $('kpi-enrollment-delta');
-    if (yoy.delta == null) {
-      deltaEl.textContent = 'YoY unavailable';
-      deltaEl.className = 'delta';
-    } else {
-      deltaEl.textContent = `${window.formatPct(yoy.delta)} vs ${f.year - 1}`;
-      deltaEl.className = `delta ${yoy.delta >= 0 ? 'up' : 'down'}`;
-    }
+    const setDelta = (id, cur, prev) => {
+      const el = $(id);
+      const delta = prev ? ((cur - prev) / prev) * 100 : null;
+      if (delta == null) {
+        el.textContent = 'YoY unavailable';
+        el.className = 'delta';
+      } else {
+        el.textContent = `${window.formatPct(delta)} vs ${f.year - 1}`;
+        el.className = `delta ${delta >= 0 ? 'up' : 'down'}`;
+      }
+    };
+    setDelta('kpi-fulltime-delta', ftCur, ftPrev);
+    setDelta('kpi-parttime-delta', ptCur, ptPrev);
   }
 
   function renderTrend() {
