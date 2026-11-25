@@ -1,0 +1,226 @@
+{
+  "as_of": "2026-11-25",
+  "note": "System-office leadership for each system in the roster. Compiled from official system websites and staff directories. match: exact = the title matches the role; closest = the system uses a different title for the same job (see note); none = the system has no equivalent. Blank email or phone means it was not published in a source we could verify; use the office or leadership page link instead.",
+  "systems": {
+    "UT": {
+      "name": "The University of Texas System",
+      "leadership_url": "https://www.utsystem.edu/leadership",
+      "office": { "address": "210 West 7th Street, Austin, TX 78701", "phone": "(512) 499-4201", "email": null },
+      "roles": {
+        "president": { "match": "exact", "title": "Chancellor", "name": "John M. Zerwas, MD", "email": "chancellorzerwas@utsystem.edu", "phone": "512-499-4201", "source": "https://www.utsystem.edu/offices/chancellor/contact" },
+        "provost": { "match": "exact", "title": "Executive Vice Chancellor for Academic Affairs", "name": "Archie L. Holmes Jr., Ph.D.", "email": null, "phone": "512-499-4439", "source": "https://www.utsystem.edu/offices/academic-affairs/contact-academic-affairs" },
+        "cfo": { "match": "exact", "title": "Chief Financial Officer", "name": "Derek Horton, Ed.D.", "email": "dhorton@utsystem.edu", "phone": "512-499-4274", "source": "https://www.utsystem.edu/offices/budget-and-planning/staff-contact-information", "note": "Named CFO in September 2026." },
+        "coo": { "match": "exact", "title": "Executive Vice Chancellor and Chief Operating Officer", "name": "Terry Hull", "email": null, "phone": "512-499-4494", "source": "https://www.utsystem.edu/offices/business-affairs/staff" }
+      }
+    },
+    "TAMU": {
+      "name": "The Texas A&M University System",
+      "leadership_url": "https://tamus.edu/about/leadership/",
+      "office": { "address": "301 Tarrow Street, College Station, TX 77840", "phone": "(979) 458-7700", "email": "info@tamus.edu" },
+      "roles": {
+        "president": { "match": "exact", "title": "Chancellor", "name": "Glenn Hegar", "email": "chancellor@tamus.edu", "phone": "(979) 458-6000", "source": "https://tamus.edu/about/leadership/", "note": "Email from a public profile; confirm before use." },
+        "provost": { "match": "closest", "title": "Vice Chancellor, Academic Affairs", "name": "James R. Hallmark", "email": null, "phone": null, "source": "https://tamus.edu/about/leadership/", "note": "The system's academic lead; no system provost title." },
+        "cfo": { "match": "exact", "title": "Vice Chancellor and Chief Financial Officer", "name": "Ryan Griffin", "email": "rgriffin@tamus.edu", "phone": "(979) 458-6000", "source": "https://tamus.edu/about/leadership/" },
+        "coo": { "match": "closest", "title": "Executive Vice Chancellor", "name": "Tracy Foster", "email": "tfoster@tamus.edu", "phone": "(979) 458-6071", "source": "https://tamus.edu/about/leadership/", "note": "No COO title. Oversees system-level operations." }
+      }
+    },
+    "CSU": {
+      "name": "California State University",
+      "leadership_url": "https://www.calstate.edu/csu-system/about-the-csu/leadership/Chancellors-Council",
+      "office": { "address": "401 Golden Shore, Long Beach, CA 90802", "phone": "(562) 951-4000", "email": "csu-chancellor@calstate.edu" },
+      "roles": {
+        "president": { "match": "exact", "title": "Chancellor", "name": "Dr. Mildred García", "email": "csu-chancellor@calstate.edu", "phone": "(562) 951-4000", "source": "https://www.calstate.edu/csu-system/chancellor" },
+        "provost": { "match": "closest", "title": "Vice Chancellor, Academic Affairs; Chief Academic Affairs Officer", "name": "Junius J. Gonzales", "email": null, "phone": null, "source": "https://www.calstate.edu/csu-system/about-the-csu/leadership/Chancellors-Council/Pages/Junius-Gonzales.aspx", "note": "The 2025-26 Academic Senate deck lists Nathan S. Evans as Deputy VC, Academic & Student Affairs and CAO. The current leadership page shows Gonzales." },
+        "cfo": { "match": "closest", "title": "Interim Executive Vice Chancellor and Chief Financial Officer", "name": "Patrick J. Lenz", "email": null, "phone": "(562) 951-4000", "source": "https://www.calstate.edu/csu-system/about-the-csu/leadership/Chancellors-Council/Pages/lenz.aspx", "note": "Interim since July 1, 2025. The Chancellor's Council page still lists Mary Ann Rodriguez as VC & CFO." },
+        "coo": { "match": "none", "title": null, "name": null, "email": null, "phone": null, "source": null, "note": "No system COO title." }
+      }
+    },
+    "UC": {
+      "name": "University of California",
+      "leadership_url": "https://www.ucop.edu/organization/index.html",
+      "office": { "address": null, "phone": null, "email": null },
+      "roles": {
+        "president": { "match": "exact", "title": "President", "name": "James B. Milliken", "email": null, "phone": null, "source": "https://www.ucop.edu/president/ucop-org-chart-9.4.2026v2.pdf" },
+        "provost": { "match": "exact", "title": "Interim Executive Vice President and Provost", "name": "Ralph J. Hexter", "email": null, "phone": "(510) 987-9020", "source": "https://www.ucop.edu/academic-affairs/immediate-office-staff/index.html", "note": "An older catalog and the organization page still list Katherine S. Newman as provost." },
+        "cfo": { "match": "exact", "title": "Executive Vice President and Chief Financial Officer", "name": "Nathan Brostrom", "email": null, "phone": "(510) 987-9029", "source": "https://www.ucop.edu/finance-office/staff/index.html" },
+        "coo": { "match": "exact", "title": "Executive Vice President and Chief Operating Officer", "name": "Rachael Nava", "email": null, "phone": null, "source": "https://www.ucop.edu/president/ucop-org-chart-9.4.2026v2.pdf" }
+      }
+    },
+    "UNC": {
+      "name": "University of North Carolina System",
+      "leadership_url": "https://www.northcarolina.edu/leadership-and-governance/president/unc-system-office/",
+      "office": { "address": "223 S. West Street, Suite 1800, Raleigh, NC 27603", "phone": "(919) 962-1000", "email": null },
+      "roles": {
+        "president": { "match": "exact", "title": "President", "name": "Peter Hans", "email": "president@northcarolina.edu", "phone": "(919) 962-4622", "source": "https://www.northcarolina.edu/president/" },
+        "provost": { "match": "exact", "title": "University Provost and Senior Vice President for Academic Affairs", "name": "Dr. David J. English", "email": "djenglish@northcarolina.edu", "phone": "(919) 962-2620", "source": "https://www.northcarolina.edu/leadership-and-governance/president/unc-system-office/" },
+        "cfo": { "match": "exact", "title": "Senior Vice President for Finance and Chief Financial Officer", "name": "Jennifer Haygood", "email": "jhhaygood@northcarolina.edu", "phone": "(919) 962-4600", "source": "https://www.northcarolina.edu/offices-and-services/finance-and-administration/finance-and-administration-staff/" },
+        "coo": { "match": "exact", "title": "Chief Operating Officer", "name": "J. Michael Vollmer", "email": "jmvollmer@northcarolina.edu", "phone": "(919) 962-9771", "source": "https://myapps.northcarolina.edu/directory/", "note": "The leadership page lists (919) 843-7338 for the same role." }
+      }
+    },
+    "SUNY": {
+      "name": "State University of New York",
+      "leadership_url": "https://www.suny.edu/about/leadership/senior-staff/",
+      "office": { "address": null, "phone": null, "email": null },
+      "roles": {
+        "president": { "match": "exact", "title": "Chancellor", "name": "John B. King Jr.", "email": null, "phone": null, "source": "https://www.suny.edu/about/leadership/chancellor/" },
+        "provost": { "match": "exact", "title": "Executive Vice Chancellor for Academic Affairs and Provost", "name": "Melur K. “Ram” Ramasubramanian", "email": null, "phone": null, "source": "https://www.suny.edu/about/leadership/senior-staff/" },
+        "cfo": { "match": "exact", "title": "Chief Financial Officer", "name": "Josh Sager", "email": null, "phone": null, "source": "https://www.suny.edu/about/leadership/senior-staff/" },
+        "coo": { "match": "exact", "title": "Senior Vice Chancellor for Operations and Management and Chief Operating Officer", "name": "Anne Bink", "email": null, "phone": null, "source": "https://www.suny.edu/about/leadership/senior-staff/" }
+      }
+    },
+    "CUNY": {
+      "name": "City University of New York",
+      "leadership_url": "https://a856-gbol.nyc.gov/GBOLWebsite/GreenBook/Details?orgId=2900",
+      "office": { "address": "205 East 42nd Street, New York, NY 10017", "phone": null, "email": null },
+      "roles": {
+        "president": { "match": "exact", "title": "Chancellor", "name": "Félix V. Matos Rodríguez", "email": null, "phone": "(646) 664-9100", "source": "https://a856-gbol.nyc.gov/GBOLWebsite/GreenBook/Details?orgId=2900" },
+        "provost": { "match": "exact", "title": "Executive Vice Chancellor and University Provost", "name": "Alicia M. Alvero", "email": null, "phone": "(646) 664-9110", "source": "https://a856-gbol.nyc.gov/GBOLWebsite/GreenBook/Details?orgId=2900" },
+        "cfo": { "match": "exact", "title": "Senior Vice Chancellor for Budget, Finance & Labor Relations and Chief Financial Officer", "name": "Kenneth Godiner", "email": null, "phone": "(646) 664-3014", "source": "https://a856-gbol.nyc.gov/GBOLWebsite/GreenBook/Details?orgId=2900" },
+        "coo": { "match": "exact", "title": "Executive Vice Chancellor and Chief Operating Officer", "name": "Hector Batista", "email": null, "phone": "(646) 664-9106", "source": "https://a856-gbol.nyc.gov/GBOLWebsite/GreenBook/Details?orgId=2900" }
+      }
+    },
+    "CCC": {
+      "name": "California Community Colleges",
+      "leadership_url": "https://www.cccco.edu/About-Us/Chancellors-Office/",
+      "office": { "address": null, "phone": null, "email": null },
+      "roles": {
+        "president": { "match": "exact", "title": "Chancellor", "name": "Sonya Christian", "email": null, "phone": null, "source": "https://www.cccco.edu/About-Us/Chancellors-Office/" },
+        "provost": { "match": "none", "title": null, "name": null, "email": null, "phone": null, "source": null, "note": "No provost title. Academic programs sit under Educational Services & Support (Vice Chancellors James Todd and Renee Craig-Marius)." },
+        "cfo": { "match": "closest", "title": "Executive Vice Chancellor of Finance and Strategic Initiatives", "name": "Chris Ferguson", "email": null, "phone": null, "source": "https://www.cccco.edu/about-us/chancellors-office/divisions/college-finance-and-facilities-planning/cffp-leadership/" },
+        "coo": { "match": "none", "title": null, "name": null, "email": null, "phone": null, "source": null, "note": "No COO title. The Deputy Chancellor is Rowena Tomaneng." }
+      }
+    },
+    "NCCCS": {
+      "name": "North Carolina Community College System",
+      "leadership_url": "https://www.nccommunitycolleges.edu/about-us/system-office/leadership-team/",
+      "office": { "address": null, "phone": null, "email": null },
+      "roles": {
+        "president": { "match": "exact", "title": "Acting President & CEO", "name": "Dr. Monty Sullivan", "email": "sullivanm@nccommunitycolleges.edu", "phone": null, "source": "https://www.nccommunitycolleges.edu/about-us/system-office/leadership-team/dr-monty-sullivan/", "note": "The July 2026 org chart lists an interim president (Dr. Bill Carver). Confirm before use." },
+        "provost": { "match": "closest", "title": "Senior Vice President and Chief Academic Officer", "name": "Dr. Brian Merritt", "email": "merrittb@nccommunitycolleges.edu", "phone": null, "source": "https://www.nccommunitycolleges.edu/about-us/system-office/leadership-team/dr-brian-merritt/" },
+        "cfo": { "match": "exact", "title": "Senior Vice President and Chief Finance Officer", "name": "Dr. Phillip Price", "email": "pricep@nccommunitycolleges.edu", "phone": null, "source": "https://www.nccommunitycolleges.edu/about-us/system-office/leadership-team/dr-phillip-price/" },
+        "coo": { "match": "none", "title": null, "name": null, "email": null, "phone": null, "source": null, "note": "No COO title." }
+      }
+    },
+    "TBR": {
+      "name": "Tennessee Board of Regents (College System of Tennessee)",
+      "leadership_url": "https://www.tbr.edu/chancellor/senior-staff",
+      "office": { "address": null, "phone": null, "email": null },
+      "roles": {
+        "president": { "match": "exact", "title": "Chancellor", "name": "Flora W. Tydings", "email": null, "phone": null, "source": "https://www.tbr.edu/chancellor/flora-w-tydings-chancellor" },
+        "provost": { "match": "closest", "title": "Vice Chancellor for Academic Affairs", "name": "Jothany L. Reed", "email": "jothany.reed@tbr.edu", "phone": "615-365-1505", "source": "https://www.tbr.edu/academics/staff" },
+        "cfo": { "match": "closest", "title": "Executive Vice Chancellor for Business and Finance", "name": "Alisha Fox", "email": "alisha.fox@tbr.edu", "phone": "615-366-4462", "source": "https://www.tbr.edu/business/staff" },
+        "coo": { "match": "none", "title": null, "name": null, "email": null, "phone": null, "source": null, "note": "No COO title." }
+      }
+    },
+    "MNSCU": {
+      "name": "Minnesota State Colleges and Universities",
+      "leadership_url": "https://www.minnstate.edu/system/divisions.html",
+      "office": { "address": null, "phone": null, "email": null },
+      "roles": {
+        "president": { "match": "exact", "title": "Chancellor", "name": "Scott Olson", "email": null, "phone": null, "source": "https://www.minnstate.edu/system/divisions.html" },
+        "provost": { "match": "closest", "title": "Senior Vice Chancellor for Academic and Student Affairs", "name": "Satasha Green-Stephen", "email": null, "phone": null, "source": "https://www.minnstate.edu/system/divisions.html" },
+        "cfo": { "match": "closest", "title": "Vice Chancellor for Finance and Facilities", "name": "Bill Maki", "email": "william.maki@minnstate.edu", "phone": null, "source": "https://www.minnstate.edu/system/finance/index.html", "note": "General inquiries: finance@minnstate.edu." },
+        "coo": { "match": "none", "title": null, "name": null, "email": null, "phone": null, "source": null, "note": "No COO title." }
+      }
+    },
+    "FCS": {
+      "name": "Florida College System (Division of Florida Colleges)",
+      "leadership_url": "https://www.fldoe.org/schools/higher-ed/fl-college-system/about-us/staff-directory.stml",
+      "office": { "address": "325 W. Gaines Street, Tallahassee, FL 32399-0400", "phone": "850-245-0505", "email": null },
+      "roles": {
+        "president": { "match": "closest", "title": "Chancellor, Division of Florida Colleges", "name": "Kathy Hebda", "email": null, "phone": "850-245-0407", "source": "https://www.fldoe.org/schools/higher-ed/fl-college-system/about-us/staff-directory.stml", "note": "The Division of Florida Colleges sits in the state Department of Education. There is no system president." },
+        "provost": { "match": "none", "title": null, "name": null, "email": null, "phone": null, "source": null, "note": "The Associate VC for Academic and Student Affairs position is listed as vacant." },
+        "cfo": { "match": "closest", "title": "Associate Vice Chancellor for Financial Policy", "name": "Lisa Cook", "email": null, "phone": "850-245-9487", "source": "https://www.fldoe.org/schools/higher-ed/fl-college-system/about-us/staff-directory.stml" },
+        "coo": { "match": "none", "title": null, "name": null, "email": null, "phone": null, "source": null, "note": "No COO title. The Executive Vice Chancellor is Jose Arevalo, 850-245-9903." }
+      }
+    },
+    "USG": {
+      "name": "University System of Georgia",
+      "leadership_url": "https://www.usg.edu/directory/administration/",
+      "office": { "address": null, "phone": "404-962-3000", "email": "chancellor@usg.edu" },
+      "roles": {
+        "president": { "match": "exact", "title": "Chancellor", "name": "Dr. Sonny Perdue", "email": "chancellor@usg.edu", "phone": "404-962-3000", "source": "https://www.usg.edu/chancellor/", "note": "Thomas A. Fanning succeeds Perdue as the 15th chancellor on January 1, 2027." },
+        "provost": { "match": "closest", "title": "Executive Vice Chancellor and Chief Academic Officer", "name": "Dr. Ashwani Monga", "email": null, "phone": "404-962-3060", "source": "https://www.usg.edu/directory/administration/" },
+        "cfo": { "match": "closest", "title": "Chief Fiscal Officer / Treasurer", "name": "Tracey Cook", "email": null, "phone": "404-962-3200", "source": "https://www.usg.edu/directory/administration/" },
+        "coo": { "match": "exact", "title": "Chief Operating Officer", "name": "Teresa MacCartney", "email": "teresa.maccartney@usg.edu", "phone": "404-962-3016", "source": "https://www.usg.edu/divisions/operations/" }
+      }
+    },
+    "VCCS": {
+      "name": "Virginia Community College System",
+      "leadership_url": "https://www.vccs.edu/executive-cabinet/",
+      "office": { "address": "300 Arboretum Place, Suite 200, Richmond, VA 23236", "phone": "(804) 819-4901", "email": "info@vccs.edu" },
+      "roles": {
+        "president": { "match": "exact", "title": "Chancellor", "name": "Dr. David Doré", "email": "ddore@vccs.edu", "phone": "(804) 819-4903", "source": "https://www.vccs.edu/meet-the-chancellor/" },
+        "provost": { "match": "closest", "title": "Senior Vice Chancellor for Academic & Workforce Services", "name": "Dr. Felicia Ganther", "email": null, "phone": null, "source": "https://www.vccs.edu/executive-cabinet/", "note": "Micol Hutchison is Associate VC for Academic Affairs and the system's chief academic officer." },
+        "cfo": { "match": "closest", "title": "Vice Chancellor for Finance & Capital Resources", "name": "Will Johnson", "email": null, "phone": null, "source": "https://www.vccs.edu/executive-cabinet/" },
+        "coo": { "match": "closest", "title": "Senior Vice Chancellor for Finance & Operations", "name": "Dr. Tommy Wright", "email": null, "phone": null, "source": "https://www.vccs.edu/executive-cabinet/", "note": "No COO title. Oversees fiscal management, HR, IT and physical operations." }
+      }
+    },
+    "KCTCS": {
+      "name": "Kentucky Community and Technical College System",
+      "leadership_url": "https://kctcs.edu/about/leadership/index.aspx",
+      "office": { "address": "300 North Main Street, Versailles, KY 40383", "phone": "(855) 465-2827", "email": null },
+      "roles": {
+        "president": { "match": "exact", "title": "President", "name": "Dr. Ryan Quarles", "email": null, "phone": null, "source": "https://kctcs.edu/about/leadership/index.aspx" },
+        "provost": { "match": "exact", "title": "Executive Vice President and Provost", "name": "Dr. Phil Neal", "email": null, "phone": null, "source": "https://kctcs.edu/about/leadership/index.aspx" },
+        "cfo": { "match": "exact", "title": "Senior Vice President and Chief Financial Officer", "name": "Todd Kilburn", "email": null, "phone": null, "source": "https://kctcs.edu/about/leadership/index.aspx" },
+        "coo": { "match": "none", "title": null, "name": null, "email": null, "phone": null, "source": null, "note": "No system COO. The COO titles are at individual colleges." }
+      }
+    },
+    "CCCS": {
+      "name": "Colorado Community College System",
+      "leadership_url": "https://cccs.edu/about/leadership/",
+      "office": { "address": null, "phone": null, "email": null },
+      "roles": {
+        "president": { "match": "exact", "title": "Chancellor", "name": "Dr. Marielena DeSanctis", "email": null, "phone": null, "source": "https://cccs.edu/about/leadership/dr-marielena-desanctis/" },
+        "provost": { "match": "closest", "title": "Interim Vice Chancellor for Academic & Student Affairs", "name": "Dr. Bobby Pace", "email": null, "phone": null, "source": "https://cccs.edu/about/leadership/" },
+        "cfo": { "match": "closest", "title": "Vice Chancellor for Finance & Administration", "name": "Mark Superka", "email": null, "phone": null, "source": "https://cccs.edu/about/leadership/mark-superka/" },
+        "coo": { "match": "closest", "title": "Executive Vice Chancellor and Chief Strategy Officer", "name": "John Albright", "email": null, "phone": null, "source": "https://cccs.edu/about/leadership/john-albright/", "note": "No COO title. Oversees System Office operations." }
+      }
+    },
+    "LCTCS": {
+      "name": "Louisiana Community and Technical College System",
+      "leadership_url": "https://www.lctcs.edu/staff-directory",
+      "office": { "address": null, "phone": null, "email": null },
+      "roles": {
+        "president": { "match": "exact", "title": "System President", "name": "Richard Nelson", "email": null, "phone": "(225) 922-1643", "source": "https://www.lctcs.edu/staff-directory", "note": "Took office January 1, 2026." },
+        "provost": { "match": "none", "title": "Chief Education and Training Officer", "name": null, "email": null, "phone": null, "source": null, "note": "Dr. Wendi Palermo's role ended in July 2026. A successor is not confirmed." },
+        "cfo": { "match": "exact", "title": "Chief Financial Officer", "name": "Shannon Sedberry", "email": null, "phone": "(225) 308-4377", "source": "https://www.lctcs.edu/staff-directory" },
+        "coo": { "match": "closest", "title": "Vice President for Operations", "name": "Joseph F. Marin", "email": null, "phone": "(225) 922-1635", "source": "https://www.lctcs.edu/staff-directory", "note": "No COO title." }
+      }
+    },
+    "MCCCD": {
+      "name": "Maricopa County Community College District",
+      "leadership_url": "https://www.maricopa.edu/about/leadership",
+      "office": { "address": "2411 W. 14th Street, Tempe, AZ 85281", "phone": "(480) 731-8000", "email": null },
+      "roles": {
+        "president": { "match": "exact", "title": "Chancellor", "name": "Dr. Steven R. Gonzales", "email": "steven.gonzales@domail.maricopa.edu", "phone": "(602) 286-8008", "source": "https://directory.maricopa.edu/person/steven.gonzales", "note": "A public profile lists him as retired in August 2026. Confirm before use." },
+        "provost": { "match": "exact", "title": "Executive Vice Chancellor and Provost", "name": "Dr. Kimberly Britt", "email": null, "phone": null, "source": "https://www.maricopa.edu/about/leadership" },
+        "cfo": { "match": "exact", "title": "Vice Chancellor, Business Services and Chief Financial Officer", "name": "Dennis Curran", "email": null, "phone": null, "source": "https://www.maricopa.edu/news/2026/maricopa-community-colleges-welcomes-two-new-executive-leaders" },
+        "coo": { "match": "exact", "title": "Chief Operating Officer", "name": "Lee Ann Bohn", "email": null, "phone": null, "source": "https://www.maricopa.edu/about/leadership/chief-operating-officer" }
+      }
+    },
+    "PASSHE": {
+      "name": "Pennsylvania State System of Higher Education",
+      "leadership_url": "https://www.passhe.edu/leadership/index.html",
+      "office": { "address": null, "phone": null, "email": null },
+      "roles": {
+        "president": { "match": "exact", "title": "Chancellor", "name": "Dr. Christopher M. Fiorentino", "email": null, "phone": null, "source": "https://www.passhe.edu/leadership/index.html" },
+        "provost": { "match": "closest", "title": "Senior Vice Chancellor and Chief Academic Officer", "name": "Dr. Diana Rogers-Adkinson", "email": "DRogers-Adkinson@passhe.edu", "phone": null, "source": "https://www.passhe.edu/leadership/rogers-adkinson.html" },
+        "cfo": { "match": "closest", "title": "Executive Vice Chancellor for Administration and Finance", "name": "Sharon P. Minnich", "email": null, "phone": null, "source": "https://www.passhe.edu/leadership/minnich.html", "note": "The CFO position is vacant after Molly Mercer left. Minnich leads finance." },
+        "coo": { "match": "none", "title": null, "name": null, "email": null, "phone": null, "source": null, "note": "No COO title." }
+      }
+    },
+    "ALAMO": {
+      "name": "Alamo Colleges District",
+      "leadership_url": "https://www.alamo.edu/about-us/leadership/administration/",
+      "office": { "address": null, "phone": null, "email": null },
+      "roles": {
+        "president": { "match": "exact", "title": "Chancellor", "name": "Dr. Mike Flores", "email": null, "phone": null, "source": "https://www.alamo.edu/about-us/leadership/chancellor/" },
+        "provost": { "match": "closest", "title": "Vice Chancellor for Academic Success", "name": "Dr. George Railey, Jr.", "email": null, "phone": null, "source": "https://www.alamo.edu/about-us/leadership/administration/" },
+        "cfo": { "match": "closest", "title": "Interim Vice Chancellor for Financial and Auxiliary Services", "name": "Lisa L. Mazure, MSA, CPA, CGFM", "email": null, "phone": null, "source": "https://www.alamo.edu/about-us/leadership/administration/vcfas/", "note": "Interim. The district is searching for a permanent VC for Finance and Administration." },
+        "coo": { "match": "none", "title": null, "name": null, "email": null, "phone": null, "source": null, "note": "No COO title." }
+      }
+    }
+  }
+}

@@ -15,6 +15,7 @@ window.HE_CONFIG = {
     completions: 'data/seed/completions.json',
     cipFamilies: 'data/seed/cip-families.json',
     campusDetailDir: 'data/campus',
+    systemLeadership: 'data/seed/system-leadership.json',
   },
   // Empty = All states / All systems (top-20 public systems seed spans many states).
   defaultState: '',

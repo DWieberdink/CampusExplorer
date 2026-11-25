@@ -84,6 +84,16 @@ window.HE_SOURCES = {
       url: 'https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx',
     },
     {
+      id: 'system-leadership',
+      element: 'System-office leadership: president, provost, CFO, COO with contact details',
+      source: 'System websites and staff directories (compiled by hand)',
+      file: 'system-leadership.json',
+      vintage: 'Checked 2026-11-25',
+      coverage: '20 systems, 80 role slots: 68 named, 12 with no equivalent title. Contact details are partial.',
+      status: 'partial',
+      url: null,
+    },
+    {
       id: 'drvf',
       element: 'Core revenue/expense, instruction $ per FTE, tuition & state appropriation share',
       source: 'IPEDS derived Finance (DRVF)',
