@@ -49,9 +49,19 @@ Or open `index.html` via Live Server. Seed fetch needs HTTP (not `file://`). Dir
 
 ## GitHub Pages
 
-- Expected URL: `https://dwieberdink.github.io/CampusExplorer/`
-- Deploy: `.github/workflows/pages.yml` on push to `main` (Source = **GitHub Actions** in repo Settings → Pages)
+- **Live URL (once enabled):** [https://dwieberdink.github.io/CampusExplorer/](https://dwieberdink.github.io/CampusExplorer/)
+- Publish source: branch **`main`** / folder **`/` (root)** — static HTML, no build step
 - `js/config.js` already sets `APP_BASE_URL` to that origin for future Supabase auth redirects
+
+### Enable once (repo owner)
+
+Cloud agent tokens cannot create a Pages site (`403 Resource not accessible by integration`). Douwe must flip Settings once:
+
+1. Open [Settings → Pages](https://github.com/DWieberdink/CampusExplorer/settings/pages)
+2. Under **Build and deployment** → **Source**, choose **Deploy from a branch**
+3. Branch: **`main`** · Folder: **`/ (root)`**
+4. Click **Save**
+5. Wait ~1–2 minutes, then open https://dwieberdink.github.io/CampusExplorer/ and enter password **`CUAdvice`**
 
 ## Mapping from SchoolExplorer
 
@@ -81,8 +91,9 @@ js/  demo-gate.js, config.js, he-config.js, he-data.js, he-map.js, he-explorer.j
 data/seed/ campuses.json, enrollment.json, completions.json
 sql/ setup.sql, migrations/001_he_tables.sql, 002_he_rls.sql
 ipeds-sync/  TypeScript ETL stub
-.github/workflows/sync-ipeds.yml, pages.yml
+.github/workflows/sync-ipeds.yml
 ```
+
 
 ## License / citation
 
