@@ -6,8 +6,8 @@
  * IPEDS or Scorecard directly.
  */
 export const SYNC_CONFIG = {
-  /** States to include when discovering campuses from HD. */
-  states: ['CA'] as string[],
+  /** States represented in the top-20 systems HD seed (expand as roster grows). */
+  states: ['AZ', 'CA', 'CO', 'FL', 'GA', 'KY', 'LA', 'MN', 'NC', 'NY', 'PA', 'TN', 'TX', 'VA'] as string[],
   /** Fall / academic years for EF, E12, C components. */
   years: [2019, 2020, 2021, 2022, 2023],
   /** Skip campuses synced within this many days (unless --force). */
