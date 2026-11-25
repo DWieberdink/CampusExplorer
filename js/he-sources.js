@@ -84,6 +84,16 @@ window.HE_SOURCES = {
       url: 'https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx',
     },
     {
+      id: 'facilities-inventory',
+      element: 'Gross sq ft, assignable sq ft, building count, building age per campus',
+      source: 'THECB Facilities Inventory (CBM014), Texas public institutions',
+      file: 'facilities.csv, facilities-buildings-tx.csv',
+      vintage: 'Reporting year 2025',
+      coverage: '25 Texas campuses (UT and TAMU systems, Tarleton, Prairie View, SFA). Other states pending.',
+      status: 'partial',
+      url: 'https://www1.thecb.state.tx.us/apps/FacInv/',
+    },
+    {
       id: 'drvf',
       element: 'Core revenue/expense, instruction $ per FTE, tuition & state appropriation share',
       source: 'IPEDS derived Finance (DRVF)',
@@ -127,7 +137,8 @@ window.HE_SOURCES = {
 
   /** Where square footage / building counts can come from, per system. */
   facilities: [
-    { systems: ['UT', 'TAMU', 'ALAMO'], source: 'Texas Higher Education Coordinating Board — Facilities Inventory (CBM014 building / CBM011 room)', detail: 'Building-level GSF, NASF, occupancy year, condition, floors. Public lookup; bulk via THECB / Texas ERC request.', access: 'Public lookup', url: 'https://www1.thecb.state.tx.us/apps/FacInv/' },
+    { systems: ['UT', 'TAMU'], source: 'Texas Higher Education Coordinating Board — Facilities Inventory (CBM014)', detail: 'Loaded for 25 Texas campuses (3,717 buildings): GSF, NASF, occupancy year, condition, ownership. Reporting year 2025; 2026 is still being collected.', access: 'Public lookup (loaded)', url: 'https://www1.thecb.state.tx.us/apps/FacInv/' },
+    { systems: ['ALAMO'], source: 'Alamo Colleges — facilities inventory (request)', detail: 'THECB lists zero buildings for each Alamo college from 2015 to 2026, so the inventory is probably reported at district level. Request from the district facilities office.', access: 'Request', url: 'https://www.alamo.edu/' },
     { systems: ['UNC'], source: 'UNC System PlanRoom — Facilities Inventory & Utilization', detail: 'GSF, ASF, building counts by category per campus.', access: 'Public reports', url: 'https://planroom.unc.edu/reports/' },
     { systems: ['USG'], source: 'University System of Georgia — Facility Data & Utilization', detail: 'System facilities inventory (FICM room codes).', access: 'Request', url: 'https://www.usg.edu/facilities/initiatives/facility-data/' },
     { systems: ['CCC'], source: 'CCC Chancellor’s Office — FUSION space inventory', detail: 'Space inventory, capacity/load ratios, Facility Condition Assessments per college.', access: 'District login / request', url: 'https://www.cccco.edu/' },
